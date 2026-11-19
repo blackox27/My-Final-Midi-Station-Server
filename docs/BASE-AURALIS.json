@@ -1,0 +1,1578 @@
+{
+  "source": "Auralis-Audio-MIDI-v1.2.0(1).zip",
+  "sha256": "ee9e295a5c314fe5a9d4fc846afe0267b5f55acf4ba2d39cd50a10f1032f2fce",
+  "files": [
+    {
+      "original": "LICENSE",
+      "path": "web/auralis/LICENSE",
+      "sha256": "5689ec28889a53c6eaf4096569818e75084609e5681bf75dda18cbd5f6aa0332",
+      "modified": false
+    },
+    {
+      "original": "README.md",
+      "path": "web/auralis/README.md",
+      "sha256": "0479271cabb4a9bb5c6ebb8068ddb177f94e3d9a514a567769f5a7d4ca2ff82d",
+      "modified": false
+    },
+    {
+      "original": "SHA256SUMS.txt",
+      "path": "web/auralis/SHA256SUMS-ORIGINAL.txt",
+      "sha256": "16ab18b5056aa6dbf59ef19d0422a237c03ec19c3515a1a9b3266ea9c6bcc3ce",
+      "modified": false
+    },
+    {
+      "original": "assets/app.css",
+      "path": "web/auralis/assets/app.css",
+      "sha256": "5d7e8c2bde4297efe3e9c824ad8f055d1a1e37211496c733523f2334c3d81b1d",
+      "modified": false
+    },
+    {
+      "original": "assets/app.js",
+      "path": "web/auralis/assets/app.js",
+      "sha256": "0aa6f0111c6394052ec8a0bae8e35b865d5496b11b2f5c72e5050cd47a952c7c",
+      "modified": true
+    },
+    {
+      "original": "assets/app.js.LEGAL.txt",
+      "path": "web/auralis/assets/app.js.LEGAL.txt",
+      "sha256": "6964667f9e0e4543c1903e245eb41a1e3baf55a270f6ec1a9c6dcd3b7900138b",
+      "modified": false
+    },
+    {
+      "original": "assets/icon.svg",
+      "path": "web/auralis/assets/icon.svg",
+      "sha256": "edc0ae5ef0e707a618023061fd03f0749a281837de48775b0f9c44242b1ff350",
+      "modified": false
+    },
+    {
+      "original": "assets/model.js",
+      "path": "web/auralis/assets/model.js",
+      "sha256": "2c786a5e1d811d9f4ab68b5a27ea9c3b15d0bc8b7d529dbd35370488e1e99137",
+      "modified": false
+    },
+    {
+      "original": "assets/wasm.js",
+      "path": "web/auralis/assets/wasm.js",
+      "sha256": "29e9a6b46c7e16406d7f4bab76baa806bcebf3eff00a1270c7e8bd702071b4a4",
+      "modified": false
+    },
+    {
+      "original": "docs/GUIA.html",
+      "path": "web/auralis/docs/GUIA.html",
+      "sha256": "5fe583108cd20636eb9cc98fccfc48a666fcb80457c1006e29020f19bf802285",
+      "modified": false
+    },
+    {
+      "original": "docs/MODELO-TIMBRES.md",
+      "path": "web/auralis/docs/MODELO-TIMBRES.md",
+      "sha256": "3df0c9586c0d96a00bc87813a4dd4523dac0e8f89baa497ec2ac61fa08781c38",
+      "modified": false
+    },
+    {
+      "original": "docs/NOVIDADES.md",
+      "path": "web/auralis/docs/NOVIDADES.md",
+      "sha256": "9b61c0a0f3433f290720443d2e9fbb59cbf6230178121813bb7759ebaeeeacad",
+      "modified": false
+    },
+    {
+      "original": "docs/REVISAO-IA.md",
+      "path": "web/auralis/docs/REVISAO-IA.md",
+      "sha256": "a2f2d7532a4d66a92ed02295755b1884de79ca0f836cb12a0b71874fd0ece6fc",
+      "modified": false
+    },
+    {
+      "original": "docs/TECNOLOGIA.md",
+      "path": "web/auralis/docs/TECNOLOGIA.md",
+      "sha256": "8ee297ee2dda4b57b9d21f78495e279b90df190b15582f9ede6e46d5d01b2f34",
+      "modified": false
+    },
+    {
+      "original": "docs/THIRD_PARTY.md",
+      "path": "web/auralis/docs/THIRD_PARTY.md",
+      "sha256": "84bcb52ab0b479e6059b2cb0290d074c6710fe6efe7a91758f26c6a464d7160f",
+      "modified": false
+    },
+    {
+      "original": "docs/VALIDACAO-v1.1.md",
+      "path": "web/auralis/docs/VALIDACAO-v1.1.md",
+      "sha256": "7abdda04e51b2a7151c683ecc32d652b82cb79354f4caecd87f7c307db58c812",
+      "modified": false
+    },
+    {
+      "original": "docs/VALIDACAO.md",
+      "path": "web/auralis/docs/VALIDACAO.md",
+      "sha256": "68e68796f3e45b13a0ffcc2d2a9827f7943ac0712c178cecb98fd5d0346054df",
+      "modified": false
+    },
+    {
+      "original": "docs/data/benchmark-baseline.json",
+      "path": "web/auralis/docs/data/benchmark-baseline.json",
+      "sha256": "a0d09bb36f7c7972c6e5ca516e7e96c25fc1da9de9ff84ac7d025dfa04ed902f",
+      "modified": false
+    },
+    {
+      "original": "docs/data/benchmark-current.json",
+      "path": "web/auralis/docs/data/benchmark-current.json",
+      "sha256": "f2ae4cca7742225846f14301426a878ab55267464293dcde9b1762777b00d0df",
+      "modified": false
+    },
+    {
+      "original": "docs/data/pipeline-metrics.json",
+      "path": "web/auralis/docs/data/pipeline-metrics.json",
+      "sha256": "69ae15ef3bc4210b2ff3caf82714f1d166a657d7bb682bfa282a0716b2949d63",
+      "modified": false
+    },
+    {
+      "original": "docs/data/review-corpus.json",
+      "path": "web/auralis/docs/data/review-corpus.json",
+      "sha256": "aff6cc3abce0eb6f5b768f9b542ee28c054e31d2f5d87ca1953b3267707be64d",
+      "modified": false
+    },
+    {
+      "original": "docs/data/review-metrics.json",
+      "path": "web/auralis/docs/data/review-metrics.json",
+      "sha256": "d9833cf7f39aa7e18b3a17cdd995fc69edcc70ca4b46037958e9cedf127eccc5",
+      "modified": false
+    },
+    {
+      "original": "docs/data/spectral-speed.json",
+      "path": "web/auralis/docs/data/spectral-speed.json",
+      "sha256": "3c29d6ddeb35cc14b8529b06fb408dd4a7d79fac4e4cd9e91f7c0d26f2d184f3",
+      "modified": false
+    },
+    {
+      "original": "docs/data/timbre-metrics.json",
+      "path": "web/auralis/docs/data/timbre-metrics.json",
+      "sha256": "d462272696a29003a1a637dd7c6b78939bd7debd6f9506c45cd5efd9e0a4a611",
+      "modified": false
+    },
+    {
+      "original": "docs/data/vocal-metrics.json",
+      "path": "web/auralis/docs/data/vocal-metrics.json",
+      "sha256": "fbc4a02e898669601710a14d2a3623faa4ae52986f887c0aef1279db521eae70",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/FluidR3-MIT.txt",
+      "path": "web/auralis/docs/licenses/FluidR3-MIT.txt",
+      "sha256": "527f676a9d1e53eeec0495404f9572a9dc51ab4bc28ad47d3548bb2799d9aec8",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/GeneralUser-GS.txt",
+      "path": "web/auralis/docs/licenses/GeneralUser-GS.txt",
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/TensorFlow-WASM-Apache-2.0.txt",
+      "path": "web/auralis/docs/licenses/TensorFlow-WASM-Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/ansi-regex__license",
+      "path": "web/auralis/docs/licenses/ansi-regex__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/ansi-styles__license",
+      "path": "web/auralis/docs/licenses/ansi-styles__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/argparse__LICENSE",
+      "path": "web/auralis/docs/licenses/argparse__LICENSE",
+      "sha256": "c8442419dc614089ea022b3da6bfc089b41a58fb7b9030d1e651f2f36189dce2",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/array-flatten__LICENSE",
+      "path": "web/auralis/docs/licenses/array-flatten__LICENSE",
+      "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/asynckit__LICENSE",
+      "path": "web/auralis/docs/licenses/asynckit__LICENSE",
+      "sha256": "1953150d5d4b10c7542cee6f6e0c613b2682545233f069d75cfff1936386ce10",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/call-bind-apply-helpers__LICENSE",
+      "path": "web/auralis/docs/licenses/call-bind-apply-helpers__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/chalk__license",
+      "path": "web/auralis/docs/licenses/chalk__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/cliui__LICENSE.txt",
+      "path": "web/auralis/docs/licenses/cliui__LICENSE.txt",
+      "sha256": "2dc0465729366c3a7890dfa9e972a1ba7048a26c02116fb8b419a6a1ac110149",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/codec-parser__LICENSE",
+      "path": "web/auralis/docs/licenses/codec-parser__LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/color-convert__LICENSE",
+      "path": "web/auralis/docs/licenses/color-convert__LICENSE",
+      "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/color-name__LICENSE",
+      "path": "web/auralis/docs/licenses/color-name__LICENSE",
+      "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/combined-stream__License",
+      "path": "web/auralis/docs/licenses/combined-stream__License",
+      "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/core-js__LICENSE",
+      "path": "web/auralis/docs/licenses/core-js__LICENSE",
+      "sha256": "b87653fff2d44426ab5cd4723cee3b1364dc8d35a0acdf098c54689543123bf8",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/delayed-stream__License",
+      "path": "web/auralis/docs/licenses/delayed-stream__License",
+      "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/dunder-proto__LICENSE",
+      "path": "web/auralis/docs/licenses/dunder-proto__LICENSE",
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/emoji-regex__LICENSE-MIT.txt",
+      "path": "web/auralis/docs/licenses/emoji-regex__LICENSE-MIT.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/es-define-property__LICENSE",
+      "path": "web/auralis/docs/licenses/es-define-property__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/es-errors__LICENSE",
+      "path": "web/auralis/docs/licenses/es-errors__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/es-object-atoms__LICENSE",
+      "path": "web/auralis/docs/licenses/es-object-atoms__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/es-set-tostringtag__LICENSE",
+      "path": "web/auralis/docs/licenses/es-set-tostringtag__LICENSE",
+      "sha256": "1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/esbuild__LICENSE.md",
+      "path": "web/auralis/docs/licenses/esbuild__LICENSE.md",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/escalade__license",
+      "path": "web/auralis/docs/licenses/escalade__license",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/eshaz__web-worker__LICENSE",
+      "path": "web/auralis/docs/licenses/eshaz__web-worker__LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/form-data__License",
+      "path": "web/auralis/docs/licenses/form-data__License",
+      "sha256": "e5b780d4f38d1d3328e3e53186c4e62d3fa149ea6f2bacd5de5ad0c30ac85343",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/function-bind__LICENSE",
+      "path": "web/auralis/docs/licenses/function-bind__LICENSE",
+      "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/get-caller-file__LICENSE.md",
+      "path": "web/auralis/docs/licenses/get-caller-file__LICENSE.md",
+      "sha256": "902dbb4154679fb2b8d7c33878183f45b268d01eae5e5033dddaa8852d45f213",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/get-intrinsic__LICENSE",
+      "path": "web/auralis/docs/licenses/get-intrinsic__LICENSE",
+      "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/get-proto__LICENSE",
+      "path": "web/auralis/docs/licenses/get-proto__LICENSE",
+      "sha256": "be46ce1e3b0479af9ce82d22b465a6d7d2ff084fca0aaf3d54172da2b5eb5781",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/gopd__LICENSE",
+      "path": "web/auralis/docs/licenses/gopd__LICENSE",
+      "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/has-flag__license",
+      "path": "web/auralis/docs/licenses/has-flag__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/has-symbols__LICENSE",
+      "path": "web/auralis/docs/licenses/has-symbols__LICENSE",
+      "sha256": "206c1adcf206dc0031b11232f5b054ec5f1662407ab1ca415247921cab2068ab",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/has-tostringtag__LICENSE",
+      "path": "web/auralis/docs/licenses/has-tostringtag__LICENSE",
+      "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/hasown__LICENSE",
+      "path": "web/auralis/docs/licenses/hasown__LICENSE",
+      "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/is-fullwidth-code-point__license",
+      "path": "web/auralis/docs/licenses/is-fullwidth-code-point__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/long__LICENSE",
+      "path": "web/auralis/docs/licenses/long__LICENSE",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/math-intrinsics__LICENSE",
+      "path": "web/auralis/docs/licenses/math-intrinsics__LICENSE",
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/midi-file__LICENSE.md",
+      "path": "web/auralis/docs/licenses/midi-file__LICENSE.md",
+      "sha256": "fd9d36e800b506237769b003ca988319db06f585a9ebe27eb739a34f1be30d5f",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/mime-db__LICENSE",
+      "path": "web/auralis/docs/licenses/mime-db__LICENSE",
+      "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/mime-types__LICENSE",
+      "path": "web/auralis/docs/licenses/mime-types__LICENSE",
+      "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/node-fetch__LICENSE.md",
+      "path": "web/auralis/docs/licenses/node-fetch__LICENSE.md",
+      "sha256": "84eaa985e1ef71b8c630e8aba73404c219ff425c6fdb45c62e998b58d4fbdc8e",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/regenerator-runtime__LICENSE",
+      "path": "web/auralis/docs/licenses/regenerator-runtime__LICENSE",
+      "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/require-directory__LICENSE",
+      "path": "web/auralis/docs/licenses/require-directory__LICENSE",
+      "sha256": "a92e52eb1fa7cd746e3827bf01d3a3589bbc8e1e51348b1da042aad165525ad1",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/safe-buffer__LICENSE",
+      "path": "web/auralis/docs/licenses/safe-buffer__LICENSE",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/simple-yenc__LICENSE",
+      "path": "web/auralis/docs/licenses/simple-yenc__LICENSE",
+      "sha256": "ce44a03cf2ded9cf1d326c5ffb20a29245375dd1b9f1e95e59cd275c24c00533",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/spotify__basic-pitch__LICENSE",
+      "path": "web/auralis/docs/licenses/spotify__basic-pitch__LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/sprintf-js__LICENSE",
+      "path": "web/auralis/docs/licenses/sprintf-js__LICENSE",
+      "sha256": "a4cdda44b5adea4731d53dcae78fb5124f8fd853e994f01e25d8c33a7daf818b",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/string-width__license",
+      "path": "web/auralis/docs/licenses/string-width__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/string_decoder__LICENSE",
+      "path": "web/auralis/docs/licenses/string_decoder__LICENSE",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/strip-ansi__license",
+      "path": "web/auralis/docs/licenses/strip-ansi__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/supports-color__license",
+      "path": "web/auralis/docs/licenses/supports-color__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/tonejs__midi__LICENSE.md",
+      "path": "web/auralis/docs/licenses/tonejs__midi__LICENSE.md",
+      "sha256": "6debbf1ddd278dcf5d8e7b6c42c7a827cb944943401fc37ee017e172bbccbaea",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__long__LICENSE",
+      "path": "web/auralis/docs/licenses/types__long__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__node-fetch__LICENSE",
+      "path": "web/auralis/docs/licenses/types__node-fetch__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__node__LICENSE",
+      "path": "web/auralis/docs/licenses/types__node__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__offscreencanvas__LICENSE",
+      "path": "web/auralis/docs/licenses/types__offscreencanvas__LICENSE",
+      "sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__seedrandom__LICENSE",
+      "path": "web/auralis/docs/licenses/types__seedrandom__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__webgl-ext__LICENSE",
+      "path": "web/auralis/docs/licenses/types__webgl-ext__LICENSE",
+      "sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/types__webgl2__LICENSE",
+      "path": "web/auralis/docs/licenses/types__webgl2__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/undici-types__LICENSE",
+      "path": "web/auralis/docs/licenses/undici-types__LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/webgpu__types__LICENSE",
+      "path": "web/auralis/docs/licenses/webgpu__types__LICENSE",
+      "sha256": "ad88400fc55c2871ba2ed33930dc13001ef01907c2ddcbfa3caa8656e9142f05",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/webidl-conversions__LICENSE.md",
+      "path": "web/auralis/docs/licenses/webidl-conversions__LICENSE.md",
+      "sha256": "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/whatwg-url__LICENSE.txt",
+      "path": "web/auralis/docs/licenses/whatwg-url__LICENSE.txt",
+      "sha256": "6b7a1792144374d84dc5ed3655b8bbe2754d06f4f1f64a9fb8b9de2d6f448b85",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/wrap-ansi__license",
+      "path": "web/auralis/docs/licenses/wrap-ansi__license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/y18n__LICENSE",
+      "path": "web/auralis/docs/licenses/y18n__LICENSE",
+      "sha256": "2034cce3b6fafcddd642c4175e01d3ddfc332a53b9f20fdc46b1466dc89ac469",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/yargs-parser__LICENSE.txt",
+      "path": "web/auralis/docs/licenses/yargs-parser__LICENSE.txt",
+      "sha256": "365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d",
+      "modified": false
+    },
+    {
+      "original": "docs/licenses/yargs__LICENSE",
+      "path": "web/auralis/docs/licenses/yargs__LICENSE",
+      "sha256": "2f1a503bfab84b3ba7393627308b3274501e459e3b5185bbb56bbf16cb1602d4",
+      "modified": false
+    },
+    {
+      "original": "examples/LEIA-ME.md",
+      "path": "web/auralis/examples/LEIA-ME.md",
+      "sha256": "276dd5fa26d9fa7c972e3040857e37f6e5dcfb4643ce8fb2bc54d17184613381",
+      "modified": false
+    },
+    {
+      "original": "examples/ensemble-balanced.mid",
+      "path": "web/auralis/examples/ensemble-balanced.mid",
+      "sha256": "5ddf7ae3e3d6d2c8ffc6bffc00962eb18b572636a1a54f7fff73dd78749798ab",
+      "modified": false
+    },
+    {
+      "original": "examples/ensemble-precise.mid",
+      "path": "web/auralis/examples/ensemble-precise.mid",
+      "sha256": "f016fd6356b299b6b08a0a7b9253ee48eb7abca9a4e8d5439dea17f0a11a39ab",
+      "modified": false
+    },
+    {
+      "original": "examples/ensemble.auralis.json",
+      "path": "web/auralis/examples/ensemble.auralis.json",
+      "sha256": "dd09fe4ae4efc51bfa4ec3af35cbf096999af53dfc7cf86d20c785c75e7c382c",
+      "modified": false
+    },
+    {
+      "original": "examples/ensemble.flac",
+      "path": "web/auralis/examples/ensemble.flac",
+      "sha256": "2f02b29d2bf23e786217dee379d0d44626c36ad7b15f087017ef008490e62108",
+      "modified": false
+    },
+    {
+      "original": "examples/mixed-reference.json",
+      "path": "web/auralis/examples/mixed-reference.json",
+      "sha256": "9dbbd4043e56566ff9109480902e45022c9e2b9b3a3d504e01422c023a25d064",
+      "modified": false
+    },
+    {
+      "original": "examples/mixed-reference.mid",
+      "path": "web/auralis/examples/mixed-reference.mid",
+      "sha256": "8aa344a4d839866426bca8e42fcc63d0d88a270312c75da38114e46108154b87",
+      "modified": false
+    },
+    {
+      "original": "examples/mixed-review-balanced.mid",
+      "path": "web/auralis/examples/mixed-review-balanced.mid",
+      "sha256": "20f34598696107d1e22aedacdbd540367b40ed2dcac2172c5e898057b7faf6d3",
+      "modified": false
+    },
+    {
+      "original": "examples/mixed-review-precise.mid",
+      "path": "web/auralis/examples/mixed-review-precise.mid",
+      "sha256": "a872a41f87b7afb33a871265bd98c53940d26c67b141ad05a2bd5809390febb6",
+      "modified": false
+    },
+    {
+      "original": "examples/mixed-review.auralis.json",
+      "path": "web/auralis/examples/mixed-review.auralis.json",
+      "sha256": "72dc61a828d65a050bc2ed61fbb3f513ba85df149c121a009d92ba6ddb5ab804",
+      "modified": false
+    },
+    {
+      "original": "examples/mixed-review.flac",
+      "path": "web/auralis/examples/mixed-review.flac",
+      "sha256": "2c3f82863ec970ebbbc6be60dff88522ff948164968108b1b641d9a8fa245064",
+      "modified": false
+    },
+    {
+      "original": "examples/reference.json",
+      "path": "web/auralis/examples/reference.json",
+      "sha256": "b0efa2efbcace9b526a064c60e929d936a7dded4c0ed10d84f9460747efdccc9",
+      "modified": false
+    },
+    {
+      "original": "examples/reference.mid",
+      "path": "web/auralis/examples/reference.mid",
+      "sha256": "5af9804f3c4436f9753fd2bd762f3066701313f796fa47b41fae40ab210c1fe3",
+      "modified": false
+    },
+    {
+      "original": "examples/transcricao-automatica.mid",
+      "path": "web/auralis/examples/transcricao-automatica.mid",
+      "sha256": "0abab0dd56caf2c66fee07cbea6525053a4b2cd930e24834318a8fd9cac8164e",
+      "modified": false
+    },
+    {
+      "original": "index.html",
+      "path": "web/auralis/index.html",
+      "sha256": "5c1c14e55f4b4a057dda29360d795e763785edf47a838a2cd191645a660ef2cb",
+      "modified": true
+    },
+    {
+      "original": "source/.openai/hosting.json",
+      "path": "web/auralis/source/.openai/hosting.json",
+      "sha256": "aa67c9a2195131d78f2955f9dd643c0802d34c4ca7dfdf657fcb0041b89636ab",
+      "modified": false
+    },
+    {
+      "original": "source/DEVELOPMENT.md",
+      "path": "web/auralis/source/DEVELOPMENT.md",
+      "sha256": "1ee2b8e4888dda2ff02002caa4791ebd7ce9b5f50ab8117b1295cfc221c027ac",
+      "modified": false
+    },
+    {
+      "original": "source/LICENSE",
+      "path": "web/auralis/source/LICENSE",
+      "sha256": "5689ec28889a53c6eaf4096569818e75084609e5681bf75dda18cbd5f6aa0332",
+      "modified": false
+    },
+    {
+      "original": "source/README.md",
+      "path": "web/auralis/source/README.md",
+      "sha256": "0479271cabb4a9bb5c6ebb8068ddb177f94e3d9a514a567769f5a7d4ca2ff82d",
+      "modified": false
+    },
+    {
+      "original": "source/build.mjs",
+      "path": "web/auralis/source/build.mjs",
+      "sha256": "a1d30f7f9a65c9a4ee529e491fbacca636532d6f3eb0e99eb852448a5c4447cf",
+      "modified": false
+    },
+    {
+      "original": "source/docs/GUIA.html",
+      "path": "web/auralis/source/docs/GUIA.html",
+      "sha256": "5fe583108cd20636eb9cc98fccfc48a666fcb80457c1006e29020f19bf802285",
+      "modified": false
+    },
+    {
+      "original": "source/docs/MODELO-TIMBRES.md",
+      "path": "web/auralis/source/docs/MODELO-TIMBRES.md",
+      "sha256": "3df0c9586c0d96a00bc87813a4dd4523dac0e8f89baa497ec2ac61fa08781c38",
+      "modified": false
+    },
+    {
+      "original": "source/docs/NOVIDADES.md",
+      "path": "web/auralis/source/docs/NOVIDADES.md",
+      "sha256": "9b61c0a0f3433f290720443d2e9fbb59cbf6230178121813bb7759ebaeeeacad",
+      "modified": false
+    },
+    {
+      "original": "source/docs/REVISAO-IA.md",
+      "path": "web/auralis/source/docs/REVISAO-IA.md",
+      "sha256": "a2f2d7532a4d66a92ed02295755b1884de79ca0f836cb12a0b71874fd0ece6fc",
+      "modified": false
+    },
+    {
+      "original": "source/docs/TECNOLOGIA.md",
+      "path": "web/auralis/source/docs/TECNOLOGIA.md",
+      "sha256": "8ee297ee2dda4b57b9d21f78495e279b90df190b15582f9ede6e46d5d01b2f34",
+      "modified": false
+    },
+    {
+      "original": "source/docs/THIRD_PARTY.md",
+      "path": "web/auralis/source/docs/THIRD_PARTY.md",
+      "sha256": "84bcb52ab0b479e6059b2cb0290d074c6710fe6efe7a91758f26c6a464d7160f",
+      "modified": false
+    },
+    {
+      "original": "source/docs/VALIDACAO-v1.1.md",
+      "path": "web/auralis/source/docs/VALIDACAO-v1.1.md",
+      "sha256": "7abdda04e51b2a7151c683ecc32d652b82cb79354f4caecd87f7c307db58c812",
+      "modified": false
+    },
+    {
+      "original": "source/docs/VALIDACAO.md",
+      "path": "web/auralis/source/docs/VALIDACAO.md",
+      "sha256": "68e68796f3e45b13a0ffcc2d2a9827f7943ac0712c178cecb98fd5d0346054df",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/benchmark-baseline.json",
+      "path": "web/auralis/source/docs/data/benchmark-baseline.json",
+      "sha256": "a0d09bb36f7c7972c6e5ca516e7e96c25fc1da9de9ff84ac7d025dfa04ed902f",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/benchmark-current.json",
+      "path": "web/auralis/source/docs/data/benchmark-current.json",
+      "sha256": "f2ae4cca7742225846f14301426a878ab55267464293dcde9b1762777b00d0df",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/pipeline-metrics.json",
+      "path": "web/auralis/source/docs/data/pipeline-metrics.json",
+      "sha256": "69ae15ef3bc4210b2ff3caf82714f1d166a657d7bb682bfa282a0716b2949d63",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/review-corpus.json",
+      "path": "web/auralis/source/docs/data/review-corpus.json",
+      "sha256": "aff6cc3abce0eb6f5b768f9b542ee28c054e31d2f5d87ca1953b3267707be64d",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/review-metrics.json",
+      "path": "web/auralis/source/docs/data/review-metrics.json",
+      "sha256": "d9833cf7f39aa7e18b3a17cdd995fc69edcc70ca4b46037958e9cedf127eccc5",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/spectral-speed.json",
+      "path": "web/auralis/source/docs/data/spectral-speed.json",
+      "sha256": "3c29d6ddeb35cc14b8529b06fb408dd4a7d79fac4e4cd9e91f7c0d26f2d184f3",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/timbre-metrics.json",
+      "path": "web/auralis/source/docs/data/timbre-metrics.json",
+      "sha256": "d462272696a29003a1a637dd7c6b78939bd7debd6f9506c45cd5efd9e0a4a611",
+      "modified": false
+    },
+    {
+      "original": "source/docs/data/vocal-metrics.json",
+      "path": "web/auralis/source/docs/data/vocal-metrics.json",
+      "sha256": "fbc4a02e898669601710a14d2a3623faa4ae52986f887c0aef1279db521eae70",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/FluidR3-MIT.txt",
+      "path": "web/auralis/source/docs/licenses/FluidR3-MIT.txt",
+      "sha256": "527f676a9d1e53eeec0495404f9572a9dc51ab4bc28ad47d3548bb2799d9aec8",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/GeneralUser-GS.txt",
+      "path": "web/auralis/source/docs/licenses/GeneralUser-GS.txt",
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/TensorFlow-WASM-Apache-2.0.txt",
+      "path": "web/auralis/source/docs/licenses/TensorFlow-WASM-Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/ansi-regex__license",
+      "path": "web/auralis/source/docs/licenses/ansi-regex__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/ansi-styles__license",
+      "path": "web/auralis/source/docs/licenses/ansi-styles__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/argparse__LICENSE",
+      "path": "web/auralis/source/docs/licenses/argparse__LICENSE",
+      "sha256": "c8442419dc614089ea022b3da6bfc089b41a58fb7b9030d1e651f2f36189dce2",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/array-flatten__LICENSE",
+      "path": "web/auralis/source/docs/licenses/array-flatten__LICENSE",
+      "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/asynckit__LICENSE",
+      "path": "web/auralis/source/docs/licenses/asynckit__LICENSE",
+      "sha256": "1953150d5d4b10c7542cee6f6e0c613b2682545233f069d75cfff1936386ce10",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/call-bind-apply-helpers__LICENSE",
+      "path": "web/auralis/source/docs/licenses/call-bind-apply-helpers__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/chalk__license",
+      "path": "web/auralis/source/docs/licenses/chalk__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/cliui__LICENSE.txt",
+      "path": "web/auralis/source/docs/licenses/cliui__LICENSE.txt",
+      "sha256": "2dc0465729366c3a7890dfa9e972a1ba7048a26c02116fb8b419a6a1ac110149",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/codec-parser__LICENSE",
+      "path": "web/auralis/source/docs/licenses/codec-parser__LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/color-convert__LICENSE",
+      "path": "web/auralis/source/docs/licenses/color-convert__LICENSE",
+      "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/color-name__LICENSE",
+      "path": "web/auralis/source/docs/licenses/color-name__LICENSE",
+      "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/combined-stream__License",
+      "path": "web/auralis/source/docs/licenses/combined-stream__License",
+      "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/core-js__LICENSE",
+      "path": "web/auralis/source/docs/licenses/core-js__LICENSE",
+      "sha256": "b87653fff2d44426ab5cd4723cee3b1364dc8d35a0acdf098c54689543123bf8",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/delayed-stream__License",
+      "path": "web/auralis/source/docs/licenses/delayed-stream__License",
+      "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/dunder-proto__LICENSE",
+      "path": "web/auralis/source/docs/licenses/dunder-proto__LICENSE",
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/emoji-regex__LICENSE-MIT.txt",
+      "path": "web/auralis/source/docs/licenses/emoji-regex__LICENSE-MIT.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/es-define-property__LICENSE",
+      "path": "web/auralis/source/docs/licenses/es-define-property__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/es-errors__LICENSE",
+      "path": "web/auralis/source/docs/licenses/es-errors__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/es-object-atoms__LICENSE",
+      "path": "web/auralis/source/docs/licenses/es-object-atoms__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/es-set-tostringtag__LICENSE",
+      "path": "web/auralis/source/docs/licenses/es-set-tostringtag__LICENSE",
+      "sha256": "1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/esbuild__LICENSE.md",
+      "path": "web/auralis/source/docs/licenses/esbuild__LICENSE.md",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/escalade__license",
+      "path": "web/auralis/source/docs/licenses/escalade__license",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/eshaz__web-worker__LICENSE",
+      "path": "web/auralis/source/docs/licenses/eshaz__web-worker__LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/form-data__License",
+      "path": "web/auralis/source/docs/licenses/form-data__License",
+      "sha256": "e5b780d4f38d1d3328e3e53186c4e62d3fa149ea6f2bacd5de5ad0c30ac85343",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/function-bind__LICENSE",
+      "path": "web/auralis/source/docs/licenses/function-bind__LICENSE",
+      "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/get-caller-file__LICENSE.md",
+      "path": "web/auralis/source/docs/licenses/get-caller-file__LICENSE.md",
+      "sha256": "902dbb4154679fb2b8d7c33878183f45b268d01eae5e5033dddaa8852d45f213",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/get-intrinsic__LICENSE",
+      "path": "web/auralis/source/docs/licenses/get-intrinsic__LICENSE",
+      "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/get-proto__LICENSE",
+      "path": "web/auralis/source/docs/licenses/get-proto__LICENSE",
+      "sha256": "be46ce1e3b0479af9ce82d22b465a6d7d2ff084fca0aaf3d54172da2b5eb5781",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/gopd__LICENSE",
+      "path": "web/auralis/source/docs/licenses/gopd__LICENSE",
+      "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/has-flag__license",
+      "path": "web/auralis/source/docs/licenses/has-flag__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/has-symbols__LICENSE",
+      "path": "web/auralis/source/docs/licenses/has-symbols__LICENSE",
+      "sha256": "206c1adcf206dc0031b11232f5b054ec5f1662407ab1ca415247921cab2068ab",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/has-tostringtag__LICENSE",
+      "path": "web/auralis/source/docs/licenses/has-tostringtag__LICENSE",
+      "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/hasown__LICENSE",
+      "path": "web/auralis/source/docs/licenses/hasown__LICENSE",
+      "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/is-fullwidth-code-point__license",
+      "path": "web/auralis/source/docs/licenses/is-fullwidth-code-point__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/long__LICENSE",
+      "path": "web/auralis/source/docs/licenses/long__LICENSE",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/math-intrinsics__LICENSE",
+      "path": "web/auralis/source/docs/licenses/math-intrinsics__LICENSE",
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/midi-file__LICENSE.md",
+      "path": "web/auralis/source/docs/licenses/midi-file__LICENSE.md",
+      "sha256": "fd9d36e800b506237769b003ca988319db06f585a9ebe27eb739a34f1be30d5f",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/mime-db__LICENSE",
+      "path": "web/auralis/source/docs/licenses/mime-db__LICENSE",
+      "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/mime-types__LICENSE",
+      "path": "web/auralis/source/docs/licenses/mime-types__LICENSE",
+      "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/node-fetch__LICENSE.md",
+      "path": "web/auralis/source/docs/licenses/node-fetch__LICENSE.md",
+      "sha256": "84eaa985e1ef71b8c630e8aba73404c219ff425c6fdb45c62e998b58d4fbdc8e",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/regenerator-runtime__LICENSE",
+      "path": "web/auralis/source/docs/licenses/regenerator-runtime__LICENSE",
+      "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/require-directory__LICENSE",
+      "path": "web/auralis/source/docs/licenses/require-directory__LICENSE",
+      "sha256": "a92e52eb1fa7cd746e3827bf01d3a3589bbc8e1e51348b1da042aad165525ad1",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/safe-buffer__LICENSE",
+      "path": "web/auralis/source/docs/licenses/safe-buffer__LICENSE",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/simple-yenc__LICENSE",
+      "path": "web/auralis/source/docs/licenses/simple-yenc__LICENSE",
+      "sha256": "ce44a03cf2ded9cf1d326c5ffb20a29245375dd1b9f1e95e59cd275c24c00533",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/spotify__basic-pitch__LICENSE",
+      "path": "web/auralis/source/docs/licenses/spotify__basic-pitch__LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/sprintf-js__LICENSE",
+      "path": "web/auralis/source/docs/licenses/sprintf-js__LICENSE",
+      "sha256": "a4cdda44b5adea4731d53dcae78fb5124f8fd853e994f01e25d8c33a7daf818b",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/string-width__license",
+      "path": "web/auralis/source/docs/licenses/string-width__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/string_decoder__LICENSE",
+      "path": "web/auralis/source/docs/licenses/string_decoder__LICENSE",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/strip-ansi__license",
+      "path": "web/auralis/source/docs/licenses/strip-ansi__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/supports-color__license",
+      "path": "web/auralis/source/docs/licenses/supports-color__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/tonejs__midi__LICENSE.md",
+      "path": "web/auralis/source/docs/licenses/tonejs__midi__LICENSE.md",
+      "sha256": "6debbf1ddd278dcf5d8e7b6c42c7a827cb944943401fc37ee017e172bbccbaea",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__long__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__long__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__node-fetch__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__node-fetch__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__node__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__node__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__offscreencanvas__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__offscreencanvas__LICENSE",
+      "sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__seedrandom__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__seedrandom__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__webgl-ext__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__webgl-ext__LICENSE",
+      "sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/types__webgl2__LICENSE",
+      "path": "web/auralis/source/docs/licenses/types__webgl2__LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/undici-types__LICENSE",
+      "path": "web/auralis/source/docs/licenses/undici-types__LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/webgpu__types__LICENSE",
+      "path": "web/auralis/source/docs/licenses/webgpu__types__LICENSE",
+      "sha256": "ad88400fc55c2871ba2ed33930dc13001ef01907c2ddcbfa3caa8656e9142f05",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/webidl-conversions__LICENSE.md",
+      "path": "web/auralis/source/docs/licenses/webidl-conversions__LICENSE.md",
+      "sha256": "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/whatwg-url__LICENSE.txt",
+      "path": "web/auralis/source/docs/licenses/whatwg-url__LICENSE.txt",
+      "sha256": "6b7a1792144374d84dc5ed3655b8bbe2754d06f4f1f64a9fb8b9de2d6f448b85",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/wrap-ansi__license",
+      "path": "web/auralis/source/docs/licenses/wrap-ansi__license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/y18n__LICENSE",
+      "path": "web/auralis/source/docs/licenses/y18n__LICENSE",
+      "sha256": "2034cce3b6fafcddd642c4175e01d3ddfc332a53b9f20fdc46b1466dc89ac469",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/yargs-parser__LICENSE.txt",
+      "path": "web/auralis/source/docs/licenses/yargs-parser__LICENSE.txt",
+      "sha256": "365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d",
+      "modified": false
+    },
+    {
+      "original": "source/docs/licenses/yargs__LICENSE",
+      "path": "web/auralis/source/docs/licenses/yargs__LICENSE",
+      "sha256": "2f1a503bfab84b3ba7393627308b3274501e459e3b5185bbb56bbf16cb1602d4",
+      "modified": false
+    },
+    {
+      "original": "source/examples/LEIA-ME.md",
+      "path": "web/auralis/source/examples/LEIA-ME.md",
+      "sha256": "276dd5fa26d9fa7c972e3040857e37f6e5dcfb4643ce8fb2bc54d17184613381",
+      "modified": false
+    },
+    {
+      "original": "source/examples/ensemble-balanced.mid",
+      "path": "web/auralis/source/examples/ensemble-balanced.mid",
+      "sha256": "5ddf7ae3e3d6d2c8ffc6bffc00962eb18b572636a1a54f7fff73dd78749798ab",
+      "modified": false
+    },
+    {
+      "original": "source/examples/ensemble-precise.mid",
+      "path": "web/auralis/source/examples/ensemble-precise.mid",
+      "sha256": "f016fd6356b299b6b08a0a7b9253ee48eb7abca9a4e8d5439dea17f0a11a39ab",
+      "modified": false
+    },
+    {
+      "original": "source/examples/ensemble.auralis.json",
+      "path": "web/auralis/source/examples/ensemble.auralis.json",
+      "sha256": "dd09fe4ae4efc51bfa4ec3af35cbf096999af53dfc7cf86d20c785c75e7c382c",
+      "modified": false
+    },
+    {
+      "original": "source/examples/ensemble.flac",
+      "path": "web/auralis/source/examples/ensemble.flac",
+      "sha256": "2f02b29d2bf23e786217dee379d0d44626c36ad7b15f087017ef008490e62108",
+      "modified": false
+    },
+    {
+      "original": "source/examples/mixed-reference.json",
+      "path": "web/auralis/source/examples/mixed-reference.json",
+      "sha256": "9dbbd4043e56566ff9109480902e45022c9e2b9b3a3d504e01422c023a25d064",
+      "modified": false
+    },
+    {
+      "original": "source/examples/mixed-reference.mid",
+      "path": "web/auralis/source/examples/mixed-reference.mid",
+      "sha256": "8aa344a4d839866426bca8e42fcc63d0d88a270312c75da38114e46108154b87",
+      "modified": false
+    },
+    {
+      "original": "source/examples/mixed-review-balanced.mid",
+      "path": "web/auralis/source/examples/mixed-review-balanced.mid",
+      "sha256": "20f34598696107d1e22aedacdbd540367b40ed2dcac2172c5e898057b7faf6d3",
+      "modified": false
+    },
+    {
+      "original": "source/examples/mixed-review-precise.mid",
+      "path": "web/auralis/source/examples/mixed-review-precise.mid",
+      "sha256": "a872a41f87b7afb33a871265bd98c53940d26c67b141ad05a2bd5809390febb6",
+      "modified": false
+    },
+    {
+      "original": "source/examples/mixed-review.auralis.json",
+      "path": "web/auralis/source/examples/mixed-review.auralis.json",
+      "sha256": "72dc61a828d65a050bc2ed61fbb3f513ba85df149c121a009d92ba6ddb5ab804",
+      "modified": false
+    },
+    {
+      "original": "source/examples/mixed-review.flac",
+      "path": "web/auralis/source/examples/mixed-review.flac",
+      "sha256": "2c3f82863ec970ebbbc6be60dff88522ff948164968108b1b641d9a8fa245064",
+      "modified": false
+    },
+    {
+      "original": "source/examples/reference.json",
+      "path": "web/auralis/source/examples/reference.json",
+      "sha256": "b0efa2efbcace9b526a064c60e929d936a7dded4c0ed10d84f9460747efdccc9",
+      "modified": false
+    },
+    {
+      "original": "source/examples/reference.mid",
+      "path": "web/auralis/source/examples/reference.mid",
+      "sha256": "5af9804f3c4436f9753fd2bd762f3066701313f796fa47b41fae40ab210c1fe3",
+      "modified": false
+    },
+    {
+      "original": "source/examples/transcricao-automatica.mid",
+      "path": "web/auralis/source/examples/transcricao-automatica.mid",
+      "sha256": "0abab0dd56caf2c66fee07cbea6525053a4b2cd930e24834318a8fd9cac8164e",
+      "modified": false
+    },
+    {
+      "original": "source/package-lock.json",
+      "path": "web/auralis/source/package-lock.json",
+      "sha256": "5f79f203fdfac6aac0fad476519e0a7c4d2410cae881bed642295e2be2896746",
+      "modified": false
+    },
+    {
+      "original": "source/package.json",
+      "path": "web/auralis/source/package.json",
+      "sha256": "e471323962a14511be621cc1aeffe43f82128e621e0703e7c5491a7278582ece",
+      "modified": false
+    },
+    {
+      "original": "source/src/ai.js",
+      "path": "web/auralis/source/src/ai.js",
+      "sha256": "153eb0531ea0eb4c0779f4cd482c00ae7876b833ef3df7c66df06ee29b6321cd",
+      "modified": false
+    },
+    {
+      "original": "source/src/app.js",
+      "path": "web/auralis/source/src/app.js",
+      "sha256": "d2532276471ab00c4b27a521f5eae6948db0af6feb14af01922daf4ffe7e25e3",
+      "modified": true
+    },
+    {
+      "original": "source/src/audio.js",
+      "path": "web/auralis/source/src/audio.js",
+      "sha256": "ca9537828f432da9f8ea38ec5445e57e231d60f8fdd466409c5798cc406623bc",
+      "modified": false
+    },
+    {
+      "original": "source/src/cache.js",
+      "path": "web/auralis/source/src/cache.js",
+      "sha256": "573c608593b999ad825fa1d0805411e2275c8a318c42951400fc964e629eff67",
+      "modified": false
+    },
+    {
+      "original": "source/src/dsp.js",
+      "path": "web/auralis/source/src/dsp.js",
+      "sha256": "c8a4e978447ca313cc0bb9adfc57037c0750312556447e4e24efabd13a70348b",
+      "modified": false
+    },
+    {
+      "original": "source/src/i18n.js",
+      "path": "web/auralis/source/src/i18n.js",
+      "sha256": "2e040e8d8230f8a04d76b36d3771e8cb1b26abf6d8daaef6133933a7eb60bd94",
+      "modified": false
+    },
+    {
+      "original": "source/src/instruments.js",
+      "path": "web/auralis/source/src/instruments.js",
+      "sha256": "ee8b519b06505104b2160d34ce96b31912f48b26ba7ae9cba408b08afba64120",
+      "modified": false
+    },
+    {
+      "original": "source/src/midi.js",
+      "path": "web/auralis/source/src/midi.js",
+      "sha256": "3e05b41858ac61341d81e33d4046d628b53f9f5a9732b8c1f7be59a02741b726",
+      "modified": false
+    },
+    {
+      "original": "source/src/note-decoder.js",
+      "path": "web/auralis/source/src/note-decoder.js",
+      "sha256": "5fbe043161c2d0a68fed5bdf1f7847e59125fac98aaf1ceb05bb3c2190bc96d7",
+      "modified": false
+    },
+    {
+      "original": "source/src/note-evidence.js",
+      "path": "web/auralis/source/src/note-evidence.js",
+      "sha256": "38bd507bc5cb96c264d28fd5fda87b55e777357e0b971de6c7506b805938120f",
+      "modified": false
+    },
+    {
+      "original": "source/src/note-review.js",
+      "path": "web/auralis/source/src/note-review.js",
+      "sha256": "4e6115d9a1ad04c032e90720d4fa7c5e19ecdb87bb2837f71188ada8a832ce4a",
+      "modified": false
+    },
+    {
+      "original": "source/src/playback.js",
+      "path": "web/auralis/source/src/playback.js",
+      "sha256": "c462e351485f55194d93d869631739c17c756b6f8a1ea899738dc626ead89464",
+      "modified": false
+    },
+    {
+      "original": "source/src/project-file.js",
+      "path": "web/auralis/source/src/project-file.js",
+      "sha256": "87f5a98dc339bb844940f883a630ebcba5450144eb9b39fc17499f408a0406a1",
+      "modified": false
+    },
+    {
+      "original": "source/src/project-state.js",
+      "path": "web/auralis/source/src/project-state.js",
+      "sha256": "c12e051553f21493239c53955e8c6ee9854c566feeae179031c66e00e6766e23",
+      "modified": false
+    },
+    {
+      "original": "source/src/review-model.js",
+      "path": "web/auralis/source/src/review-model.js",
+      "sha256": "98dae1d670f9efc49be91f5ce0b9935597134c45dfdd9b480f8009d1f70b9723",
+      "modified": false
+    },
+    {
+      "original": "source/src/timbre-features.js",
+      "path": "web/auralis/source/src/timbre-features.js",
+      "sha256": "07d6e23b97a94db59676e876a1e83b193d5b4fe2065db285132efa313dbec39f",
+      "modified": false
+    },
+    {
+      "original": "source/src/timbre-model.js",
+      "path": "web/auralis/source/src/timbre-model.js",
+      "sha256": "55c4acc58f70f8876699f6d72f49d56114d08f6625c01b01ab20d6d1736ccf2c",
+      "modified": false
+    },
+    {
+      "original": "source/src/worker-source.txt",
+      "path": "web/auralis/source/src/worker-source.txt",
+      "sha256": "a14a4821cc3303cd00c4422415aa2fb736c7a0023b46e084ea0b75e6476fc0e0",
+      "modified": false
+    },
+    {
+      "original": "source/src/worker.js",
+      "path": "web/auralis/source/src/worker.js",
+      "sha256": "87a9d078ce8e311bae35283f7fe3672c47391cddc5e9ded46fe03ca1a30affec",
+      "modified": false
+    },
+    {
+      "original": "source/tests/ai-smoke.mjs",
+      "path": "web/auralis/source/tests/ai-smoke.mjs",
+      "sha256": "3dfaf45c40338998297c0429eff642b51fcea3ddb59e4cf1e45b7244875932e1",
+      "modified": false
+    },
+    {
+      "original": "source/tests/core.test.mjs",
+      "path": "web/auralis/source/tests/core.test.mjs",
+      "sha256": "9f99277ded6347ac24d20fdb7aa1a79a895ce6223db40d406464dc4a6265b559",
+      "modified": false
+    },
+    {
+      "original": "source/tests/fixtures/review-52.flac",
+      "path": "web/auralis/source/tests/fixtures/review-52.flac",
+      "sha256": "2c3f82863ec970ebbbc6be60dff88522ff948164968108b1b641d9a8fa245064",
+      "modified": false
+    },
+    {
+      "original": "source/tests/fixtures/review-53.flac",
+      "path": "web/auralis/source/tests/fixtures/review-53.flac",
+      "sha256": "eec8ba6789f48dcf672db10d48f3811fd9b0f2a190b11d3bdeb55162efee060f",
+      "modified": false
+    },
+    {
+      "original": "source/tests/fixtures/review-54.flac",
+      "path": "web/auralis/source/tests/fixtures/review-54.flac",
+      "sha256": "90fff3da70e8b2ae16bd5b0db5507ec0d232a49ce222943772e7a0e9f386fdd8",
+      "modified": false
+    },
+    {
+      "original": "source/tests/fixtures/review-reference.json",
+      "path": "web/auralis/source/tests/fixtures/review-reference.json",
+      "sha256": "cc488d7073fb3e5f65afa4726706b619c0e6b81065c0a57bba80107ce7ef273d",
+      "modified": false
+    },
+    {
+      "original": "source/tests/precision-smoke.mjs",
+      "path": "web/auralis/source/tests/precision-smoke.mjs",
+      "sha256": "27a13af279a03e088e58cb6ed6349035e12e2ddd39b16f159871ae68c827bf63",
+      "modified": false
+    },
+    {
+      "original": "source/tests/precision.test.mjs",
+      "path": "web/auralis/source/tests/precision.test.mjs",
+      "sha256": "aec9dad88df9c5f2f2265158de75960197c8253285cb0672a3f4202ec39b027d",
+      "modified": false
+    },
+    {
+      "original": "source/tests/upgrade.test.mjs",
+      "path": "web/auralis/source/tests/upgrade.test.mjs",
+      "sha256": "62f9229e9dc239e40a4a572587c55444904b638b4a897d8bd64ecc693bc7efed",
+      "modified": false
+    },
+    {
+      "original": "source/tools/README.md",
+      "path": "web/auralis/source/tools/README.md",
+      "sha256": "64253bcbebd081733640bf5ffc0d3242a9c4eb5a6c243479861eb501f69401a6",
+      "modified": false
+    },
+    {
+      "original": "source/tools/make-review-examples.mjs",
+      "path": "web/auralis/source/tools/make-review-examples.mjs",
+      "sha256": "fbb08cb2afd3996bb2275e7d71f5bf656e448f8b58bf624d190ec4d49b809c7a",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/README.md",
+      "path": "web/auralis/source/tools/reviewer/README.md",
+      "sha256": "f0bee5cb289ac2a4c33978121017018b683a6b467a38d925ae9a1e2eb9b7ac54",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/baseline-dsp.js",
+      "path": "web/auralis/source/tools/reviewer/baseline-dsp.js",
+      "sha256": "42bd34e207c3c4477ea53b63953e3c444f3c1c9b140d5d328a00500bfa7d5af4",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/collect.mjs",
+      "path": "web/auralis/source/tools/reviewer/collect.mjs",
+      "sha256": "bec45050168b150144add8caeb3befbe9ad72550c6b59478924778dbb2a1f981",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/evaluate.mjs",
+      "path": "web/auralis/source/tools/reviewer/evaluate.mjs",
+      "sha256": "e51037aaade6c84f0c1889c86af8aa3138dd74c6b036734edf6b5cd37647e630",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/fetch-inputs.py",
+      "path": "web/auralis/source/tools/reviewer/fetch-inputs.py",
+      "sha256": "09b0f10f46c36aac97015b5fc24ccc4a783ff74e8df77f4942a817ca6d8e2003",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/generate.py",
+      "path": "web/auralis/source/tools/reviewer/generate.py",
+      "sha256": "c6423f1ea3676a51af82f0bd06441ec6a09a4ce6f0680dce4b8e267888e5305f",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/train.py",
+      "path": "web/auralis/source/tools/reviewer/train.py",
+      "sha256": "4934753b4f4ba4d391c562bc97f182bf9112dbe8605a88fcf05d9af2979d0549",
+      "modified": false
+    },
+    {
+      "original": "source/tools/reviewer/vocals.mjs",
+      "path": "web/auralis/source/tools/reviewer/vocals.mjs",
+      "sha256": "22c892ebe0d01a1621f6e92be1de9490a86b3cfb232b60fa0cd0f5925e906617",
+      "modified": false
+    },
+    {
+      "original": "source/tools/training/README.md",
+      "path": "web/auralis/source/tools/training/README.md",
+      "sha256": "ea81e14e1ed696e0b041ba685d82065946970c524e3468feee89a4c80c1b5bfd",
+      "modified": false
+    },
+    {
+      "original": "source/tools/training/fetch-font.py",
+      "path": "web/auralis/source/tools/training/fetch-font.py",
+      "sha256": "08dada7f9a318c7ba3cb8032084ac1eea208c5419d9b0e84728293467d7831b3",
+      "modified": false
+    },
+    {
+      "original": "source/tools/training/generate.py",
+      "path": "web/auralis/source/tools/training/generate.py",
+      "sha256": "a2752b5f4ae1f2bcecd4fa7cc4f93b1a140dfac4f142a7aaa8609286e65f6885",
+      "modified": false
+    },
+    {
+      "original": "source/tools/training/render.c",
+      "path": "web/auralis/source/tools/training/render.c",
+      "sha256": "931ece885a3dee58d4258e1e6005aa99977114a750477928e6cbc45df4c4de00",
+      "modified": false
+    },
+    {
+      "original": "source/tools/training/train.py",
+      "path": "web/auralis/source/tools/training/train.py",
+      "sha256": "e89eddb3e0604b7b5be42ebcf099b50c52620cfc2413037502ab31d4a210c8d1",
+      "modified": false
+    },
+    {
+      "original": "source/tools/training/tsf.h",
+      "path": "web/auralis/source/tools/training/tsf.h",
+      "sha256": "70d55963c98f60ebb81518eaa1f25d46888d5180eb5f5289fd6b74ffc177d197",
+      "modified": false
+    },
+    {
+      "original": "source/web/assets/app.css",
+      "path": "web/auralis/source/web/assets/app.css",
+      "sha256": "5d7e8c2bde4297efe3e9c824ad8f055d1a1e37211496c733523f2334c3d81b1d",
+      "modified": false
+    },
+    {
+      "original": "source/web/assets/icon.svg",
+      "path": "web/auralis/source/web/assets/icon.svg",
+      "sha256": "edc0ae5ef0e707a618023061fd03f0749a281837de48775b0f9c44242b1ff350",
+      "modified": false
+    },
+    {
+      "original": "source/web/index.html",
+      "path": "web/auralis/source/web/index.html",
+      "sha256": "9f67c930e4820bc1392ba60a4e90513067052d68a782f82401fe9b0cdfd8a22a",
+      "modified": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+AURORA MIDI STUDIO 2.3.0 — COMPONENTES E ALTERAÇÕES
+
+Aurora
+Aplicação derivada dos arquivos Aurora fornecidos pelo usuário. O núcleo
+web foi revisado preservando os recursos do aplicativo anterior.
+Os avisos abaixo se aplicam aos componentes de terceiros individualmente.
+
+PulseForge MIDI 0.9.0 — MIT
+Copyright (c) 2026 PulseForge MIDI contributors.
+Fonte: arquivo PulseForgeMIDI-0.9.0-source(4).zip enviado nesta conversa.
+Original incluído em vendor-source/PulseForgeMIDI, sem compilação para web.
+Quantizer.cpp/h servem de base às funções snap/quantize em src/core/model.js.
+ProjectIO.cpp e os tipos originais definem a importação de .pfm e lanes de automação.
+Adaptações: JavaScript, validação de limites, IDs estáveis e conversão de
+curvas de glide para pitch bend. Nenhum host VST3/AU C++/JUCE é executado
+no navegador. Licença: dist/vendor/PULSEFORGE-LICENSE.txt e original.
+
+SpessaSynth Core 4.3.22 e SpessaSynth Lib 4.3.14 — Apache License 2.0
+Autor original: Spessasus e contribuidores identificados nos fontes.
+Fontes: spessasynth_core-master(3).zip e spessasynth_lib-master(3).zip enviados.
+https://github.com/spessasus/spessasynth_core
+https://github.com/spessasus/spessasynth_lib
+Fontes correspondentes incluídos em vendor-source/spessasynth_core e
+vendor-source/spessasynth_lib. Licença: dist/vendor/SPESSASYNTH-LICENSE.txt.
+
+Modificações locais, setembro de 2026:
+- Core src/synthesizer/audio_engine/synthesizer_core.ts: adiciona
+  clearScheduledEvents() para remover eventos MIDI futuros da fila.
+- Core src/synthesizer/processor.ts: expõe clearScheduledEvents().
+- Lib src/synthesizer/basic/basic_synthesizer_core.ts: Stop global forçado
+  limpa a fila antes de parar vozes. Evita notas antigas após Stop/Seek.
+Esses trechos estão marcados com comentário Aurora. Demais fontes recebidos
+são preservados. scripts/build-vendor.cjs compila o Core e o Lib juntos,
+substituindo a dependência de pacote do Lib pelo Core fornecido.
+Aurora 2.1/2.2: uma instância do Core/Lib por arquivo SoundFont usado.
+Nenhuma nova modificação nos fontes das bibliotecas nesta atualização.
+Render offline: scripts/render-worker.ts, saída seca por canal e por banco, mixagem de
+volume e echo; blocos reutilizados são zerados antes de processSplit.
+O banco aurora-demo.sf2 é gerado por scripts/make-demo.cjs a partir de
+formas de onda matemáticas; não inclui samples comerciais.
+
+stb-vorbis 0.0.5
+Dependência fixada segundo o lockfile do Core fornecido. Código de execução
+incorporado nos bundles; distribuição npm correspondente incluída em
+vendor-source/stb-vorbis. Licença: dist/vendor/STB-VORBIS-LICENSE.txt.
+
+lamejs 1.2.1 / LAME — LGPL-3.0
+Script lame.min.js original do Aurora, sem alterações. Na edição autocontida,
+é incorporado ao HTML. A cópia separada e o fonte correspondente acompanham
+o ZIP em codigo-fonte; podem ser modificados e reincorporados executando
+node scripts/build-standalone.cjs a partir dessa pasta.
+https://github.com/zhuker/lamejs
+https://lame.sourceforge.net/
+Aviso original: dist/LAME-LICENSE.txt. Textos de LGPL-3.0 e GPL-3.0 incluídos
+em dist/vendor/LAME-LGPL-3.txt e LAME-GPL-3.txt.
+Fonte correspondente de lamejs 1.2.1 incluído em vendor-source/lamejs.
+O codificador transforma o áudio renderizado em MP3, sem serviços externos.
+
+Ferramentas de desenvolvimento
+esbuild 0.28.0 (MIT), prettier 3.8.3 (MIT), jsdom 26.1.0 (MIT).
+package-lock.json fixa versões e integridades das dependências de construção
+e testes. node_modules não é necessário para usar a aplicação pronta.
+
+Distribuição HTML 2.2: scripts/build-standalone.cjs incorpora os componentes
+locais sem dependências remotas. Os caminhos de fontes acima são relativos
+a codigo-fonte no ZIP. Testes opcionais de navegador usam Playwright (Apache-2.0);
+o navegador e Playwright não são redistribuídos nem necessários para usar o app.
+
+Revisão Aurora 2.3.0, 17/10/2026:
+- Tradução, operações sobre notas, leitura RMID e melhorias da aplicação em src/.
+- Nenhuma biblioteca nova de execução e nenhuma alteração adicional nos motores
+  SpessaSynth/LAME nesta revisão. Fontes e licenças anteriores foram preservados.
+- Pesquisa em midi-file, Tone.js MIDI, i18next, LMMS, signal e MDN; nenhum código
+  desses projetos foi redistribuído por esta revisão. Veja docs/PESQUISA.md.

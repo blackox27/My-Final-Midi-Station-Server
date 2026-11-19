@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Acesse sua biblioteca privada do MIDI Share. Cadastro por nome de usuário, sem e-mail.">
+  <title>Minha conta · MIDI Share</title>
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+  <header class="shell masthead">
+    <a href="./" class="brand"><span aria-hidden="true">♪</span> MIDI Share</a>
+    <a class="tag tag-link" href="./">Voltar às ferramentas</a>
+  </header>
+  <main class="shell">
+    <div class="intro">
+      <p class="eyebrow">BIBLIOTECA PRIVADA</p>
+      <h1>Minha conta</h1>
+      <p class="lede">Acesse os MIDIs que você guardou na sua conta, em qualquer computador conectado ao mesmo servidor.</p>
+    </div>
+    <section class="account-panel" aria-labelledby="acesso">
+      <h2 id="acesso">Acesso à biblioteca</h2>
+      <p><strong>O MIDI Share não pede nem usa e-mail.</strong> Escolha um nome de usuário sem <code>@</code> e uma senha própria. Não há recuperação de senha por e-mail.</p>
+      <!--ACESSO_CONTA-->
+      <h3>Conectar ao seu host</h3>
+      <p>Quem hospeda inicia o MIDI Share e compartilha o endereço HTTPS. Cole o endereço abaixo. No próprio computador, também pode usar <code>http://localhost:8000</code>.</p>
+      <form id="host-form">
+        <label for="host-address">Endereço do host de contas</label>
+        <input id="host-address" type="url" required maxlength="300" placeholder="https://seu-host.trycloudflare.com" autocomplete="off" spellcheck="false" style="width:100%;padding:12px;margin:10px 0;box-sizing:border-box">
+        <button class="button" type="submit">Abrir host e entrar</button>
+        <button class="button button-outline" id="host-forget" type="button">Esquecer endereço</button>
+      </form>
+      <p id="host-status" role="status">Somente o endereço do host é lembrado aqui. Usuário e senha são informados no host, sem e-mail.</p>
+      <p class="account-note">As contas pertencem ao host escolhido. Para encontrar a mesma conta em outro computador, use o mesmo host. O anfitrião precisa manter o programa ligado.</p>
+    </section>
+    <section class="instructions" aria-labelledby="privacidade">
+      <div><h2 id="privacidade">Seus arquivos, sua conta</h2><p>Depois de entrar, abra Auralis, Aurora ou MIDI Tab pelo portal privado. Use <strong>Rede MIDI</strong> para enviar arquivos à biblioteca da sua conta. Outras contas não conseguem listá-los ou abri-los.</p></div>
+      <div><h2>Arquivos do modo público</h2><p>As ferramentas abertas sem conta trabalham no navegador. Para guardar um MIDI que já criou, exporte o arquivo e importe-o na biblioteca depois de entrar. No host, use Estúdio conectado para trocar MIDI diretamente entre ferramentas abertas.</p></div>
+    </section>
+  </main>
+  <footer class="shell"><p>Projeto de Sistemas Distribuídos · MIDI Share 2.4.0</p></footer>
+  <script src="./host-connect.js"></script>
+</body>
+</html>

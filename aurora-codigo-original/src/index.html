@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aurora · MIDI Studio</title>
+    <meta
+      name="description"
+      content="Crie música no navegador. Piano roll, instrumentos, automação, partitura e exportação MIDI e áudio."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%239cfa72'/%3E%3Cpath d='M7 24 16 7 25 24M11 18h10' fill='none' stroke='%23131815' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/studio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <span class="mark">Λ</span> aurora <small>MIDI STUDIO 2.3</small>
+      </div>
+      <input
+        id="title"
+        aria-label="Nome do projeto"
+        value="Órbita — estudo em dó"
+      />
+      <div class="file-actions">
+        <label class="language-control"
+          ><select id="language" aria-label="Idioma / Language">
+            <option value="pt-BR">PT-BR</option>
+            <option value="en">English</option>
+          </select></label
+        ><button id="new">Novo</button><button id="import">↥ Abrir</button
+        ><button id="save">Salvar projeto</button
+        ><button id="export" class="primary">Exportar ↗</button
+        ><button id="help" aria-label="Ajuda">?</button>
+      </div>
+    </header>
+    <section class="transport">
+      <div class="transport-buttons">
+        <button id="stop" title="Parar e voltar ao início">■</button
+        ><button id="play" class="play" title="Reproduzir · Espaço">▶</button
+        ><button id="record" title="Gravar entrada MIDI ou teclado">●</button
+        ><button id="loop" class="active" title="Repetir projeto">↻</button>
+      </div>
+      <button id="panic" title="Interromper todas as notas · Esc">
+        Pânico
+      </button>
+      <div class="time" id="time">001 : 01 : 00</div>
+      <label class="tempo"
+        ><input id="bpm" type="number" min="10" max="1000" value="112" />
+        BPM</label
+      ><button
+        id="tempoMap"
+        class="meter"
+        title="Editar andamentos e compassos"
+      >
+        4 / 4</button
+      ><label
+        >Compassos <input id="bars" type="number" min="1" max="1024" value="8"
+      /></label>
+      <div class="transport-end">
+        <span id="audioState">Áudio pronto</span
+        ><label
+          >Master <input id="master" type="range" min="0" max="100" value="70"
+        /></label>
+      </div>
+    </section>
+    <div class="workspace">
+      <aside>
+        <div class="section-title">
+          PISTAS <button id="add" title="Adicionar pista">＋</button>
+        </div>
+        <div id="tracks"></div>
+        <div class="instrument">
+          <div class="section-title">INSTRUMENTO</div>
+          <button id="loadBank">Adicionar SF2 / SF3 / DLS</button
+          ><button id="demoBank">Banco de demonstração</button
+          ><label
+            >Banco desta pista<select id="bankSelect">
+              <option value="">Adicione um SoundFont</option>
+            </select></label
+          ><small id="bankName">0/16 bancos no projeto</small
+          ><button id="removeBank" title="Só remove bancos sem uso nas pistas">
+            Remover banco sem uso</button
+          ><label
+            >Preset<select id="preset">
+              <option value="">Selecione um banco</option>
+            </select></label
+          ><label
+            >Canal MIDI<input
+              id="channel"
+              type="number"
+              min="1"
+              max="16"
+              value="1" /></label
+          ><label><input id="drum" type="checkbox" /> Percussão</label>
+          <label
+            >Timbre<select id="instrument">
+              <option value="piano">Piano elétrico</option>
+              <option value="sine">Seno suave</option>
+              <option value="triangle">Baixo triangular</option>
+              <option value="sawtooth">Lead analógico</option>
+              <option value="square">Pulse / chiptune</option>
+              <option value="sample">Sample carregado</option>
+              <option value="soundfont">SpessaSynth · SoundFont</option>
+            </select></label
+          ><button id="sample" class="wide">＋ Carregar sample</button
+          ><small id="sampleName">WAV, MP3 ou OGG · nota base C4</small
+          ><label
+            >Nota base do sample
+            <input
+              id="root"
+              type="number"
+              min="0"
+              max="127"
+              value="60" /></label
+          ><label
+            >Glide <span id="glideValue">0 ms</span
+            ><input
+              id="glide"
+              type="range"
+              min="0"
+              max="400"
+              value="0" /></label
+          ><label
+            >Echo
+            <input id="echo" type="range" min="0" max="65" value="18" /></label
+          ><label
+            >Volume da pista
+            <input
+              id="trackVolume"
+              type="range"
+              min="0"
+              max="100"
+              value="80" /></label
+          ><label
+            >Pan<input
+              id="pan"
+              type="range"
+              min="-100"
+              max="100"
+              value="0" /></label
+          ><button id="removeTrack">Excluir pista</button
+          ><button id="midi">Conectar MIDI</button
+          ><select id="midiOut" aria-label="Saída MIDI">
+            <option value="">Saída: sintetizador interno</option></select
+          ><small
+            >VSTi: use uma porta MIDI virtual conectada ao seu host externo. O
+            áudio exportado usa os instrumentos internos.</small
+          >
+        </div>
+        <div class="local-label">◈ Carregando projeto local…</div>
+      </aside>
+      <main>
+        <div class="editor-head">
+          <div>
+            <span class="eyebrow">EDITOR DE NOTAS</span>
+            <h1 id="trackTitle">Piano elétrico</h1>
+          </div>
+          <div class="tabs">
+            <button id="rollTab" class="active">Piano roll</button
+            ><button id="scoreTab">Partitura</button>
+          </div>
+        </div>
+        <div class="toolbar">
+          <div class="tools">
+            <button data-tool="select" title="Selecionar · V">↖</button
+            ><button data-tool="draw" class="active" title="Desenhar · B">
+              ✎</button
+            ><button data-tool="erase" title="Apagar · E">⌫</button
+            ><button data-tool="cut" title="Dividir nota · C">✂</button>
+          </div>
+          <button id="undo" title="Desfazer · Ctrl+Z">↶</button
+          ><button id="redo" title="Refazer · Ctrl+Shift+Z">↷</button
+          ><span class="divider"></span
+          ><label
+            >Grade
+            <select id="grid">
+              <option value="1">1/4</option>
+              <option value="0.5">1/8</option>
+              <option value="0.25" selected>1/16</option>
+              <option value="0.125">1/32</option>
+              <option value="0.333333333333">1/8 trio</option>
+              <option value="0">Livre</option>
+            </select></label
+          ><button id="fitNotes" title="Ajustar visão às notas">
+            Ajustar visão</button
+          ><button
+            id="follow"
+            aria-pressed="false"
+            title="Acompanhar cursor durante a reprodução"
+          >
+            Seguir</button
+          ><button id="editorTools">Ferramentas</button
+          ><button id="quantize">Quantizar</button
+          ><button id="quantizeOptions" title="Força, swing e duração">
+            Ajustes</button
+          ><button id="duplicate" title="Duplicar · Ctrl+D">Duplicar</button
+          ><button id="transpose" title="Transpor notas">±12</button
+          ><label class="zoom"
+            >Zoom
+            <input
+              id="zoom"
+              type="range"
+              min="12"
+              max="240"
+              value="66" /></label
+          ><button id="deleteNotes" title="Excluir notas selecionadas">
+            Excluir
+          </button>
+        </div>
+        <div id="rollScroll" class="roll-scroll">
+          <div class="roll-content">
+            <div id="playhead" class="playhead" hidden></div>
+            <canvas
+              id="roll"
+              aria-label="Piano roll: clique para criar notas, arraste para mover, arraste a borda direita para alterar a duração"
+              tabindex="0"
+            ></canvas>
+          </div>
+        </div>
+        <div id="scorePanel" hidden>
+          <div class="score-controls">
+            <span id="scoreMeta">Pauta dupla</span
+            ><label
+              >Duração
+              <select id="scoreDuration">
+                <option value="4">Semibreve</option>
+                <option value="2">Mínima</option>
+                <option value="1" selected>Semínima</option>
+                <option value="0.5">Colcheia</option>
+                <option value="0.25">Semicolcheia</option>
+              </select></label
+            ><button id="print">Imprimir</button>
+          </div>
+          <p class="score-hint">
+            Clique na pauta para inserir notas. Clique numa nota para
+            selecioná-la; Delete para apagar. Acidentes e pausas complexas: use
+            o piano roll.
+          </p>
+          <canvas id="score"></canvas>
+        </div>
+        <div class="automation-head">
+          <select id="lane" aria-label="Canal de automação">
+            <option value="velocity">Velocity</option>
+            <option value="1">Modulação · CC 1</option>
+            <option value="pitch">Pitch bend · ±2 semitons</option>
+            <option value="64">Sustain · CC 64</option>
+            <option value="10">Pan · CC 10</option>
+            <option value="11">Expressão · CC 11</option>
+            <option value="7">Volume · CC 7</option></select
+          ><span id="selection">Nenhuma nota selecionada</span
+          ><label
+            >Velocity
+            <input
+              id="velocity"
+              type="number"
+              min="1"
+              max="127"
+              value="90" /></label
+          ><button id="clearLane">Limpar CC</button
+          ><button id="glideCurve">Curva de glide</button>
+        </div>
+        <div id="autoScroll" class="auto-scroll">
+          <canvas
+            id="automation"
+            aria-label="Clique ou arraste para editar velocity ou automação"
+          ></canvas>
+        </div>
+        <footer>
+          <span id="noteCount">0 notas</span
+          ><span
+            >✎ Clique para criar · Arraste para mover · Borda para duração ·
+            Shift para multisseleção</span
+          ><span id="status">Pronto para compor</span>
+        </footer>
+      </main>
+    </div>
+    <input
+      type="file"
+      id="fileInput"
+      accept=".mid,.midi,.rmi,.json,.pfm,.aurora"
+      hidden
+    /><input type="file" id="sampleInput" accept="audio/*" hidden />
+    <dialog id="dialog">
+      <div id="dialogContent"></div>
+      <button id="closeDialog">Fechar</button>
+    </dialog>
+    <div id="toast" role="status"></div>
+    <script src="vendor/lame.min.js"></script>
+    <input
+      type="file"
+      id="bankInput"
+      accept=".sf2,.sf3,.dls,.sfogg"
+      multiple
+      hidden
+    />
+    <script src="vendor/spessasynth.js"></script>
+    <script src="vendor/spessa-worklet-source.js"></script>
+    <script src="vendor/render-worker-source.js"></script>
+    <script src="vendor/demo-bank.js"></script>
+    <script src="locales/en.js"></script>
+    <script src="js/ui/i18n.js"></script>
+    <script src="js/core/model.js"></script>
+    <script src="js/storage/project-storage.js"></script>
+    <script src="js/core/midi.js"></script>
+    <script src="js/audio/audio-engine.js"></script>
+    <script src="js/core/note-tools.js"></script>
+    <script src="js/ui/app.js"></script>
+    <script src="js/ui/editor-tools.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+[
+  {
+    "pitch": 65,
+    "start": 0.17,
+    "duration": 0.5967081018216602,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 68,
+    "start": 0.8625686808037264,
+    "duration": 1.1279697865221718,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 66,
+    "start": 1.9763190579402914,
+    "duration": 0.7068857071495879,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 73,
+    "start": 2.7366576102363194,
+    "duration": 0.8444882008979361,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 76,
+    "start": 3.564700819429711,
+    "duration": 0.6376400161755416,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 81,
+    "start": 4.3608228608396935,
+    "duration": 0.8129797367566609,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 81,
+    "start": 5.311291504349695,
+    "duration": 0.6949684499678521,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 88,
+    "start": 6.028150978113236,
+    "duration": 0.6212168762013961,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 86,
+    "start": 6.640695499301647,
+    "duration": 0.8402938670907987,
+    "program": 71,
+    "voice": 0
+  },
+  {
+    "pitch": 53,
+    "start": 0.23,
+    "duration": 0.8460666073190166,
+    "program": 42,
+    "voice": 1
+  },
+  {
+    "pitch": 60,
+    "start": 1.155814533011266,
+    "duration": 0.575026836537239,
+    "program": 42,
+    "voice": 1
+  },
+  {
+    "pitch": 65,
+    "start": 1.7176171869271357,
+    "duration": 0.7958004972529604,
+    "program": 42,
+    "voice": 1
+  },
+  {
+    "pitch": 68,
+    "start": 2.53052243225733,
+    "duration": 1.2172911162955296,
+    "program": 42,
+    "voice": 1
+  },
+  {
+    "pitch": 73,
+    "start": 3.8893774513861747,
+    "duration": 0.8169448644846264,
+    "program": 42,
+    "voice": 1
+  },
+  {
+    "pitch": 78,
+    "start": 4.851384132276304,
+    "duration": 1.124865082129463,
+    "program": 42,
+    "voice": 1
+  },
+  {
+    "pitch": 76,
+    "start": 5.972461004098333,
+    "duration": 0.9037813273336877,
+    "program": 42,
+    "voice": 1
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "license": "CC0-1.0",
+  "embedded": "bank.js",
+  "processing": "mono PCM16 22050 Hz; at most 4 s; fade-out 3.8\u20134.0 s where applicable",
+  "samples": [
+    {
+      "bank": "nylon",
+      "note": "C2",
+      "source": "https://raw.githubusercontent.com/freepats/spanish-classical-guitar/main/samples/C2.flac",
+      "source_sha256": "6997c7134ce02d437717dc3e279af9f390cefa87aa7f11fa2f350e9b9de50810",
+      "processed_wav_sha256": "7ad7eb778f1ee420c20065eeb8e3fbc48473933b2cc8027b69c9f7fd0a6f0ef5"
+    },
+    {
+      "bank": "nylon",
+      "note": "C3",
+      "source": "https://raw.githubusercontent.com/freepats/spanish-classical-guitar/main/samples/C3.flac",
+      "source_sha256": "eac0fe1fc03225d81f813667babee072662c101800bc5ad7fb12d9ef3324b986",
+      "processed_wav_sha256": "0c826ae53fb27cd9fdf3e42e4976acbd3fbf504dad0957f8966cbe6b6f6873ac"
+    },
+    {
+      "bank": "nylon",
+      "note": "C4",
+      "source": "https://raw.githubusercontent.com/freepats/spanish-classical-guitar/main/samples/C4.flac",
+      "source_sha256": "e8fcd63c262ebef3e84d1f24242918cc578f8b0db54049ad109815b01d1226f0",
+      "processed_wav_sha256": "3013a2a5eeab8789cc047064ddf1c800e1c4f6726e3b5ecba3941fe89dc71cf3"
+    },
+    {
+      "bank": "nylon",
+      "note": "C5",
+      "source": "https://raw.githubusercontent.com/freepats/spanish-classical-guitar/main/samples/C5.flac",
+      "source_sha256": "84b8a00c7caff015d8b7165330f0c868fd73d300adb3199cb15452841d1c5444",
+      "processed_wav_sha256": "60efd145de7152faf5609e23e968ef38e030f688b7a1607630439f41ea0da23e"
+    },
+    {
+      "bank": "ukulele",
+      "note": "C4",
+      "source": "https://raw.githubusercontent.com/freepats/ukulele1/main/samples/C4.flac",
+      "source_sha256": "aa23ee3722f8f418c7078243b4e1e2cb8022ff7c9e94801098cf3aa1694ec4b4",
+      "processed_wav_sha256": "a4ed8981415da6b1c03ec78f073b4185c0cfa2e02b0bc8b090ff64234a57af73"
+    },
+    {
+      "bank": "ukulele",
+      "note": "E4",
+      "source": "https://raw.githubusercontent.com/freepats/ukulele1/main/samples/E4.flac",
+      "source_sha256": "8d5ea8c5ca9cddca9d5af0c37b8e022fddc71444d0f81718695c9de706d8908e",
+      "processed_wav_sha256": "d859ef0bba98d2ed93209633e38c015c5010622d4653d3d4bb9be4c3fa7d3d05"
+    },
+    {
+      "bank": "ukulele",
+      "note": "G4",
+      "source": "https://raw.githubusercontent.com/freepats/ukulele1/main/samples/G4.flac",
+      "source_sha256": "e1952cca1c74d0dbab6053c081eda7f79e1eb2f11c1bd485aafdd51f77df1e93",
+      "processed_wav_sha256": "10b26b262f253cc5690472f2f7ec98482da7b74fb300d90fa5f05fefd8704289"
+    },
+    {
+      "bank": "ukulele",
+      "note": "C6",
+      "source": "https://raw.githubusercontent.com/freepats/ukulele1/main/samples/C6.flac",
+      "source_sha256": "e397e1a73588074f9d636f9b128fbca8c52fd08df89cc893c5467f9256ea02cd",
+      "processed_wav_sha256": "da8c0ed3541ce84d6851e85e2d83b1ce726024adca5317ce7c04e623afe0c4fa"
+    },
+    {
+      "bank": "electric",
+      "note": "E2",
+      "source": "https://raw.githubusercontent.com/freepats/electric-guitar-FSBS-jazz/main/samples/bridge/E2_s1_01.flac",
+      "source_sha256": "9e4479b15aeee5f50d519816f0af329b6fab2be4de70122f0f1d14d41617fa0f",
+      "processed_wav_sha256": "418d822622b916a79c93fdbc301e763fdac0edf13edd0ebed16989fe8628c1d9"
+    },
+    {
+      "bank": "electric",
+      "note": "E3",
+      "source": "https://raw.githubusercontent.com/freepats/electric-guitar-FSBS-jazz/main/samples/bridge/E3_s3_01.flac",
+      "source_sha256": "7a8a817ad371d24b01e8b8c46a21af8a709917a253add99681f0a25cc28bf095",
+      "processed_wav_sha256": "bf61a6588f09a9bcedf8449603071dd5c5294fc3932512de54c916e0ae176544"
+    },
+    {
+      "bank": "electric",
+      "note": "E4",
+      "source": "https://raw.githubusercontent.com/freepats/electric-guitar-FSBS-jazz/main/samples/bridge/E4_s6_01.flac",
+      "source_sha256": "90bfb47b389d3a9c8fef45fb11e4ed7645a8e460cfaad1cad0b276200f3f90d9",
+      "processed_wav_sha256": "7f6a2d4d8f5d98649e3254cd14fd3c5dd0ce11cdb4f180d3b10d6ba9f5a00201"
+    },
+    {
+      "bank": "electric",
+      "note": "B4",
+      "source": "https://raw.githubusercontent.com/freepats/electric-guitar-FSBS-jazz/main/samples/bridge/B4_s6_01.flac",
+      "source_sha256": "6b4925844e8086e2e1c11ac4b664f59d755be5d61322e8f6c374d117dc2a595e",
+      "processed_wav_sha256": "73a26f2fb81ad6890e07ad2bc82f04b17433762879de7ae7807780581a5c17e7"
+    }
+  ]
+}

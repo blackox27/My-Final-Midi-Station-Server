@@ -1,0 +1,7 @@
+# Troque pelo domínio que aponta para o servidor. Caddy ativa HTTPS automaticamente.
+midi.seudominio.com {
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:8000 {
+        header_up X-MidiShare-Client-IP {http.request.remote.host}
+    }
+}

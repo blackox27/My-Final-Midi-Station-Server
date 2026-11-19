@@ -1,0 +1,23 @@
+{
+  "browser": "153.0.8010.0",
+  "mode": "file://, network blocked, default origin and autoplay security",
+  "checks": [
+    "Self-contained file starts offline",
+    "Mouse drawing and keyboard undo/redo",
+    "Two independent SF2 files: real AudioWorklet playback and nonzero PCM",
+    "Score and piano roll switching",
+    "Portable save and reopen preserve both banks",
+    "Real Worker + OfflineAudioContext produce non-silent stereo WAV",
+    "MIDI, WAV and MP3 browser downloads",
+    "WAV sample decoding and playback alongside both SoundFonts",
+    "Immediate reload restores latest edit, IndexedDB banks and sample",
+    "Embedded manual download",
+    "English UI, humanization, fit view, duplicate track and undo",
+    "English manual is embedded and downloadable offline",
+    "Language preference survives reload and switches back to Portuguese",
+    "Follow cursor scrolls and Escape panic stops playback",
+    "Desktop and compact view render without JavaScript errors",
+    "No uncaught page errors or external network requests"
+  ],
+  "passed": 16
+}

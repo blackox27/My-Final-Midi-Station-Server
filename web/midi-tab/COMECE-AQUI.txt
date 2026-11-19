@@ -1,0 +1,48 @@
+MIDI TAB STUDIO 3.1
+
+1. Extraia o ZIP inteiro.
+2. Abra a pasta MIDI-Tab e dê dois cliques em index.html.
+3. Selecione um MIDI ou experimente a demonstração.
+
+Não precisa instalar nada, usar comandos, iniciar servidor ou ter internet.
+Mantenha index.html e a pasta assets juntos.
+
+NOVIDADES
+- Português BR / English e temas escuro / claro, com preferência lembrada.
+- 21 presets de instrumentos/afinações, incluindo violão, guitarra de 6/7/8 cordas, baixo, ukulele, guitalele, bandolim, mandola, bouzouki, cavaquinho, banjo tenor/plectro e balalaica.
+- Tablatura com notas destacadas, cursor, acompanhamento automático e painel de cordas animadas.
+- Som do instrumento da tablatura, instrumento indicado no MIDI, WAV importado ou som simples.
+- Gravações FreePats incluídas para violão clássico, guitarra elétrica e ukulele. Outros timbres são sintetizados.
+- Salvar/abrir projeto (.miditab), com posições manuais e configurações.
+- Desfazer até 100 alterações de posição.
+- Exportação PDF A4 com todas as páginas e PNG da página escolhida.
+
+ESCOLHER O SOM
+“Instrumento da tablatura” usa o timbre associado ao preset escolhido.
+“Instrumento indicado no MIDI” segue os programas de instrumento ativos em cada nota. O banco é compacto: instrumentos sem gravação incluída usam aproximações sintetizadas, e o som não será necessariamente igual ao de uma SoundFont ou outro reprodutor.
+“Meu sample WAV” usa uma gravação de uma nota isolada. Carregue o WAV e informe sua nota original, por exemplo C4. Nomes como Note_C4.wav podem preencher a nota automaticamente; confira sempre a afinação. O programa transpõe o áudio para cada nota MIDI.
+O WAV deve ter até 16 MB e 15 segundos. Ele não cria loops automaticamente: uma nota longa pode ficar silenciosa quando a gravação terminar. Os samples internos também são curtos e não possuem loops.
+“Testar som” toca uma nota de conferência.
+
+BPM
+O mapa de BPM original é preservado por padrão. BPM fixo aplica um novo andamento único e o indica na exportação. A velocidade de ensaio (0,25× a 2×) muda somente a reprodução, sem mudar a altura das notas nem o PDF/PNG.
+
+GUARDAR E EDITAR
+Clique numa casa para escolher outra corda com a mesma nota. O botão Desfazer reverte a última mudança manual. Alterar idioma, tema, título ou espaçamento não recalcula a digitação.
+Alterar pista, afinação, casas, transposição, quantização ou início recalcula as posições.
+Em “Guardar seu trabalho”, salve um projeto .miditab antes de fechar. O projeto guarda MIDI, configurações musicais e posições. O WAV importado não é incluído: carregue-o novamente após abrir o projeto.
+
+FIDELIDADE
+A digitação é estimada porque o MIDI normalmente não registra a corda original. A conversão mantém alturas, tempos, durações e acordes; quantização e transposição só mudam isso quando você as escolhe.
+“!” marca notas sem posição tocável. Elas são listadas no apêndice e continuam audíveis, para que nenhuma altura desapareça da comparação.
+Instrumentos com cordas em pares usam uma linha por ordem; pares em oitavas não são acrescentados automaticamente. Os presets de banjo são para quatro cordas.
+Pitch bend é avisado, mas não desenhado como bend. Técnicas como slide e hammer-on não são inferidas. O áudio não emula os efeitos, bancos proprietários, CCs de expressão ou o sintetizador original. SoundFonts/SF2 não são carregadas nesta versão.
+
+Mais informações: docs/README-PT.md e docs/README-EN.md.
+
+ACOMPANHAMENTO — NOVO NA VERSÃO 3.1
+Ative “Tocar música completa com acompanhamento”. Ao ativar, o som da pista escolhida passa para o instrumento da tablatura. As outras pistas continuam com os programas MIDI do banco aproximado incluído.
+Use “Volume da pista selecionada” para ouvir a melodia de estudo e “Volume do acompanhamento” para ajustar a base. Você pode zerar o volume da pista selecionada e tocar você mesmo junto da música.
+A introdução e o final do MIDI são mantidos mesmo quando a tablatura começa na primeira nota da pista escolhida. Transposição e quantização afetam somente a parte selecionada; o acompanhamento segue o MIDI original. Não há duplicação da pista original.
+Você pode trocar o som da pista escolhida para seu WAV sem alterar os instrumentos do acompanhamento. O canal de bateria do acompanhamento usa percussão sintetizada aproximada. Ao escolher “Todas as pistas melódicas”, todas elas recebem o timbre selecionado, e a bateria fica na base.
+Os três volumes e a opção de acompanhamento são salvos no projeto. O PDF/PNG continua representando a seleção de tablatura.

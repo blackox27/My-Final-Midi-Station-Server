@@ -1,0 +1,451 @@
+import { IndexedByteArray } from "../../../utils/indexed_array";
+import { readSamples } from "./samples";
+import { readLittleEndianIndexed } from "../../../utils/byte_functions/little_endian";
+import { readGenerators } from "./generators";
+import { applyPresetZones } from "./preset_zones";
+import { readPresets } from "./presets";
+import { readInstruments } from "./instruments";
+import { readModulators } from "./modulators";
+import { RIFFChunk } from "../../../utils/riff_chunk";
+import { ConsoleColors } from "../../../utils/other";
+import { SpessaLog } from "../../../utils/loggin";
+import {
+    readBinaryString,
+    readBinaryStringIndexed
+} from "../../../utils/byte_functions/string";
+import { BasicSoundBank } from "../../basic_soundbank/basic_soundbank";
+import { applyInstrumentZones } from "./instrument_zones";
+import { readZoneIndexes } from "./zones";
+import type { SF2InfoFourCC } from "../../types";
+import type { Generator } from "../../basic_soundbank/generator";
+import type { Modulator } from "../../basic_soundbank/modulator";
+import { parseDateString } from "../../../utils/date";
+import { StbVorbis } from "stb-vorbis";
+
+/**
+ * Soundfont.ts
+ * purpose: parses a soundfont2 file
+ */
+
+export class SoundFont2 extends BasicSoundBank {
+    protected sampleDataStartIndex = 0;
+
+    /**
+     * Initializes a new SoundFont2 Parser and parses the given data array
+     */
+    public constructor(arrayBuffer: ArrayBuffer, sfe: boolean) {
+        super(sfe ? "sfe" : "sf2");
+        const mainFileArray = new IndexedByteArray(arrayBuffer);
+        SpessaLog.group("%cParsing a SoundFont2 file...", ConsoleColors.info);
+
+        // Read RIFF header
+        const fourCC = readBinaryString(mainFileArray, 4).toLowerCase();
+        this.verifyTexts(fourCC, ["riff", "rifs"]);
+        const rf64 = fourCC === "rifs";
+        if (rf64)
+            SpessaLog.info("%cRIFF64 Detected!", ConsoleColors.recognized);
+
+        // Read the main chunk (don't verify as we just did)
+        RIFFChunk.read(mainFileArray, rf64, false);
+
+        const type = readBinaryStringIndexed(mainFileArray, 4).toLowerCase();
+        this.verifyTexts(type, ["sfbk", "sfpk", "sfen"]);
+        /*
+        Some SF2Pack description:
+        this is essentially sf2, but the entire smpl chunk is compressed (we only support Ogg Vorbis here)
+        and the only other difference is that the main chunk isn't "sfbk" but rather "sfpk"
+         */
+        const isSF2Pack = type === "sfpk";
+
+        // INFO
+        const infoChunk = RIFFChunk.read(mainFileArray, rf64);
+        this.verifyHeader(infoChunk, "list");
+        const infoString = readBinaryStringIndexed(infoChunk.data, 4);
+        this.verifyText(infoString, "info");
+
+        let xdtaChunk: RIFFChunk | undefined;
+
+        while (infoChunk.data.length > infoChunk.data.currentIndex) {
+            const chunk = RIFFChunk.read(infoChunk.data, rf64);
+            const text = readBinaryString(chunk.data, chunk.data.length);
+            // Special cases
+            const headerTyped = chunk.header as SF2InfoFourCC;
+            switch (headerTyped) {
+                case "ifil":
+                case "iver": {
+                    const major = readLittleEndianIndexed(chunk.data, 2);
+                    const minor = readLittleEndianIndexed(chunk.data, 2);
+                    if (headerTyped === "ifil") {
+                        this.soundBankInfo.version = {
+                            major,
+                            minor
+                        };
+                    } else {
+                        this.soundBankInfo.romVersion = {
+                            major,
+                            minor
+                        };
+                    }
+                    break;
+                }
+
+                // Dmod: default modulators
+                case "DMOD": {
+                    // Override default modulators
+                    this.defaultModulators = readModulators(chunk);
+                    this.customDefaultModulators = true;
+                    break;
+                }
+
+                case "LIST": {
+                    // Possible xdta
+                    const listType = readBinaryStringIndexed(chunk.data, 4);
+                    if (listType === "xdta") {
+                        SpessaLog.info(
+                            "%cExtended SF2 found!",
+                            ConsoleColors.recognized
+                        );
+                        xdtaChunk = chunk;
+                    }
+                    break;
+                }
+
+                case "ICRD": {
+                    this.soundBankInfo.creationDate = parseDateString(
+                        readBinaryStringIndexed(chunk.data, chunk.data.length)
+                    );
+                    break;
+                }
+
+                case "ISFT": {
+                    this.soundBankInfo.software = text;
+                    break;
+                }
+
+                case "IPRD": {
+                    this.soundBankInfo.product = text;
+                    break;
+                }
+
+                case "IENG": {
+                    this.soundBankInfo.engineer = text;
+                    break;
+                }
+
+                case "ICOP": {
+                    this.soundBankInfo.copyright = text;
+                    break;
+                }
+
+                case "INAM": {
+                    this.soundBankInfo.name = text;
+                    break;
+                }
+
+                case "ICMT": {
+                    this.soundBankInfo.comment = text;
+                    break;
+                }
+
+                case "irom": {
+                    this.soundBankInfo.romInfo = text;
+                    break;
+                }
+
+                case "isng": {
+                    this.soundBankInfo.soundEngine = text;
+                }
+            }
+        }
+        this.printInfo();
+        // https://github.com/spessasus/soundfont-proposals/blob/main/extended_limits.md
+        const xChunks: Partial<{
+            phdr: RIFFChunk;
+            pbag: RIFFChunk;
+            pmod: RIFFChunk;
+            pgen: RIFFChunk;
+            inst: RIFFChunk;
+            ibag: RIFFChunk;
+            imod: RIFFChunk;
+            igen: RIFFChunk;
+            shdr: RIFFChunk;
+        }> = {};
+        if (xdtaChunk !== undefined) {
+            // Read the hydra chunks
+            xChunks.phdr = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.pbag = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.pmod = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.pgen = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.inst = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.ibag = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.imod = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.igen = RIFFChunk.read(xdtaChunk.data, rf64);
+            xChunks.shdr = RIFFChunk.read(xdtaChunk.data, rf64);
+        }
+
+        // SDTA
+        const sdtaChunk = RIFFChunk.read(mainFileArray, rf64, false);
+        this.verifyHeader(sdtaChunk, "list");
+        this.verifyText(readBinaryStringIndexed(mainFileArray, 4), "sdta");
+
+        // Smpl
+        SpessaLog.info("%cVerifying smpl chunk...", ConsoleColors.warn);
+        const sampleDataChunk = RIFFChunk.read(mainFileArray, rf64, false);
+        this.verifyHeader(sampleDataChunk, "smpl");
+        let sampleData: IndexedByteArray | Float32Array;
+        // SF2Pack: the entire data is compressed
+        if (isSF2Pack) {
+            SpessaLog.info(
+                "%cSF2Pack detected, attempting to decode the smpl chunk...",
+                ConsoleColors.info
+            );
+            let vorbis;
+            try {
+                vorbis = StbVorbis.decode(
+                    mainFileArray.buffer.slice(
+                        mainFileArray.currentIndex,
+                        mainFileArray.currentIndex +
+                            sdtaChunk.size -
+                            4 -
+                            sdtaChunk.headerSize
+                    )
+                );
+            } catch (error) {
+                SpessaLog.groupEnd();
+                throw new Error(
+                    `SF2Pack Ogg Vorbis decode error: ${error as Error}`,
+                    { cause: error }
+                );
+            }
+            if (vorbis.channels.length !== 1) {
+                throw new Error(
+                    `The encoded sample data must be mono, received ${vorbis.channels.length} channels.`
+                );
+            }
+            sampleData = vorbis.channels[0];
+            SpessaLog.info(
+                `%cDecoded the smpl chunk! Length: %c${sampleData.length}`,
+                ConsoleColors.info,
+                ConsoleColors.value
+            );
+        } else {
+            sampleData = mainFileArray;
+            this.sampleDataStartIndex = mainFileArray.currentIndex;
+        }
+
+        SpessaLog.info(
+            `%cSkipping sample chunk, length: %c${sdtaChunk.size - 4 - sdtaChunk.headerSize}`,
+            ConsoleColors.info,
+            ConsoleColors.value
+        );
+        mainFileArray.currentIndex += sdtaChunk.size - 4 - sdtaChunk.headerSize;
+
+        // PDTA
+        SpessaLog.info("%cLoading preset data chunk...", ConsoleColors.warn);
+        const presetChunk = RIFFChunk.read(mainFileArray, rf64);
+        this.verifyHeader(presetChunk, "list");
+        readBinaryStringIndexed(presetChunk.data, 4);
+
+        // Read the hydra chunks
+        const phdrChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(phdrChunk, "phdr");
+
+        const pbagChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(pbagChunk, "pbag");
+
+        const pmodChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(pmodChunk, "pmod");
+
+        const pgenChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(pgenChunk, "pgen");
+
+        const instChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(instChunk, "inst");
+
+        const ibagChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(ibagChunk, "ibag");
+
+        const imodChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(imodChunk, "imod");
+
+        const igenChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(igenChunk, "igen");
+
+        const shdrChunk = RIFFChunk.read(presetChunk.data, rf64);
+        this.verifyHeader(shdrChunk, "shdr");
+
+        SpessaLog.info("%cParsing samples...", ConsoleColors.info);
+
+        /**
+         * Read all the samples
+         * (the current index points to start of the smpl read)
+         */
+        mainFileArray.currentIndex = this.sampleDataStartIndex;
+        const samples = readSamples(
+            shdrChunk,
+            sampleData,
+            xdtaChunk === undefined
+        );
+
+        if (xdtaChunk && xChunks.shdr) {
+            // Apply extensions to samples
+            const xSamples = readSamples(
+                xChunks.shdr,
+                new Float32Array(1),
+                false
+            );
+            if (xSamples.length === samples.length) {
+                for (const [i, s] of samples.entries()) {
+                    s.name += xSamples[i].name;
+                    s.linkedSampleIndex |= xSamples[i].linkedSampleIndex << 16;
+                }
+            }
+        }
+        // Trim names
+        for (const s of samples) s.name = s.name.trim();
+        this.samples.push(...samples);
+
+        // Read modulators and generators
+        const instrumentGenerators = readGenerators(igenChunk);
+        const instrumentModulators = readModulators(imodChunk);
+
+        // Read the instruments
+        const instruments = readInstruments(instChunk);
+        if (xdtaChunk && xChunks.inst) {
+            // Apply extensions to instruments
+            const xInst = readInstruments(xChunks.inst);
+            if (xInst.length === instruments.length) {
+                for (const [i, inst] of instruments.entries()) {
+                    inst.name += xInst[i].name;
+                    inst.zoneStartIndex |= xInst[i].zoneStartIndex << 16;
+                }
+                // Adjust zone counts
+                for (const [i, inst] of instruments.entries()) {
+                    if (i < instruments.length - 1) {
+                        inst.zonesCount =
+                            instruments[i + 1].zoneStartIndex -
+                            inst.zoneStartIndex;
+                    }
+                }
+            }
+        }
+        // Trim names
+        for (const i of instruments) i.name = i.name.trim();
+        this.instruments.push(...instruments);
+
+        const ibagIndexes = readZoneIndexes(ibagChunk);
+
+        if (xdtaChunk && xChunks.ibag) {
+            const extraIndexes = readZoneIndexes(xChunks.ibag);
+            for (let i = 0; i < ibagIndexes.mod.length; i++) {
+                ibagIndexes.mod[i] |= extraIndexes.mod[i] << 16;
+            }
+            for (let i = 0; i < ibagIndexes.gen.length; i++) {
+                ibagIndexes.gen[i] |= extraIndexes.gen[i] << 16;
+            }
+        }
+
+        /**
+         * Read all the instrument zones (and apply them)
+         */
+        applyInstrumentZones(
+            ibagIndexes,
+            instrumentGenerators,
+            instrumentModulators,
+            this.samples,
+            instruments
+        );
+
+        // Read preset modulators and generators
+        const presetGenerators: Generator[] = readGenerators(pgenChunk);
+        const presetModulators: Modulator[] = readModulators(pmodChunk);
+
+        // Read presets
+        const presets = readPresets(phdrChunk, this);
+        if (xdtaChunk && xChunks.phdr) {
+            // Apply extensions to presets
+            const xPreset = readPresets(xChunks.phdr, this);
+            if (xPreset.length === presets.length) {
+                for (const [i, pres] of presets.entries()) {
+                    pres.name += xPreset[i].name;
+                    pres.zoneStartIndex |= xPreset[i].zoneStartIndex << 16;
+                }
+                // Adjust zone counts
+                for (const [i, preset] of presets.entries()) {
+                    if (i < presets.length - 1) {
+                        preset.zonesCount =
+                            presets[i + 1].zoneStartIndex -
+                            preset.zoneStartIndex;
+                    }
+                }
+            }
+        }
+
+        // Trim names
+        for (const p of presets) p.name = p.name.trim();
+        this.addPresets(...presets);
+
+        const pbagIndexes = readZoneIndexes(pbagChunk);
+
+        if (xdtaChunk && xChunks.pbag) {
+            const extraIndexes = readZoneIndexes(xChunks.pbag);
+            for (let i = 0; i < pbagIndexes.mod.length; i++) {
+                pbagIndexes.mod[i] |= extraIndexes.mod[i] << 16;
+            }
+            for (let i = 0; i < pbagIndexes.gen.length; i++) {
+                pbagIndexes.gen[i] |= extraIndexes.gen[i] << 16;
+            }
+        }
+
+        applyPresetZones(
+            pbagIndexes,
+            presetGenerators,
+            presetModulators,
+            this.instruments,
+            presets
+        );
+
+        this.flush();
+        SpessaLog.info(
+            `%cParsing finished! %c"${this.soundBankInfo.name}"%c has %c${this.presets.length}%c presets,
+        %c${this.instruments.length}%c instruments and %c${this.samples.length}%c samples.`,
+            ConsoleColors.info,
+            ConsoleColors.recognized,
+            ConsoleColors.info,
+            ConsoleColors.recognized,
+            ConsoleColors.info,
+            ConsoleColors.recognized,
+            ConsoleColors.info,
+            ConsoleColors.recognized,
+            ConsoleColors.info
+        );
+        SpessaLog.groupEnd();
+    }
+
+    protected verifyHeader(chunk: RIFFChunk, expected: string) {
+        if (chunk.header.toLowerCase() !== expected.toLowerCase()) {
+            SpessaLog.groupEnd();
+            this.parsingError(
+                `Invalid chunk header! Expected "${expected.toLowerCase()}" got "${chunk.header.toLowerCase()}"`
+            );
+        }
+    }
+
+    protected verifyText(text: string, expected: string) {
+        if (text.toLowerCase() !== expected.toLowerCase()) {
+            SpessaLog.groupEnd();
+            this.parsingError(
+                `Invalid FourCC: Expected "${expected.toLowerCase()}" got "${text.toLowerCase()}"\``
+            );
+        }
+    }
+
+    protected verifyTexts(text: string, expected: string[]) {
+        if (!expected.includes(text.toLowerCase())) {
+            SpessaLog.groupEnd();
+            this.parsingError(
+                `Invalid FourCC: Expected ${expected.map((s) => `"${s}"`).join(", ")} but got "${text.toLowerCase()}"`
+            );
+        }
+    }
+}

@@ -1,0 +1,25 @@
+# Contas, sessões, bibliotecas privadas, certificados e configuração local
+dados/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+backups/
+
+# Saídas e dependências locais
+site-publico/
+_site/
+.pages-*/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/

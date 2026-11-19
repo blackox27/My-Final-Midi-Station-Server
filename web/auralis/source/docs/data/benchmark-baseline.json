@@ -1,0 +1,30 @@
+{
+  "version": "baseline",
+  "status": {
+    "loaded": true,
+    "backend": "CPU",
+    "tensors": 245
+  },
+  "results": [
+    {
+      "pass": 0,
+      "ms": 6139.208098,
+      "pitches": [
+        64,
+        60,
+        67
+      ],
+      "tensors": 245
+    },
+    {
+      "pass": 1,
+      "ms": 6015.205611999999,
+      "pitches": [
+        64,
+        60,
+        67
+      ],
+      "tensors": 245
+    }
+  ]
+}

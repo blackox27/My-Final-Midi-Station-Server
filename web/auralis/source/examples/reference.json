@@ -1,0 +1,58 @@
+[
+  {
+    "program": 0,
+    "pitch": 60,
+    "start": 0.15,
+    "duration": 0.7,
+    "family": "piano"
+  },
+  {
+    "program": 0,
+    "pitch": 64,
+    "start": 1.05,
+    "duration": 0.7,
+    "family": "piano"
+  },
+  {
+    "program": 73,
+    "pitch": 72,
+    "start": 2,
+    "duration": 0.7,
+    "family": "flute"
+  },
+  {
+    "program": 73,
+    "pitch": 76,
+    "start": 2.9,
+    "duration": 0.7,
+    "family": "flute"
+  },
+  {
+    "program": 40,
+    "pitch": 60,
+    "start": 3.85,
+    "duration": 0.7,
+    "family": "strings"
+  },
+  {
+    "program": 33,
+    "pitch": 40,
+    "start": 4.8,
+    "duration": 0.7,
+    "family": "bass"
+  },
+  {
+    "program": 0,
+    "pitch": 64,
+    "start": 5.8,
+    "duration": 0.8,
+    "family": "piano"
+  },
+  {
+    "program": 73,
+    "pitch": 79,
+    "start": 5.8,
+    "duration": 0.8,
+    "family": "flute"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "seed": 1209,
+  "trainRows": 6994,
+  "validationRows": 2025,
+  "testRows": 3577,
+  "bestEpoch": 120,
+  "validationLoss": 0.28327691555023193,
+  "onsetToleranceSeconds": 0.05,
+  "onsetLabelToleranceSeconds": 0.08,
+  "trainingFont": "FluidR3_GM",
+  "testFont": "GeneralUser-GS",
+  "balancedThreshold": 0.03,
+  "preciseThreshold": 0.68,
+  "validation": {
+    "baseline": {
+      "tp": 244,
+      "fp": 380,
+      "fn": 45,
+      "precision": 0.391025641025641,
+      "recall": 0.8442906574394463,
+      "f1": 0.5345016429353778
+    },
+    "balanced": {
+      "tp": 240,
+      "fp": 223,
+      "fn": 49,
+      "precision": 0.5183585313174947,
+      "recall": 0.8304498269896193,
+      "f1": 0.6382978723404256
+    },
+    "precise": {
+      "tp": 183,
+      "fp": 26,
+      "fn": 106,
+      "precision": 0.8755980861244019,
+      "recall": 0.6332179930795848,
+      "f1": 0.7349397590361445
+    }
+  },
+  "test": {
+    "baseline": {
+      "tp": 436,
+      "fp": 666,
+      "fn": 61,
+      "precision": 0.3956442831215971,
+      "recall": 0.8772635814889336,
+      "f1": 0.5453408380237649
+    },
+    "balanced": {
+      "tp": 432,
+      "fp": 424,
+      "fn": 65,
+      "precision": 0.5046728971962616,
+      "recall": 0.869215291750503,
+      "f1": 0.6385809312638581
+    },
+    "precise": {
+      "tp": 328,
+      "fp": 40,
+      "fn": 169,
+      "precision": 0.8913043478260869,
+      "recall": 0.6599597585513078,
+      "f1": 0.7583815028901735
+    }
+  },
+  "testSensitivity": {
+    "0.35": {
+      "baseline": {
+        "tp": 405,
+        "fp": 383,
+        "fn": 92,
+        "precision": 0.5139593908629442,
+        "recall": 0.8148893360160966,
+        "f1": 0.6303501945525292
+      },
+      "balanced": {
+        "tp": 405,
+        "fp": 289,
+        "fn": 92,
+        "precision": 0.5835734870317003,
+        "recall": 0.8148893360160966,
+        "f1": 0.6801007556675063
+      }
+    },
+    "0.75": {
+      "baseline": {
+        "tp": 437,
+        "fp": 1250,
+        "fn": 60,
+        "precision": 0.25903971547125076,
+        "recall": 0.8792756539235412,
+        "f1": 0.4001831501831502
+      },
+      "balanced": {
+        "tp": 429,
+        "fp": 611,
+        "fn": 68,
+        "precision": 0.4125,
+        "recall": 0.8631790744466801,
+        "f1": 0.5582303188028627
+      }
+    }
+  },
+  "limitations": "Synthetic clips only. No real-recording accuracy claim. Test soundfont, compositions and note events were not used to train or choose thresholds. Pitch+onset matching ignores duration and instrument identity."
+}

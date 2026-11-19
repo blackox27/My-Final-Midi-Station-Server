@@ -1,0 +1,157 @@
+AURORA MIDI STUDIO 2.3.0 — MANUAL E LIMITES
+
+COMO ABRIR
+Extraia o ZIP e dê dois cliques em index.html na pasta principal.
+Esse index.html é autocontido e pode ser aberto diretamente no navegador.
+Se o sistema abrir um editor de texto, use Abrir com > Chrome ou Edge.
+Não requer Python, Node.js, instalação, servidor ou conexão com a internet.
+O HTML incorpora os scripts, estilos, sintetizadores e banco demonstrativo.
+Os seus próprios SF2 e samples são adicionados pelos botões do aplicativo.
+Clique em ▶ para liberar o áudio. Não é um executável .exe nem plugin VST.
+
+A abertura local, dois SF2 simultâneos, samples, salvamento, reabertura,
+WAV e MP3 foram verificados em Chromium 153 no Linux (automatizado/headless).
+Outros navegadores e sistemas não foram ensaiados. Se o navegador impedir
+AudioWorklet ou MIDI externo, use a versão online ou um navegador compatível.
+Web MIDI e armazenamento de arquivos locais dependem do navegador e permissões.
+O editor funciona offline; Web MIDI com equipamento externo não foi ensaiado.
+Salve cópias .aurora: mover ou renomear o HTML pode mudar o armazenamento local.
+
+A pasta codigo-fonte contém fontes, testes e licenças para desenvolvedores.
+Você não precisa abrir essa pasta nem executar comandos para usar o Aurora.
+
+NOVIDADES DA VERSÃO 2.3
+- Idioma PT-BR / English no cabeçalho, lembrado pelo navegador. Controles,
+  caixas de diálogo, dicas, legendas e mensagens da aplicação são traduzidos.
+  Nomes digitados/importados não mudam. Erros nativos dependem do navegador.
+- Ferramentas: humanizar início/velocity; remover duplicadas exatas; duplicar pista.
+  Humanização e limpeza afetam a seleção ou a pista inteira quando não há seleção.
+  Duplicadas precisam ter altura, início, duração e velocity iguais; camadas com
+  velocity diferente são mantidas. Humanização preserva duração e limites.
+- Ajustar visão enquadra as notas selecionadas ou a pista, dentro dos limites de zoom.
+- Seguir acompanha o cursor. Pânico ou Esc interrompe todas as notas; em diálogos,
+  Esc fecha primeiro a caixa de diálogo.
+- Abrir e arrastar arquivos agora aceita RIFF MIDI (.rmi). Apenas os dados SMF
+  são importados; bancos embutidos e metadados externos ao SMF ficam de fora.
+- Notas MIDI sem Note Off terminam na própria pista; eventos truncados são rejeitados.
+- Cache de compassos evita reconstruções repetidas durante o desenho.
+- Importação lenta não substitui edições feitas enquanto o arquivo era lido.
+- Código mantido em codigo-fonte/src, por núcleo, áudio, armazenamento, interface,
+  idiomas e estilos; referências pesquisadas em codigo-fonte/docs/PESQUISA.md.
+
+PRIMEIROS PASSOS
+- ▶ toca/pausa; ■ para e volta ao início; ↻ liga/desliga a repetição.
+- A música inicial usa sintetizadores Web Audio. Clique em Banco de
+  demonstração para carregar quatro presets SF2 sintéticos no SpessaSynth.
+- Adicionar SF2/SF3/DLS aceita vários arquivos ao mesmo tempo (até 16 bancos).
+  Escolha Banco desta pista e Preset em cada pista. Exemplo: piano do SF2 A
+  na pista 1 e cordas do SF2 B na pista 2. Adicionar não substitui outros bancos.
+  No carregamento de vários arquivos, o primeiro é aplicado à pista atual.
+  Os demais ficam disponíveis no seletor. WAV/MP3 misturam os bancos das pistas.
+  Aplicar este banco a todas as pistas altera todas apenas quando acionado,
+  mantendo seus números de programa; use um banco GM para arquivos GM.
+  Para sobrepor timbres na mesma melodia, copie as notas para outra pista.
+  Bancos e presets de mesmo nome/número permanecem independentes.
+  Remover banco sem uso exige que nenhuma pista esteja usando-o como
+  SoundFont. Se necessário, mude primeiro o banco/timbre dessas pistas.
+- Canal MIDI controla a saída/exportação; Percussão controla o SpessaSynth.
+  No padrão GM, percussão usa canal 10 na saída externa.
+- Carregar sample guarda o áudio e permite transposição a partir da nota base.
+- Salvar projeto gera .aurora com samples e todos os bancos embutidos. É seu backup
+  portátil. MIDI não contém esses áudios. Exportar abre MIDI, WAV e MP3.
+
+EDIÇÃO E ATALHOS
+B: desenhar; V: selecionar; E: apagar; C: dividir; Q: quantizar.
+Clique para criar; arraste notas para mover; arraste a borda direita para
+mudar duração. Shift+clique alterna seleção; arraste na área vazia com V
+para selecionar um grupo. Botão direito apaga notas/pontos de automação.
+Ctrl/Cmd+A seleciona tudo; C/X/V copia/recorta/cola; D duplica; Z desfaz;
+Shift+Z ou Y refaz; S salva. Delete apaga selecionadas.
+Clique na régua para posicionar o cursor. Colagem começa nessa posição.
+Ctrl/Cmd+roda altera zoom horizontal, Alt+roda altura das notas, Shift+roda
+navega pelo tempo. Barras de rolagem cobrem a música e as 128 alturas.
+Quantizar > Ajustes define força, swing e ajuste opcional dos finais.
+±12 abre transposição. Curva de glide desenha pitch bend das selecionadas.
+A W S X D F T G Y H U J K toca C4 a C5; X é Ré sustenido.
+Arme ●, inicie a reprodução e toque para gravar teclado/Web MIDI.
+A edição pausa a reprodução para evitar eventos agendados desatualizados.
+Duplo clique no nome da pista permite renomear. M/S são mute e solo.
+Velocity altera selecionadas; a faixa abaixo permite desenhar intensidades.
+Escolha CC1, CC7, CC10, CC11, CC64 ou pitch bend para desenhar automação.
+Clique no botão de compasso para editar mapas de andamento e fórmula.
+Posições são tempos de semínima, começando em 0, inclusive em 3/8 e 6/8.
+Partitura exibe a pista ativa; clique na pauta para inserir e na nota para
+selecionar. Botões navegam por páginas; impressão cobre a página visível.
+
+INSTRUMENTOS EXTERNOS
+VST/VST3/AU nativos não rodam diretamente neste aplicativo. Use um host
+instalado e uma porta MIDI virtual: selecione a porta como saída no Aurora
+e como entrada do host. Web MIDI requer suporte/permissão do navegador.
+A saída externa substitui o som interno durante a reprodução. WAV/MP3
+renderizam somente os instrumentos internos, samples e SpessaSynth;
+o áudio do host externo não é capturado. Não há carregador WAM.
+
+FORMATOS E LIMITES
+- Até 16 pistas e 4096 tempos de semínima (1024 compassos em 4/4).
+- Andamento 10–1000 BPM; mapas de compasso com denominadores 1, 2, 4, 8,
+  16 ou 32. Cada pista aceita até 100 mil notas, 100 mil pontos CC e
+  100 mil eventos adicionais. Esses limites não garantem fluidez em
+  projetos densos: CPU, memória, banco e polifonia afetam o desempenho.
+- Importação MIDI tipo 0/1 com PPQ; exportação tipo 1, 960 PPQ.
+  SMPTE e tipo 2 são rejeitados explicitamente. MIDI: até 40 MB e
+  um milhão de eventos. Mais de 16 combinações de pista/canal é rejeitado.
+- Preserva notas, CC, pitch bend, pressão, bancos, programas, canais,
+  andamentos e fórmulas de compasso. SysEx, letras e outros metadados
+  não musicais são omitidos com aviso. Não é um editor MIDI sem perdas.
+- Arquivos PulseForge .pfm importam notas, pistas, canais, automações,
+  compasso e glide. Plugins nativos, suas janelas e estados não são
+  importados. A exportação de volta a .pfm não está implementada.
+- Sample até 50 MB; até 16 bancos de no máximo 128 MB cada; .aurora até
+  180 MB de áudio embutido no total (samples e todos os bancos).
+  Vários bancos aumentam o consumo de RAM. São criados sintetizadores
+  somente para os bancos utilizados. Bancos não usados podem ser removidos.
+  O arquivo JSON cresce com base64; entrada geral até 260 MB.
+  Formatos de sample decodificados dependem do navegador.
+- WAV estéreo PCM16, 44,1 kHz; MP3 estéreo 192 kbps. Máximo de dez minutos
+  incluindo quatro segundos de cauda. O render usa memória proporcional
+  à duração; projetos grandes podem exceder a memória do dispositivo.
+  O cancelamento interrompe o Worker e a codificação; um render Web Audio
+  já iniciado pode concluir internamente antes de seu resultado ser descartado.
+- Mute/solo são respeitados no áudio. MIDI exporta todas as pistas; master,
+  echo e timbres/sample de áudio não ficam embutidos em um arquivo .mid.
+- Banco demonstrativo: quatro formas de onda, sem bateria GM ou piano
+  acústico amostrado. Carregue seu banco para outros instrumentos.
+- A biblioteca oferece leitura SF2/SF3/DLS. SF2 foi exercitado nesta entrega;
+  SF3/DLS e bancos de terceiros não foram validados com arquivos reais.
+  Usa saída seca de cada canal e echo do Aurora; reverb/chorus/insertion
+  internos do SpessaSynth estão desativados para manter o render consistente.
+- Automações são por canal, em degraus. O glide desenhado assume pitch bend
+  de ±2 semitons e afeta notas simultâneas da pista. Não há MPE por nota.
+  RPNs importados podem alterar a faixa de bend no SpessaSynth/host externo.
+  Sintetizadores básicos usam faixa fixa de ±2 semitons; glide nativo
+  interpola a nota anterior. Portamento SF depende do preset/sintetizador.
+- Sintetizadores básicos respondem aos CC expostos, não a todo o padrão GM.
+  Programas e pressão importados são preservados no MIDI; sua interpretação
+  completa depende de SpessaSynth ou instrumento externo.
+- Pistas com o mesmo canal externo compartilham programa e controles nesse
+  destino. Internamente o Aurora isola pistas em canais de síntese separados.
+- A partitura é uma visualização/editoração básica: sem múltiplas vozes,
+  ligaduras, armaduras completas, diagramação avançada ou todas as pausas.
+  Notas longas não são divididas em ligaduras entre compassos. Ritmos
+  complexos e alterações finas devem ser editados no piano roll.
+- Salvamento automático é local ao navegador/endereço. Limpar dados do
+  navegador remove projetos e áudios. Em navegação privada ou sem quota,
+  use Salvar projeto. Samples antigos que não eram embutidos no Aurora 1
+  precisam ser recarregados uma vez e salvos no novo formato.
+  Projetos antigos com banco global migram automaticamente para escolhas
+  por pista. O formato com vários bancos exige Aurora 2.1 ou posterior.
+- Não há compensação automática de latência na gravação. Web MIDI,
+  permissões, dispositivos e host externo dependem da configuração local.
+
+TESTES E FONTES
+Consulte TESTES.md para o escopo e a evidência da auditoria desta versão.
+56 testes automatizados de componentes e 16 verificações em navegador real
+passaram. Houve inspeção de capturas desktop/compactas e medição de PCM,
+mas não audição humana ou teste de hardware MIDI, host VST ou aparelhos móveis.
+Não há garantia de ausência total de bugs nem de compatibilidade com todo SF2.
+Fontes e licenças estão em codigo-fonte e LICENCAS no ZIP completo.

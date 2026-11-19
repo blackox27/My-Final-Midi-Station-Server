@@ -1,0 +1,736 @@
+[
+  {
+    "id": 52,
+    "split": "test",
+    "font": "GeneralUser-GS",
+    "file": "clip-052.f32",
+    "truth": [
+      {
+        "pitch": 65,
+        "start": 0.17,
+        "duration": 0.5967081018216602,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 68,
+        "start": 0.8625686808037264,
+        "duration": 1.1279697865221718,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 66,
+        "start": 1.9763190579402914,
+        "duration": 0.7068857071495879,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 73,
+        "start": 2.7366576102363194,
+        "duration": 0.8444882008979361,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 76,
+        "start": 3.564700819429711,
+        "duration": 0.6376400161755416,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 81,
+        "start": 4.3608228608396935,
+        "duration": 0.8129797367566609,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 81,
+        "start": 5.311291504349695,
+        "duration": 0.6949684499678521,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 88,
+        "start": 6.028150978113236,
+        "duration": 0.6212168762013961,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 86,
+        "start": 6.640695499301647,
+        "duration": 0.8402938670907987,
+        "program": 71,
+        "voice": 0
+      },
+      {
+        "pitch": 53,
+        "start": 0.23,
+        "duration": 0.8460666073190166,
+        "program": 42,
+        "voice": 1
+      },
+      {
+        "pitch": 60,
+        "start": 1.155814533011266,
+        "duration": 0.575026836537239,
+        "program": 42,
+        "voice": 1
+      },
+      {
+        "pitch": 65,
+        "start": 1.7176171869271357,
+        "duration": 0.7958004972529604,
+        "program": 42,
+        "voice": 1
+      },
+      {
+        "pitch": 68,
+        "start": 2.53052243225733,
+        "duration": 1.2172911162955296,
+        "program": 42,
+        "voice": 1
+      },
+      {
+        "pitch": 73,
+        "start": 3.8893774513861747,
+        "duration": 0.8169448644846264,
+        "program": 42,
+        "voice": 1
+      },
+      {
+        "pitch": 78,
+        "start": 4.851384132276304,
+        "duration": 1.124865082129463,
+        "program": 42,
+        "voice": 1
+      },
+      {
+        "pitch": 76,
+        "start": 5.972461004098333,
+        "duration": 0.9037813273336877,
+        "program": 42,
+        "voice": 1
+      }
+    ],
+    "duration": 7.5
+  },
+  {
+    "id": 53,
+    "split": "test",
+    "font": "GeneralUser-GS",
+    "file": "clip-053.f32",
+    "truth": [
+      {
+        "pitch": 64,
+        "start": 0.17,
+        "duration": 0.847288451420783,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 64,
+        "start": 1.150818908451682,
+        "duration": 0.6854003251233247,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 62,
+        "start": 1.865915677308727,
+        "duration": 0.4093745238843526,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 55,
+        "start": 2.2860818518055863,
+        "duration": 0.24731621664054074,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 50,
+        "start": 2.660463769133563,
+        "duration": 0.5027455581704876,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 43,
+        "start": 3.2798914845940272,
+        "duration": 0.572053715202625,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 45,
+        "start": 3.93389319954707,
+        "duration": 0.34814046918766894,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 48,
+        "start": 4.4226640222336915,
+        "duration": 0.5253484184011535,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 48,
+        "start": 4.915808521291785,
+        "duration": 0.7950999972018116,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 45,
+        "start": 5.832790738121238,
+        "duration": 0.20720589015962884,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 43,
+        "start": 6.179023400685181,
+        "duration": 0.2859558483608544,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 50,
+        "start": 6.440437546933897,
+        "duration": 0.37899783729563663,
+        "program": 27,
+        "voice": 0
+      },
+      {
+        "pitch": 41,
+        "start": 0.23,
+        "duration": 0.5985629346387957,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 46,
+        "start": 0.9795139582726631,
+        "duration": 0.7219472609317699,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 1.8332420007410377,
+        "duration": 0.5911939540194311,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 2.4598197395466235,
+        "duration": 0.2799744865335869,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 2.838657132063767,
+        "duration": 0.5168785339241914,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 42,
+        "start": 3.4533090380419145,
+        "duration": 0.756488171172853,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 49,
+        "start": 4.255112375279597,
+        "duration": 0.34630972450733244,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 44,
+        "start": 4.7357377527129465,
+        "duration": 0.719752684213089,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 44,
+        "start": 5.5837196883623905,
+        "duration": 0.34526691088340544,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 44,
+        "start": 5.89491533915874,
+        "duration": 0.34438607799561805,
+        "program": 48,
+        "voice": 1
+      },
+      {
+        "pitch": 44,
+        "start": 6.29070272143192,
+        "duration": 0.558009340282451,
+        "program": 48,
+        "voice": 1
+      }
+    ],
+    "duration": 7.5
+  },
+  {
+    "id": 54,
+    "split": "test",
+    "font": "GeneralUser-GS",
+    "file": "clip-054.f32",
+    "truth": [
+      {
+        "pitch": 50,
+        "start": 0.17,
+        "duration": 0.3571535838966864,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 54,
+        "start": 0.17,
+        "duration": 0.3571535838966864,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 57,
+        "start": 0.17,
+        "duration": 0.3571535838966864,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 57,
+        "start": 0.6520016091999159,
+        "duration": 0.2968713216055322,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 61,
+        "start": 0.6520016091999159,
+        "duration": 0.2968713216055322,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 64,
+        "start": 0.6520016091999159,
+        "duration": 0.2968713216055322,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 55,
+        "start": 0.9476581247316904,
+        "duration": 0.6509255588523153,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 59,
+        "start": 0.9476581247316904,
+        "duration": 0.6509255588523153,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 62,
+        "start": 0.9476581247316904,
+        "duration": 0.6509255588523153,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 55,
+        "start": 1.7010803948256397,
+        "duration": 0.3088228817743204,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 59,
+        "start": 1.7010803948256397,
+        "duration": 0.3088228817743204,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 62,
+        "start": 1.7010803948256397,
+        "duration": 0.3088228817743204,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 58,
+        "start": 2.0863090898691325,
+        "duration": 0.2814019403567163,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 62,
+        "start": 2.0863090898691325,
+        "duration": 0.2814019403567163,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 65,
+        "start": 2.0863090898691325,
+        "duration": 0.2814019403567163,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 58,
+        "start": 2.4455853153586813,
+        "duration": 0.8342019161830481,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 62,
+        "start": 2.4455853153586813,
+        "duration": 0.8342019161830481,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 65,
+        "start": 2.4455853153586813,
+        "duration": 0.8342019161830481,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 65,
+        "start": 3.331540364988812,
+        "duration": 0.2668406700480097,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 69,
+        "start": 3.331540364988812,
+        "duration": 0.2668406700480097,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 72,
+        "start": 3.331540364988812,
+        "duration": 0.2668406700480097,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 65,
+        "start": 3.679467670460068,
+        "duration": 0.5723141683580599,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 69,
+        "start": 3.679467670460068,
+        "duration": 0.5723141683580599,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 72,
+        "start": 3.679467670460068,
+        "duration": 0.5723141683580599,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 72,
+        "start": 4.215242218201521,
+        "duration": 0.5962010378197904,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 76,
+        "start": 4.215242218201521,
+        "duration": 0.5962010378197904,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 79,
+        "start": 4.215242218201521,
+        "duration": 0.5962010378197904,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 69,
+        "start": 4.90084854606349,
+        "duration": 0.8479865431389266,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 73,
+        "start": 4.90084854606349,
+        "duration": 0.8479865431389266,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 76,
+        "start": 4.90084854606349,
+        "duration": 0.8479865431389266,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 66,
+        "start": 5.841785943828583,
+        "duration": 0.19010060394167785,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 70,
+        "start": 5.841785943828583,
+        "duration": 0.19010060394167785,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 73,
+        "start": 5.841785943828583,
+        "duration": 0.19010060394167785,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 63,
+        "start": 6.026295649677358,
+        "duration": 0.2471040245238677,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 67,
+        "start": 6.026295649677358,
+        "duration": 0.2471040245238677,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 70,
+        "start": 6.026295649677358,
+        "duration": 0.2471040245238677,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 68,
+        "start": 6.414203775075243,
+        "duration": 0.6402893283029263,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 72,
+        "start": 6.414203775075243,
+        "duration": 0.6402893283029263,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 75,
+        "start": 6.414203775075243,
+        "duration": 0.6402893283029263,
+        "program": 30,
+        "voice": 0
+      },
+      {
+        "pitch": 46,
+        "start": 0.23,
+        "duration": 0.7916953158666276,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 44,
+        "start": 0.9879580562155348,
+        "duration": 0.2842829258394156,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 1.2847580443330062,
+        "duration": 0.7130471437523087,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 2.1075097941429686,
+        "duration": 0.5964333575731322,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 2.742061246283366,
+        "duration": 0.6376754710069513,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 3.471255876683027,
+        "duration": 0.41765705424093735,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 3.9897425589900126,
+        "duration": 0.6118762914363103,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 4.740538900539143,
+        "duration": 0.37714487655895534,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 5.215128567193256,
+        "duration": 0.5115477162295012,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 40,
+        "start": 5.699965841913033,
+        "duration": 0.5749975923450552,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 45,
+        "start": 6.372095870650687,
+        "duration": 0.5612803039899795,
+        "program": 27,
+        "voice": 1
+      },
+      {
+        "pitch": 56,
+        "start": 0.29000000000000004,
+        "duration": 0.8458590557651688,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 56,
+        "start": 1.2768226163577747,
+        "duration": 0.2829471660484869,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 58,
+        "start": 1.5823290745394876,
+        "duration": 0.4720985035922168,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 58,
+        "start": 2.1822807683437047,
+        "duration": 0.7507369084144362,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 58,
+        "start": 2.987241420413519,
+        "duration": 0.21600281714714056,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 53,
+        "start": 3.3263806140818506,
+        "duration": 0.3568688106031983,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 46,
+        "start": 3.662705935908622,
+        "duration": 0.4981519071208134,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 41,
+        "start": 4.267820860762512,
+        "duration": 0.7207941407615326,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 36,
+        "start": 4.978595860680912,
+        "duration": 0.4125097298927565,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 34,
+        "start": 5.372886938452913,
+        "duration": 0.32297671031671393,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 32,
+        "start": 5.82441132145419,
+        "duration": 0.5949300014425764,
+        "program": 35,
+        "voice": 2
+      },
+      {
+        "pitch": 28,
+        "start": 6.455628826509189,
+        "duration": 0.6984607807956138,
+        "program": 35,
+        "voice": 2
+      }
+    ],
+    "duration": 7.5
+  }
+]

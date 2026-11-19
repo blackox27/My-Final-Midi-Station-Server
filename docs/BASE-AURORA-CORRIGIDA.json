@@ -1,0 +1,3715 @@
+{
+  "pacote": "aurora-midi-2.3.0-corrigido(1).zip",
+  "sha256_pacote": "a905149cf76ce877c1a8919b4b440711e62e93fb02e144365294bb24fde2a6e2",
+  "arquivos": [
+    {
+      "origem": "index.html",
+      "destino": "web/aurora/index.html",
+      "sha256": "9505e129794e425b4c3ab816fa85bbedd35beab4f1212052ba71999555a2cff1",
+      "adaptado": true
+    },
+    {
+      "origem": "LEIA-ME.txt",
+      "destino": "web/aurora/LEIA-ME.txt",
+      "sha256": "5d4eda53c43f3d53f5dd0294d8496495f104c049afa2139833ce0b350f35f778",
+      "adaptado": false
+    },
+    {
+      "origem": "README-EN.txt",
+      "destino": "web/aurora/README-EN.txt",
+      "sha256": "dd4ef00acd130a7f6e606a2d0fe5a2d73b4bfbd6245a5cf115a5e6e408b49e1e",
+      "adaptado": false
+    },
+    {
+      "origem": "TESTES.md",
+      "destino": "web/aurora/TESTES.md",
+      "sha256": "e8259806437ed75669e7ca4241f922c01a5fc06fdd19235cd84f8fd63b5c2df8",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/AVISOS.txt",
+      "destino": "web/aurora/LICENCAS/AVISOS.txt",
+      "sha256": "9c911df8820d39e2b2a70df871becfd739bcb2149469b6b302fc26cc39d9f6cd",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/LAME-GPL-3.txt",
+      "destino": "web/aurora/LICENCAS/LAME-GPL-3.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/LAME-LGPL-3.txt",
+      "destino": "web/aurora/LICENCAS/LAME-LGPL-3.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/PULSEFORGE-LICENSE.txt",
+      "destino": "web/aurora/LICENCAS/PULSEFORGE-LICENSE.txt",
+      "sha256": "ed01a3ea2228498fd289c73c9efbc3581aaaf30e970c090a310f630a0410c619",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/SPESSASYNTH-LICENSE.txt",
+      "destino": "web/aurora/LICENCAS/SPESSASYNTH-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/STB-VORBIS-LICENSE.txt",
+      "destino": "web/aurora/LICENCAS/STB-VORBIS-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "LICENCAS/LAME-LICENSE.txt",
+      "destino": "web/aurora/LICENCAS/LAME-LICENSE.txt",
+      "sha256": "cd144ca132e3842b01f5ed2d6f3a32141e24a1cc15e115aa5f19a2294ce0a379",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/Iniciar-Aurora.bat",
+      "destino": "aurora-codigo-original/Iniciar-Aurora.bat",
+      "sha256": "5912a9c270c8b7f929a7d6e83aa38ace50194e25f8793978e4a372f931aa6f5a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/MUDANCAS.md",
+      "destino": "aurora-codigo-original/MUDANCAS.md",
+      "sha256": "9c7781df12f450f22bba6416ed3f843c86aa508d0d09d3b5873ea8523fbfb5b8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/README.md",
+      "destino": "aurora-codigo-original/README.md",
+      "sha256": "c5b1dd04b59b20985ccc88e53696fe65b73d408da4903c78c6b5c269b9fba22a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/TESTES.md",
+      "destino": "aurora-codigo-original/TESTES.md",
+      "sha256": "e8259806437ed75669e7ca4241f922c01a5fc06fdd19235cd84f8fd63b5c2df8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/THIRD-PARTY-NOTICES.txt",
+      "destino": "aurora-codigo-original/THIRD-PARTY-NOTICES.txt",
+      "sha256": "9c911df8820d39e2b2a70df871becfd739bcb2149469b6b302fc26cc39d9f6cd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/LAME-LICENSE.txt",
+      "destino": "aurora-codigo-original/dist/LAME-LICENSE.txt",
+      "sha256": "cd144ca132e3842b01f5ed2d6f3a32141e24a1cc15e115aa5f19a2294ce0a379",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/LEIA-ME.txt",
+      "destino": "aurora-codigo-original/dist/LEIA-ME.txt",
+      "sha256": "5d4eda53c43f3d53f5dd0294d8496495f104c049afa2139833ce0b350f35f778",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/README-EN.txt",
+      "destino": "aurora-codigo-original/dist/README-EN.txt",
+      "sha256": "dd4ef00acd130a7f6e606a2d0fe5a2d73b4bfbd6245a5cf115a5e6e408b49e1e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/css/studio.css",
+      "destino": "aurora-codigo-original/dist/css/studio.css",
+      "sha256": "657739a0cb358bc3b7e1207018b90f4846cd0e3de04876a6ab47f2b24f195588",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/index.html",
+      "destino": "aurora-codigo-original/dist/index.html",
+      "sha256": "cd190322646d2c25a8897c8e64cd7f64e1881eb6e099ab3c6c8185bede6ebc44",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/audio/audio-engine.js",
+      "destino": "aurora-codigo-original/dist/js/audio/audio-engine.js",
+      "sha256": "7e3cc54568a8a1baa3238a4abffa26ededf462ff9230054ec523505e3ee8f28e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/core/midi.js",
+      "destino": "aurora-codigo-original/dist/js/core/midi.js",
+      "sha256": "5c01d464f9705c800faca04d361e6e0eef5a0ba1ca942ef506e5e1df8d06230b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/core/model.js",
+      "destino": "aurora-codigo-original/dist/js/core/model.js",
+      "sha256": "7b3c4029b2371d2bd277229a9a702e484882771f1f47a9ec7b98ec938ebb386e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/core/note-tools.js",
+      "destino": "aurora-codigo-original/dist/js/core/note-tools.js",
+      "sha256": "a69423592ad2119b08457e76c3c7953ccec8e9e25836d7e5bfa3cb871ecd2a7c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/storage/project-storage.js",
+      "destino": "aurora-codigo-original/dist/js/storage/project-storage.js",
+      "sha256": "9a0fd97421475a6e5cfbb37fd3faed65c98d5e4217b3f6fb262b6d00fd395f1f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/ui/app.js",
+      "destino": "aurora-codigo-original/dist/js/ui/app.js",
+      "sha256": "84902c97b0027e8ebf089c2018c7112413b4d493672ce61b1350610866786b83",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/ui/editor-tools.js",
+      "destino": "aurora-codigo-original/dist/js/ui/editor-tools.js",
+      "sha256": "973e5384669403ca4211425c2b4bcc344726ba2211e1460444f137a2ab11cd85",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/js/ui/i18n.js",
+      "destino": "aurora-codigo-original/dist/js/ui/i18n.js",
+      "sha256": "41c9f8023b6edec892c3cb1ecfd1a990e4d1f7f523009a2d1279b16e11b2cbc4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/locales/en.js",
+      "destino": "aurora-codigo-original/dist/locales/en.js",
+      "sha256": "6d43e8507bc9964113a8b93724125903ac0c8a6f0447d993fb4f19c9e72ac50b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/LAME-GPL-3.txt",
+      "destino": "aurora-codigo-original/dist/vendor/LAME-GPL-3.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/LAME-LGPL-3.txt",
+      "destino": "aurora-codigo-original/dist/vendor/LAME-LGPL-3.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/PULSEFORGE-LICENSE.txt",
+      "destino": "aurora-codigo-original/dist/vendor/PULSEFORGE-LICENSE.txt",
+      "sha256": "ed01a3ea2228498fd289c73c9efbc3581aaaf30e970c090a310f630a0410c619",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/SPESSASYNTH-LICENSE.txt",
+      "destino": "aurora-codigo-original/dist/vendor/SPESSASYNTH-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/STB-VORBIS-LICENSE.txt",
+      "destino": "aurora-codigo-original/dist/vendor/STB-VORBIS-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/aurora-demo.sf2",
+      "destino": "aurora-codigo-original/dist/vendor/aurora-demo.sf2",
+      "sha256": "ab2bf50b49e468896779f573ccac4de9947eaa4196dbf123f7e5c4941f6d91f9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/demo-bank.js",
+      "destino": "aurora-codigo-original/dist/vendor/demo-bank.js",
+      "sha256": "b405cf2cee45e8663b6db90773cb8c906b939875540c21c538a9b7a3556260aa",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/lame.min.js",
+      "destino": "aurora-codigo-original/dist/vendor/lame.min.js",
+      "sha256": "15d285e2587b3bdbfd18a68de6ce07cc074f7480a82c3815da2dc1c348ec6df4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/render-worker-source.js",
+      "destino": "aurora-codigo-original/dist/vendor/render-worker-source.js",
+      "sha256": "3116ffe481725e037701618b9d7a6a5713d3a7959565e0715e7ea7e815e1d305",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/render-worker.js",
+      "destino": "aurora-codigo-original/dist/vendor/render-worker.js",
+      "sha256": "75951f4234ec01287846923a3ddbed497a3fc87e0de222460cc1b5dc1a076748",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/spessa-worklet-source.js",
+      "destino": "aurora-codigo-original/dist/vendor/spessa-worklet-source.js",
+      "sha256": "c11897081eda7d7306aa8637f25adef8db16a2f79a71b2ca2b7cdfd3292558fa",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/spessa-worklet.js",
+      "destino": "aurora-codigo-original/dist/vendor/spessa-worklet.js",
+      "sha256": "bfbeb804cfd3cd736ef11069a7fbfabc9b29c3db29c2f87f84f33ea4c7e1b482",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/dist/vendor/spessasynth.js",
+      "destino": "aurora-codigo-original/dist/vendor/spessasynth.js",
+      "sha256": "5fac786c51ac5472df6dea3bf923155b77355905846194d8807e673245f3d115",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/docs/ATUALIZACAO-2.3.md",
+      "destino": "aurora-codigo-original/docs/ATUALIZACAO-2.3.md",
+      "sha256": "662d5b6c8d27ff9a38ab8cb10f4d383209688807545a611722f3688b10f2e3c3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/docs/PESQUISA.md",
+      "destino": "aurora-codigo-original/docs/PESQUISA.md",
+      "sha256": "0ce3ae65374c366af9355e933daa8dee185d6457f87c7da00d9f4bef3b1856d9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/docs/REPARO-ZIP-2026-10-21.md",
+      "destino": "aurora-codigo-original/docs/REPARO-ZIP-2026-10-21.md",
+      "sha256": "ad8df8cc4b5079ea16aa1bc508ec2359ecad92a52380e6ffa24a35b6ef4e20dc",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/docs/resultado-navegador.json",
+      "destino": "aurora-codigo-original/docs/resultado-navegador.json",
+      "sha256": "030529665f07872bce64678eb52a9ec377fa0b67f8b7039e2c6cf748f631216f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/iniciar-aurora.sh",
+      "destino": "aurora-codigo-original/iniciar-aurora.sh",
+      "sha256": "1b7574204648351d756b26a7f2de9adaf3fd74ddb42d1db7e795ab5d45360590",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/iniciar.py",
+      "destino": "aurora-codigo-original/iniciar.py",
+      "sha256": "d8752ad31e7184a378834c11d3f8f1a1d6038ed3f50f4892e20a31dcc8fb19d3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/package-lock.json",
+      "destino": "aurora-codigo-original/package-lock.json",
+      "sha256": "ea4af5cc081275c3cb7c1eb0074bb473a840ecb84991669a684e0dbcff1e5fc2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/package.json",
+      "destino": "aurora-codigo-original/package.json",
+      "sha256": "8254031ae04161aff456f64e800c2f95fa9c6818dd13fa521a48fc584ed8539b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/build-app.cjs",
+      "destino": "aurora-codigo-original/scripts/build-app.cjs",
+      "sha256": "2483b0420783b5ff715c2dc3a71077ac0530fe171ddcea33c7ca6f85ff0a389c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/build-standalone.cjs",
+      "destino": "aurora-codigo-original/scripts/build-standalone.cjs",
+      "sha256": "5cba7c61e944b098f4457e048adb1c512ce840a7bfee9cafae303d06c0438f68",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/build-vendor.cjs",
+      "destino": "aurora-codigo-original/scripts/build-vendor.cjs",
+      "sha256": "293792702f034a4c19c41f4d52ad17c071c87b8a6afb656edf0c50bacc637fcb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/make-demo.cjs",
+      "destino": "aurora-codigo-original/scripts/make-demo.cjs",
+      "sha256": "9241e9deb94a42b8340b9eac92551b76e53630c3b210e7fa7216013dc6713761",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/package-release.py",
+      "destino": "aurora-codigo-original/scripts/package-release.py",
+      "sha256": "a04c0e7426c4fe08543bc3c0856dd3f8c998c81658903cf9234064c16d469223",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/render-worker.ts",
+      "destino": "aurora-codigo-original/scripts/render-worker.ts",
+      "sha256": "2d2b735c091a70603979748b7ac9a42b1f1184b8b13fde2fad9f845f445f0a5a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/scripts/spessa-entry.ts",
+      "destino": "aurora-codigo-original/scripts/spessa-entry.ts",
+      "sha256": "93dc25588804b21202e7078d7bcc46600b70d0cbe54a50f55b037531ca356264",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/audio/audio-engine.js",
+      "destino": "aurora-codigo-original/src/audio/audio-engine.js",
+      "sha256": "7e3cc54568a8a1baa3238a4abffa26ededf462ff9230054ec523505e3ee8f28e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/core/midi.js",
+      "destino": "aurora-codigo-original/src/core/midi.js",
+      "sha256": "5c01d464f9705c800faca04d361e6e0eef5a0ba1ca942ef506e5e1df8d06230b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/core/model.js",
+      "destino": "aurora-codigo-original/src/core/model.js",
+      "sha256": "7b3c4029b2371d2bd277229a9a702e484882771f1f47a9ec7b98ec938ebb386e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/core/note-tools.js",
+      "destino": "aurora-codigo-original/src/core/note-tools.js",
+      "sha256": "a69423592ad2119b08457e76c3c7953ccec8e9e25836d7e5bfa3cb871ecd2a7c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/index.html",
+      "destino": "aurora-codigo-original/src/index.html",
+      "sha256": "cd190322646d2c25a8897c8e64cd7f64e1881eb6e099ab3c6c8185bede6ebc44",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/locales/en.js",
+      "destino": "aurora-codigo-original/src/locales/en.js",
+      "sha256": "6d43e8507bc9964113a8b93724125903ac0c8a6f0447d993fb4f19c9e72ac50b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/storage/project-storage.js",
+      "destino": "aurora-codigo-original/src/storage/project-storage.js",
+      "sha256": "9a0fd97421475a6e5cfbb37fd3faed65c98d5e4217b3f6fb262b6d00fd395f1f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/styles/studio.css",
+      "destino": "aurora-codigo-original/src/styles/studio.css",
+      "sha256": "657739a0cb358bc3b7e1207018b90f4846cd0e3de04876a6ab47f2b24f195588",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/ui/app.js",
+      "destino": "aurora-codigo-original/src/ui/app.js",
+      "sha256": "84902c97b0027e8ebf089c2018c7112413b4d493672ce61b1350610866786b83",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/ui/editor-tools.js",
+      "destino": "aurora-codigo-original/src/ui/editor-tools.js",
+      "sha256": "973e5384669403ca4211425c2b4bcc344726ba2211e1460444f137a2ab11cd85",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/src/ui/i18n.js",
+      "destino": "aurora-codigo-original/src/ui/i18n.js",
+      "sha256": "41c9f8023b6edec892c3cb1ecfd1a990e4d1f7f523009a2d1279b16e11b2cbc4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/app.test.cjs",
+      "destino": "aurora-codigo-original/tests/app.test.cjs",
+      "sha256": "de9bee5d2af8d9643925674f8a0972fcf8387081deb25dd6b5b9b0035a0e80f5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/browser-audit.cjs",
+      "destino": "aurora-codigo-original/tests/browser-audit.cjs",
+      "sha256": "bdf1ce207eb1ea3c16e0ffe2a418e9202c0a208fd05095595183dc4c04a7d25b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/editor-tools.test.cjs",
+      "destino": "aurora-codigo-original/tests/editor-tools.test.cjs",
+      "sha256": "0abb4d452877a44c5e5ed68f01095cdf3e65b26a8552cac3bf356dbc70c2180d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/formats.test.cjs",
+      "destino": "aurora-codigo-original/tests/formats.test.cjs",
+      "sha256": "79ebb4648581b5792f7cf2b35003ac023372264fe14faedc46bd1313a38b3f64",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/integration.test.cjs",
+      "destino": "aurora-codigo-original/tests/integration.test.cjs",
+      "sha256": "0c743a4366b3f21929fa9466e53bcb4a903ff4daa7c6eee65f7c4f6134c11792",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/model.test.cjs",
+      "destino": "aurora-codigo-original/tests/model.test.cjs",
+      "sha256": "ec21c9deb207719c8aa5c575e85b64ddfe79b2d74878b3af1b9666604f5686a4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/package_release_test.py",
+      "destino": "aurora-codigo-original/tests/package_release_test.py",
+      "sha256": "7d7ce8ad50d806c6d205282ab62a53ec415c607b4192cfadde24a9f83d201bb8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/sf-fixtures.cjs",
+      "destino": "aurora-codigo-original/tests/sf-fixtures.cjs",
+      "sha256": "f80b486871d9489eb51bd25967b941d3d13dd1644bae2c4d0fac76b832e0a904",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/spessa-core.cjs",
+      "destino": "aurora-codigo-original/tests/spessa-core.cjs",
+      "sha256": "e68059d256bcced5f2ef0b2de02307d7c4ca9af9fadd184e11df8161f61adb6c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/tests/spessa.test.cjs",
+      "destino": "aurora-codigo-original/tests/spessa.test.cjs",
+      "sha256": "3610658a68eadd1356601afbc5316c8d2cc3495e49ca77ce40de9eb86e25eede",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/CMakeLists.txt",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/CMakeLists.txt",
+      "sha256": "15f9d5d3ee46cdfecf41e57d76f92ddfa9d0ec40b7d654cc888c3ae6b1e40dbb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/LICENSE",
+      "sha256": "ed01a3ea2228498fd289c73c9efbc3581aaaf30e970c090a310f630a0410c619",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/README.md",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/README.md",
+      "sha256": "4e9089c86ece5aec62e75aa4f66a6b363962150c3016e948e277f7ac6781178d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/docs/ARCHITECTURE.md",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/docs/ARCHITECTURE.md",
+      "sha256": "fc0c0ca6e9ddee49c95b9e6a998e06594c9ea2fd2a5ef1d024b7280061960d4b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/docs/ROADMAP.md",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/docs/ROADMAP.md",
+      "sha256": "f823d7ccf3b501c31c70bdc149e1062dbc9feb322268eb2bad203d166e8d985d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/scripts/build-linux.sh",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/scripts/build-linux.sh",
+      "sha256": "ef9d052c00481e6505e8d992d4d73a45f98074aa4f701bc78d9c0d89e39590b4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/scripts/build-macos.sh",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/scripts/build-macos.sh",
+      "sha256": "ab2de162d2b1f5c136903e8762a2de38b9d0cd04ced425e86a4da420952f1e71",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/scripts/build-windows.ps1",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/scripts/build-windows.ps1",
+      "sha256": "e402be44cc2b32c81565f94aefbf8f7875ff7d0aba05b0ebc97f1404b4b6e4fe",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/AudioEngine.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/AudioEngine.cpp",
+      "sha256": "b80f1ededa51c6b1e64a3b236932e2aae1bafcfaae1ef72cb34a02f72b2968d4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/AudioEngine.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/AudioEngine.h",
+      "sha256": "b948473a1bc9fba51b7f9ed1a8cc8c4c71382c2f45422eb97718142a13fc32d2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/BuiltInSynth.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/BuiltInSynth.cpp",
+      "sha256": "e50767c9c54f3dee8b2705ed4c428c86713191176219a78f2be418824a07ca11",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/BuiltInSynth.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/BuiltInSynth.h",
+      "sha256": "bb24340f30aade8c2b8a957c131516b7142f064d0a77c57423787e07b876df19",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/CoreTypes.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/CoreTypes.h",
+      "sha256": "56199773d0aecf88ff9a49be901aae0f686afa58126cbc0527e9f2f124cff605",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/Main.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/Main.cpp",
+      "sha256": "0f53b20227f879e76b68a1c29ecc1f1d25f9aa1b05d52f1d4942b814ce0b5acc",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/MainComponent.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/MainComponent.cpp",
+      "sha256": "c2348c75fa10215612dbb0af982fe7ad143907a49e291918f5c5897ece8ec6b6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/MainComponent.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/MainComponent.h",
+      "sha256": "f616f7727d1cae34ad33b19702117eefb0d28977ad5508251a5fef73da6a8135",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/MidiDocument.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/MidiDocument.cpp",
+      "sha256": "26281a77903ab3447efc464177c79d6fa5dedec4c47c2adfd9fb4d75bb92ffce",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/MidiDocument.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/MidiDocument.h",
+      "sha256": "b63c12ccd6af05fca190c1d3cc2a181aacb8ebc30e4bec36e0f6d1e3f7e626ee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/MidiFileIO.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/MidiFileIO.cpp",
+      "sha256": "ba7d4f3185cbab2529388f473d2abf50c87a8383b68fc133c615e18cdd2a8316",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/MidiFileIO.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/MidiFileIO.h",
+      "sha256": "3c1e03872043c6eef0d22bb0069be4546d3f895130fdfb04efbfc34d9c52661b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/PianoRollComponent.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/PianoRollComponent.cpp",
+      "sha256": "a32b8b6a715ff85c8abeaec568c9388ffec4b977d72be0ddec533a6f0b1026ae",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/PianoRollComponent.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/PianoRollComponent.h",
+      "sha256": "4c64f65331618fa7d8cf425a8e49fd630236d81c53db6ddfa89b9fa04319e33e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/PluginWindow.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/PluginWindow.h",
+      "sha256": "704d0c039bbe42220e0c0e184bd3674611c923b834e2edaf2d65dd16d4d42ce3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/ProjectIO.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/ProjectIO.cpp",
+      "sha256": "f40d13a615f91c0916e4113e7948c7fdaa60578baa4823e11677c9d1be7a48a5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/ProjectIO.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/ProjectIO.h",
+      "sha256": "67c243fb47dc3690c985881e5010b036e8b3e6524275c38e841c177ee38ccc7e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/Quantizer.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/Quantizer.cpp",
+      "sha256": "7be19953efc0ddbd0b3fe9770d9090c7a7b282c180abc887eb6616e305527969",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/Quantizer.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/Quantizer.h",
+      "sha256": "18ef6cd0967eb32c08e8b151ac14940b56bd3bc03c387d5e0a75cf45de791843",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/ScoreComponent.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/ScoreComponent.cpp",
+      "sha256": "66f3341ea9e09fa5183d6d448df1ce13d749bed42cdbca0427f85f5078c0ec79",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/src/ScoreComponent.h",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/src/ScoreComponent.h",
+      "sha256": "422e16a7929a6ff010dcea7e3fc78141b4e74c6307e3816134824e3635e6246f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/PulseForgeMIDI/tests/CoreTests.cpp",
+      "destino": "aurora-codigo-original/vendor-source/PulseForgeMIDI/tests/CoreTests.cpp",
+      "sha256": "beef14df152c89d4bd73cdbf81e88f8e452966d755913faf5d5544678134dcde",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/LICENSE",
+      "sha256": "cd144ca132e3842b01f5ed2d6f3a32141e24a1cc15e115aa5f19a2294ce0a379",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/README.md",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/README.md",
+      "sha256": "e798f17c0359bb14330b92f0c4a775e2c12b01887598da092a406dc130834826",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/lame.all.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/lame.all.js",
+      "sha256": "026bd88846040f357a937cd85821a48492a362eff0812cda734f23fca55fea3b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/lame.min.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/lame.min.js",
+      "sha256": "15d285e2587b3bdbfd18a68de6ce07cc074f7480a82c3815da2dc1c348ec6df4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/package.json",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/package.json",
+      "sha256": "03abb3895269950562d33ba35fa8c9f62b9c35f64830596299c301e58c244c8e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/ATH.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/ATH.js",
+      "sha256": "50f6b2d2ec21e054c252741db34bd6fd2ad2260dba758a5eabbe9e777f77c84c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/BitStream.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/BitStream.js",
+      "sha256": "e76d69aa890fa4177cf94a72b3a505c7f999619b81d7b12c4fa8b9c8f38096c3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/CBRNewIterationLoop.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/CBRNewIterationLoop.js",
+      "sha256": "4f0067848fdfc2c506963e89a1b8d59b9ed13b86655805bf7a8f252e3845d4dd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/CalcNoiseData.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/CalcNoiseData.js",
+      "sha256": "31ec9be306ccb77b798b9337add6e3a465778e1bb8c233e9dd35fef829547172",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/CalcNoiseResult.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/CalcNoiseResult.js",
+      "sha256": "7ba0d2dd332a396e1256ebfd9816f2c8b51ba4788eac7828d28e4d31d8f52d0b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Encoder.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Encoder.js",
+      "sha256": "f8049ed7faf642f91b886cc8fdc53bf536610c2cd3fef1b2150bae032367582d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/FFT.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/FFT.js",
+      "sha256": "a18c0fcfa9f08965c9ea6e8a66a59e2776894479b4d918892470e39c8a9ed98e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/GainAnalysis.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/GainAnalysis.js",
+      "sha256": "5b9fd57bb43f96d01a8df7965db72d355c84d5be817e96fad0bd1d33ad2d4751",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/GrInfo.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/GrInfo.js",
+      "sha256": "0c08e2c3c8bcc3f2fc445f36be73b956d859a730fa2fd416b68830485f56d8dc",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/ID3TagSpec.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/ID3TagSpec.js",
+      "sha256": "82280619a7e23358a21aab6eb736b7c5b204072e1c97ce95c0e59d3bd12619bb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/IIISideInfo.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/IIISideInfo.js",
+      "sha256": "7bc4f6778686cdcbe5e1a919091187c1a2b2809ec33f728353c121e0ee236fc5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/III_psy_ratio.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/III_psy_ratio.js",
+      "sha256": "d8f28670572446834bbfe0ef7ac82379e34de29bba4d3e5e9076cb952e2b5cdb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/III_psy_xmin.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/III_psy_xmin.js",
+      "sha256": "b271ac6b5bb6b11d7929c0ee860d0117936c31c287c05f488637f3e2ad09d864",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/L3Side.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/L3Side.js",
+      "sha256": "c0c9e49e1f77051735aa88de7ab9518da07b5810db7bdb5a751918f2f3d9d056",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Lame.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Lame.js",
+      "sha256": "76138a513c6b2cab9469713e34c95e1fbf73ac475dc4a55e3850f031b2b120c7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/LameGlobalFlags.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/LameGlobalFlags.js",
+      "sha256": "9097dc805b61f1c0ab9bebcc980e8d99197e35dd5ec7b4cd41a5c8a00855874e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/LameInternalFlags.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/LameInternalFlags.js",
+      "sha256": "d85208b9ea59d76b55e50493648abc88c8eaefee9f6e6ce7e434f8e6601000d8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/MPEGMode.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/MPEGMode.js",
+      "sha256": "5bb9ed26943770dc5effc59a2e2e151ed7d400e192e10502cc49f770a841f85a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/MeanBits.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/MeanBits.js",
+      "sha256": "bf6489a8126feee8b86e8da023412dbad0e9010695caa4ca0757839e868ad96c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/NewMDCT.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/NewMDCT.js",
+      "sha256": "a581e57af22c3f441ccfad924507abe7822f68119e1f5c916d2875126ef855a2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/NsPsy.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/NsPsy.js",
+      "sha256": "7997c3726894f0603e4dce225cacaa39da7491bdf9c59fe5234060c10ff19bf6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Presets.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Presets.js",
+      "sha256": "09f548f65bca87a8b0369941dc5dcae076381f933db82e576a9dcb017d3876d7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/PsyModel.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/PsyModel.js",
+      "sha256": "08944ed7e984d813522cb1915335a16ae0cb18279a4c306539e682327039eaf0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Quantize.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Quantize.js",
+      "sha256": "f22ca4e8eb7a9634a45f47d5611b433defdf2e776a05e4feb1a2d3e0b0ad9c62",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/QuantizePVT.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/QuantizePVT.js",
+      "sha256": "7ab6c122bb8e53ffed71b134fa472a6dad3a28aa99717fede02c140767828988",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/ReplayGain.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/ReplayGain.js",
+      "sha256": "1ef546a7852d6bd26fff8c4e97c20ac61c2bebcba7d5ea23ceef39406a2d341b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Reservoir.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Reservoir.js",
+      "sha256": "5a7e345cfb39d58206e1aa66ace80e3d37fafe935b653458ba38b7821cbd2da1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/ScaleFac.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/ScaleFac.js",
+      "sha256": "edcaed8ddc77687f5e815aeaf85ac4fb16d6464e7fa1cb5bde0d0a4a16734ebd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Tables.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Tables.js",
+      "sha256": "c8b6ec015fd5da2caa3847dcd798225e3296ea7ba9f7250e9b87469efa85c62c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Takehiro.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Takehiro.js",
+      "sha256": "ff094f3b59bda41c5f1ed1bda43e1ea6ad7dbf022c8bb928232bdf4e997c7f7c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Tests.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Tests.js",
+      "sha256": "ff9bc8b06d77f5d9d1c9caa27df1303449acf3b614d1afff67eb04411e3620c4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/VBRQuantize.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/VBRQuantize.js",
+      "sha256": "14028068d442dd96a27d9e89b3acf00f37e7c40c1f131e2233db04011cf18a03",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/VBRSeekInfo.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/VBRSeekInfo.js",
+      "sha256": "93e10e403e3645433d59d010c49f17851e86a535fe7c98772b5d229f9e8f0368",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/VBRTag.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/VBRTag.js",
+      "sha256": "010760d03584aa20ad71773523e3d984eec0265e47b5c699e8678ce7f17acd6b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/Version.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/Version.js",
+      "sha256": "e1b18eb4b142a30bb6f507d532df8c8460a2853d7dddd480866a7dc115b7376c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/common.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/common.js",
+      "sha256": "ad413546f619c1e95b0f5aa43b6f27a35fb7a3342908b81b5a5b53082c9443c5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/js/index.js",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/js/index.js",
+      "sha256": "7f8827c26e0ac4698f61e17b8226e90cd35a32038ff6b177d38846cc161aada9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/assembly/bundle.xml",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/assembly/bundle.xml",
+      "sha256": "772f51dfff22b7aee17897d1d81f508ce5233fe08ce35ff096eb77e88f53fff1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/COPYING",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/COPYING",
+      "sha256": "bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/LICENSE",
+      "sha256": "f82dd287e599529b6340ab35c47b69c365eae279b450d906758e58289bb5ae27",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/README",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/README",
+      "sha256": "221a84768e3e9c00e71257e7d1f5932be4d4b7cb285c9163ac6126dcadb1aa52",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/USAGE",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/USAGE",
+      "sha256": "ca92945fe9c2469d334a09cae2048b4499994857317e3ff63cc0aec7a7e0e50e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/lowlevel/LameDecoder.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/lowlevel/LameDecoder.java",
+      "sha256": "461bc6d11c357b167b64ed1eb70250f7502eb41125de458992dd3b1bbe8bbdfa",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/lowlevel/LameEncoder.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/lowlevel/LameEncoder.java",
+      "sha256": "dfd0563cc2cc6d38d84a5d730be0ab94098f1e7c7ee57feeb83fc7a878dc1197",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ABRIterationLoop.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ABRIterationLoop.java",
+      "sha256": "d42d26b512af774d38845ea4da5df8103d4c293bc65146513aa9ce4bd8cb4bdb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ABRPresets.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ABRPresets.java",
+      "sha256": "632f6690db1944f8781aa7aa77b14b58abd7fdf636322a772460c794bc2ff8fe",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ATH.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ATH.java",
+      "sha256": "2fb6b4d1b59d5e1a92f870f901126394fba017b7aa323760c59eed22875e8570",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/BRHist.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/BRHist.java",
+      "sha256": "874bdaecc8b3f5bac80cf10efaadd1133039e7ee0d5a9e31e4415bf2bf77829a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/BitStream.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/BitStream.java",
+      "sha256": "0577a38a7c1aeacd87bf6c16db252815db4cd539eadab1bdba9e31eabf36c8c7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/CBRNewIterationLoop.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/CBRNewIterationLoop.java",
+      "sha256": "a60d7c522987e950ae7362e428208db8bbc7b0133d360e75ee8543d8c5af8ebd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/CalcNoiseData.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/CalcNoiseData.java",
+      "sha256": "32452d9f13ff94467abb5d0f5b78eb8f3652a59d6c3b1a2b53cff394ef0ecc10",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/CalcNoiseResult.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/CalcNoiseResult.java",
+      "sha256": "a7ca1f9230d65b835c06f446929076234279809a73fbecfb8b9b8851f34865cb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Enc.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Enc.java",
+      "sha256": "c2472b0852fa623f9c05a4fc3006c8ab1e97ea17307125567b59ebddce709387",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Encoder.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Encoder.java",
+      "sha256": "ef4286cf3406bc8791d775523cc5cb9729f5e5df025827bf48fe279d3b463b53",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/FFT.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/FFT.java",
+      "sha256": "e33de101123fd6db016667245300786b16495a35f311b374309ea7bf6b26ddc2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/FrameDataNode.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/FrameDataNode.java",
+      "sha256": "deb8f4bd9fa5056715307d0766c871146d67c9e04b6b11294560d6a5a982cb76",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/GainAnalysis.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/GainAnalysis.java",
+      "sha256": "24f454126dab8c8719ebc530aa1e11cb0b07d3d59a9f5496886a0bb95c0d2bb6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/GenreListHandler.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/GenreListHandler.java",
+      "sha256": "bcc373428c1c3b928a4c89785aac31333bed85a007416f5f7bb47f6e486e1e2f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/GetAudio.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/GetAudio.java",
+      "sha256": "997207574679e2558eb32d07619f5511527ba618f850658be435f8e13e0df0e0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/GrInfo.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/GrInfo.java",
+      "sha256": "657f16a56ddeac97b32a8647f1c73599575efafce97b01bdb187adf24aa97a09",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/HuffCodeTab.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/HuffCodeTab.java",
+      "sha256": "6eb426f94911494c72425b1dabd3a1254bc7ce73868b9bd88486be48ab5d9472",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ID3Tag.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ID3Tag.java",
+      "sha256": "61d55e8c4a387413b31cd4a8e6da82beec8555e0fd74ed3302aa2ed5f865ecec",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ID3TagSpec.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ID3TagSpec.java",
+      "sha256": "9ef9939b53121a9534c6a0c95e3458a9edc0527ccc2f094a895c2eeb9dfa9fde",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/IIISideInfo.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/IIISideInfo.java",
+      "sha256": "7a7b4fb377e83d426b24b6dd16a90ec4b99d9ba921a71ab95a110a6bbe1f2e54",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/III_psy_ratio.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/III_psy_ratio.java",
+      "sha256": "4d3e6f1018ef776e705877e9cef4246859783fcd4c5ed448995959fe54d351da",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/III_psy_xmin.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/III_psy_xmin.java",
+      "sha256": "e3454a33129d20d34f94b7fabe8c7fe57f0a0d7e926abeb7a8692c8e21f97edf",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/IIterationLoop.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/IIterationLoop.java",
+      "sha256": "bd62b103213cdfff8691f76a704512dea6c76b9da2a863dd80a1ba0d48e98d1c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Inf.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Inf.java",
+      "sha256": "43a4306c53121938856004870f96de3e3f8ab4bb7872706a7d66c10f3d4777be",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/L3Side.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/L3Side.java",
+      "sha256": "e5e4bb44b4c4a82fb03eff1dc06933530fc36ec931eb8ea36b85491fed0b13e7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Lame.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Lame.java",
+      "sha256": "7aad49c2d00d4f4d4c9517d3558d4d9e9e041452413f1becb3b70af2ae16ebc2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/LameGlobalFlags.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/LameGlobalFlags.java",
+      "sha256": "52cb1402128b9156d7e2e1b023ab7a106e8c7ef92963ac1b588c37dfe738d7c8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/LameInternalFlags.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/LameInternalFlags.java",
+      "sha256": "7f98680e41ebda1001e3b80852d996d8b7aff0dc4d203b28afc76d2530964cf8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/LameTest.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/LameTest.java",
+      "sha256": "efe7223bca06aafc98e8a42c174de5aea4e6689c95853787783a949808c08f48",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/LongBlockConstrain.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/LongBlockConstrain.java",
+      "sha256": "19de0f22f16e36fdd2b54cb1b9b8da4170dea6dbcf48d94932ad1eb904135c51",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/MP3Data.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/MP3Data.java",
+      "sha256": "86dcbcf3556db4b2c98eb0c87a522e986ecd447da0e93e58e546014a1db6a5e5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/MPEGMode.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/MPEGMode.java",
+      "sha256": "fc1cbbfaea0da596fb9bf6a33ac7a5a14fe493eee3ed42a26745ac594e57f117",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Main.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Main.java",
+      "sha256": "0f3d5951bebfee875abc30d9c02a312a3148b41a15f39a61b1fca5daa5693d47",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/MeanBits.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/MeanBits.java",
+      "sha256": "4ed0d2a81d1dedf4450f154e8eb0d40d7f4c32e5eb3ab05d1d05b44a6b718c8b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/NewMDCT.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/NewMDCT.java",
+      "sha256": "d29ad910650ad7e055894b0a827e1a16a78296f41b01ba6535f8b25108a7853a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/NsPsy.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/NsPsy.java",
+      "sha256": "8f01c4b5e7b3b2d7deda820a5be5ef3bbf41aee91c02c0bb80f468117154801d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/PSY.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/PSY.java",
+      "sha256": "4d225c0f2c887e6743f890bf9ed26db090f8284a879327379023270d5f7d08f7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Parse.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Parse.java",
+      "sha256": "76f0d7c93649234e7f0c77f7c912b9358bb5d9018ffb7a8f96645e33c7becb20",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/PlottingData.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/PlottingData.java",
+      "sha256": "6cffebbbdd6524b1b183a888fbef67cb3ec0c599807fd6fe124dde68132ccaf0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Presets.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Presets.java",
+      "sha256": "ffb28468af3f58178616ebd9ce515a1be9bfcae7ae1536ec2fde6a77274f1c70",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/PsyModel.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/PsyModel.java",
+      "sha256": "d741614ae47d8341dfab1928c95afebad8192d2a44827b2e2e135eefeed12869",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Quantize.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Quantize.java",
+      "sha256": "b89bd5ca3183beccebf7eae4ed256c3554c1688487ce855cefbbb5d913234f32",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/QuantizePVT.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/QuantizePVT.java",
+      "sha256": "af144cf9ef093e4ce3d082f066d3b0c7f7601263eb5a21ba6225ef603d408f84",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ReplayGain.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ReplayGain.java",
+      "sha256": "d6191c856bbb803560a831ea315ce9597a2a31f03fec4c438425609f1b602ddd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Reservoir.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Reservoir.java",
+      "sha256": "d4dfb409019403e603a67cd40cbc9ec1e6b87f7052ffab87f688a64c12ba546a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ScaleFac.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ScaleFac.java",
+      "sha256": "0979ce42f741d9045329b031b7958ae090bf423df0200b4127c079bf6cfac29c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ShortBlock.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ShortBlock.java",
+      "sha256": "4a12328c9653a2977f44731bbce4a7af627015d1ecdc6f954ff519278c615141",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/ShortBlockConstrain.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/ShortBlockConstrain.java",
+      "sha256": "202ba6e63253880315a16bcbe79e4ea7cf3c9de516af5fe4c414f87b4091a643",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Tables.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Tables.java",
+      "sha256": "2db1e0118d681e931227258452b19d8c8eb3ea1dd60cbdefcc84027663309e5d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Takehiro.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Takehiro.java",
+      "sha256": "65267ec055f2286ebe2af0a53fdba34397891a15217e9006e664d330a30a4e89",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Util.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Util.java",
+      "sha256": "45f5e48ca8bfa879887aa3925bfe2f145f673723558e557609fc5f33c610394b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBRNewIterationLoop.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBRNewIterationLoop.java",
+      "sha256": "74320703b8305969dbfccf690f4b7162c146d973fecd971526731cc1fd14feb4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBROldIterationLoop.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBROldIterationLoop.java",
+      "sha256": "b644b21df4d63c3a0fb0ce862156cbffa0dfc14dba9b36107ad29bd6c1bd342c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBRPresets.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBRPresets.java",
+      "sha256": "430e7edad56ba1943ce789c2a6c750ec179c522729d3bf011fc8ce5fd597447c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBRQuantize.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBRQuantize.java",
+      "sha256": "a45bde66f0db2c69d7e021f3209246047acd84cdcc04d1e0d81cbdcfdd673230",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBRSeekInfo.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBRSeekInfo.java",
+      "sha256": "c6ef5c6d86d3931f3efc691bde7af1c3b4b314c6875e3069e73668cc90bcbdc4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBRTag.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBRTag.java",
+      "sha256": "1ceca0a8aa46e9958ef485c78d5336579d3eadf106929f54c8027e2c8acdeb31",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VBRTagData.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VBRTagData.java",
+      "sha256": "73bcba99433e4762fde3b968ece6728f8c21491ae0fd121e45a6aaee25035106",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/VbrMode.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/VbrMode.java",
+      "sha256": "3c9776794037a60d686abc7910a3edafad7f60001cde188b8518c1f9837b3d4c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mp3/Version.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mp3/Version.java",
+      "sha256": "dbb3592ec1d9f7d870a100f2bc5a27d76b5feca201446b56a8919ed08868325c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Common.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Common.java",
+      "sha256": "fda9c7ccd2494eebdd37d63b013ee45b85c20aded75a71aaddce55d7ef9e3844",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/DCT64.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/DCT64.java",
+      "sha256": "5bba70fb383aa252bbd96d49979a43be729c4e15ec345e0df8565ca950393ca5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Decode.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Decode.java",
+      "sha256": "29723d4c20c8a94e5c5ecfd422756538798c3ddac7ff86291ef95001f16df09e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Frame.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Frame.java",
+      "sha256": "563d07d26b4ed7aa68b7d326aeb27d186f6b16fc8d6619f325a938d1c86903a1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Huffman.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Huffman.java",
+      "sha256": "cb0b3d995045b1a52c2d02d9cbdcc24da6536298b8e4b80eb3fc16233900c028",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Interface.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Interface.java",
+      "sha256": "d9416df82e44bdc3f39d69ec3abbc7e8d09504151bd65f0ecdecf0ddb1538d88",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/L2Tables.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/L2Tables.java",
+      "sha256": "eff66284919409aff720d4dd7cbf3793c594ef9b889295e4e896c8ecfb40d4df",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Layer1.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Layer1.java",
+      "sha256": "6b443dc63e4ea7ccc7f1c67629f25cd77ee98bff921d2c574705f02bc961892b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Layer2.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Layer2.java",
+      "sha256": "bdce54d295dd622ae6f6abcbdcc872fb01f7ef83807cfbbf725fed726ac0e4c5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/Layer3.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/Layer3.java",
+      "sha256": "81f3c43cb328e38f3b00521aa7b726f34262920d250e1ae7e5d1ab4add28f689",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/MPG123.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/MPG123.java",
+      "sha256": "611b43a62553d07618b15839e42e94d6a61dbe0e4b0eab7940db8ebee2b148f0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/MPGLib.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/MPGLib.java",
+      "sha256": "8cfb4cd00c2be0e8106478697b27dd3e63511ae4fbec3b8af08bf8d6ae9c02b4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/mpg/TabInit.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/mpg/TabInit.java",
+      "sha256": "22036ef4910580a576fb7b59eb9fc3f44daf76ef1ca48cbd0eea0f4243139c50",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/ui/InputTableModel.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/ui/InputTableModel.java",
+      "sha256": "0783a0441b1f270a50bc5c99d37c798337220263075794220b14382b02770768",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/ui/LameUI.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/ui/LameUI.java",
+      "sha256": "b6b8ecd084dbfaa5414295022bac4d05cd13c8f7e94c7990d31f90413d929044",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/java/ui/Picture.java",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/java/ui/Picture.java",
+      "sha256": "118211ef6f61003aa6a465819d45eda37a864232b674f604184012aec0b99bc0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/resources/LameUI.xml",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/resources/LameUI.xml",
+      "sha256": "15a10a38b3c30df36ae4689cb280b29c11828e7eada473aade8d50bd51cd621b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/resources/picture.png",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/resources/picture.png",
+      "sha256": "959991d46e1f930ac603663fc80f69a3cd579879bb74bf852594b4f5c6656d3d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/resources/run.bat",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/resources/run.bat",
+      "sha256": "d5a28cb1c7375bbdefe8d96f3e77af4d8d4c4cd037ac1c9b113b6a689b3eda82",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/lamejs/src/main/resources/run.sh",
+      "destino": "aurora-codigo-original/vendor-source/lamejs/src/main/resources/run.sh",
+      "sha256": "367baa692e91b379e5c3e547fac4f18296f1f8e90904ba1878a1856feaf9404e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/README.md",
+      "sha256": "05c6eb3735b2e74364bf24a792b7dec9b280647dee9ffdcbf587f310ff9b7e54",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/assets/favicon.png",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/assets/favicon.png",
+      "sha256": "9901c30615eaa358f67a0b67ee314a9ff1591394cee334b1639ab8dd058f1bc4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/4-0-migration-guide.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/4-0-migration-guide.md",
+      "sha256": "f2125e0205c7cd7f0c310437343878b7c739e12cb31202ea7d21e0549e5214ad",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/about-multi-port.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/about-multi-port.md",
+      "sha256": "9f4b640354ae65f9f369d57c0c0aeadc3222c617af8ed54af1341b3eff85f921",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/all-npm-exports.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/all-npm-exports.md",
+      "sha256": "8b474008b2ffae476187a66a31aa57631ec66e78f3063dee71b4d0e124975911",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/console-output.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/console-output.md",
+      "sha256": "9f9d1c836f9183c9467de7123361a9376e6c39f15eac9e252328c19967abfae6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/developer-docs.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/developer-docs.md",
+      "sha256": "18aef4a1bad21ac915fcca1ad48b1332e1e2e273d4f11508b3c60c815a7cc5e3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/dls-conversion-problem.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/dls-conversion-problem.md",
+      "sha256": "12fc09848d35bd37391a8626db27c822d0a5c7e458efc49990b3c4b685567057",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/kinds-of-parameters.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/kinds-of-parameters.md",
+      "sha256": "5b0b149d140bb218742e1f685b4318157730d18870c0cf025c94d716e2db35f9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/extra/midi-implementation.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/extra/midi-implementation.md",
+      "sha256": "41a0e423c8b1dea6b8394cea9717802008a2144d0a85de772c6bc845dbbe7016",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/getting-started/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/getting-started/index.md",
+      "sha256": "fd916ef4aaed66b1da4fbb906e9b7d5254e7c941f9317f623b0b0befb01b8225",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/index.md",
+      "sha256": "f9ea09e347d3807a722a7778cd099a36b5d5e708f564508ecf7ecc902853d985",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/midi/creating-midi-files.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/midi/creating-midi-files.md",
+      "sha256": "505ff85b43e6fa8d1d5b7b24d84570bcc860893bd16b1ef2a5d1cc4fc242ed33",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/midi/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/midi/index.md",
+      "sha256": "862fa9b201707e6d25190ca7146e7bb19fa26fc1cdf5f59e45cb9941cf2f2f43",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/midi/midi-message.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/midi/midi-message.md",
+      "sha256": "f751038a54124a516b45579096bbea1e7cfee52709de27895543b511e0551f72",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/midi/midi-track.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/midi/midi-track.md",
+      "sha256": "62666ea2204546e95839c874f0cc4955e2490303871f9525476e753ce702ee8c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/generator.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/generator.md",
+      "sha256": "c8fd79851e71d4fa8eaa3ea072431c9eb81a8e97cdfb4370e0cb3e2f6f3c376a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/index.md",
+      "sha256": "a72359287489f9c14a5bc27c12420b880d891cb470269f59485dae5b4f6abbf7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/instrument.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/instrument.md",
+      "sha256": "bd8ae525cc3fa36dc2dbed13512da1ce9e241fca25eda9f3b7c16ec951cda482",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/modulator-source.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/modulator-source.md",
+      "sha256": "822e5843cee8ad2bba78ffcdcdb41970f77155c68c951793b86646d54d8ffe84",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/modulator.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/modulator.md",
+      "sha256": "1e09866fc2205ad6038eea3eea58bd17c33abf4010a9d035fd97bdda8e631a36",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/preset.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/preset.md",
+      "sha256": "780d04fba1b9e3471704a4c11f1da397f88f6d19b55d997acb43ff2bb23e3b45",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/sample.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/sample.md",
+      "sha256": "15ba1f12a92ea79d60fae58eef5637f885b4c1daac5f23b2225be405cbb0a16e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/sound-bank/zone.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/sound-bank/zone.md",
+      "sha256": "c9a5c657caa20500f3889bd24fdff2957705139c5b8b73a28c24c5f13a0fc48e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/effects/chorus-processor.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/effects/chorus-processor.md",
+      "sha256": "d334e62b1bbd813f802fedbe6c0031bfa7622ab153b9b5a64192fe3b0e3ca081",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/effects/delay-processor.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/effects/delay-processor.md",
+      "sha256": "005bb7b0cb25e49227872bf397ac83114ba507e045642d1d8c8535ef0a354a49",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/effects/reverb-processor.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/effects/reverb-processor.md",
+      "sha256": "6e5082cd8e96e5a7939daa031265d9ddbd7d27d7a25a9e37ff8c801f08acfedc",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/event-types.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/event-types.md",
+      "sha256": "2e19498457ae08b987697edc09943a2d582c584748a6350041571ee574020f24",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/global-parameters.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/global-parameters.md",
+      "sha256": "c8855e6ee756366ae617481ea3c71fc72ca232ae49e34c63da4f5f8d9c30dab5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/index.md",
+      "sha256": "57c1cc8d0a6a6db038da374c463eaa584867e1fd8b99cbef3ac2d04d1b8397dd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/key-modifier-manager.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/key-modifier-manager.md",
+      "sha256": "0cf06fa6e0a2a38f0be9ede1b6bab59058cfc1a5ec89f4a4737580c365cd1ecf",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/midi-channel/channel-parameters.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/midi-channel/channel-parameters.md",
+      "sha256": "a155a740595822fa39fb7f969a91548840600bfd333aafae1980258277980c6b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/midi-channel/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/midi-channel/index.md",
+      "sha256": "fee600389a9c96cf5426be6665fa3b3faecc33da1476035f5cc630a24d5f53ec",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/midi-patch.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/midi-patch.md",
+      "sha256": "0e2dfe2c8de0036fc20b25bb9139a15fc1dfbe5a4019f109aafbd6bce0486fdd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/sound-bank-manager.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/sound-bank-manager.md",
+      "sha256": "d613279af292be6defc2b062e34a70540ae99986d7d1555a2cdb9dca1ffa4634",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-processor/synthesizer-snapshot.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-processor/synthesizer-snapshot.md",
+      "sha256": "172ae2f51f479ace54a467b7ca9954529f05b9a260346b4029e764a397ca0e76",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-sequencer/event-types.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-sequencer/event-types.md",
+      "sha256": "485735b7a9ad5b8727327d3c96d8f13eceee1e2f00601549076b931591991051",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/spessa-synth-sequencer/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/spessa-synth-sequencer/index.md",
+      "sha256": "7a8ffbc7407abcd54784d261b079038b0f15a6c1747de73974b2fdab99b751e1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/stylesheets/extra.css",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/stylesheets/extra.css",
+      "sha256": "b6c12f53da2ed80315622c6d81a985a730d31e4960ca0d680cc34eac4da8d580",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/writing-files/converting-between-formats.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/writing-files/converting-between-formats.md",
+      "sha256": "60ac4853500dac1bcd1a2fa5552cfce1bd6b3daa29781854650dccfe4cdcc5fb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/writing-files/midi.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/writing-files/midi.md",
+      "sha256": "f78c91504f03e6727d178140de4562d4b5b8450afc3c36189df72da39bc762ae",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/docs/writing-files/wav.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/docs/writing-files/wav.md",
+      "sha256": "7b5b83bffbc107104ce4817b7cfd1bcf19482c73bec5580beefc8f2e5ece0d6a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/eslint.config.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/eslint.config.js",
+      "sha256": "1022023fb3591af1da82ef5da0f3235f7a1205665e0db15a48c0cc406ed5c269",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/README.md",
+      "sha256": "4d41778d6f1dec0a005e1d282e7bb1a5501ec024b00f78500545777ecc94c75a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/analyze_midi_file.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/analyze_midi_file.ts",
+      "sha256": "5cde38e8728d254ae81ef78bae0357353aa6ef490cbe2c8ae3ce666fdb901d29",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/compress_to_sf3.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/compress_to_sf3.ts",
+      "sha256": "78f9971a87ad5e863d17704e238029cf693b68350c35884cc7b336181a0e6f13",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/dls_to_sf2.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/dls_to_sf2.ts",
+      "sha256": "eb5a6f98fdf3c86e27362537f81e511646732e02c7866cfaade25059854435cb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/extract_first_sample_as_wav.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/extract_first_sample_as_wav.ts",
+      "sha256": "82fd1fa9189440af158ee9345b6ea84b8debf1a9cd2c29eaecfb979ca46516e1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/generate_drum_pattern.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/generate_drum_pattern.ts",
+      "sha256": "5e70bef7affac7c507fbd71cce6406cefb3e87c969a173cf4cfcdfda6a4759a3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/midi_player_node.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/midi_player_node.ts",
+      "sha256": "ecbbe52e3e18f8101b3c6c8435399401524376eae3233c9197a9e38106255cea",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/midi_to_wav_node.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/midi_to_wav_node.ts",
+      "sha256": "859e01ee5ff8a0efbdaad51922cd04f37d0d8e007ba9eab0c141ec68b0b71411",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/print_bank_info.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/print_bank_info.ts",
+      "sha256": "9726ccdf83ee292d49fe5b7d19ef1280946d1e0267d1ef06183b037769e7f804",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/realtime_midi_synth.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/realtime_midi_synth.ts",
+      "sha256": "cc4c232ade05f111e37f55aee6cc358d33448e5e94a8977c2b5fb06d010790ee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/rmid_writer.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/rmid_writer.ts",
+      "sha256": "775b6bd05b1ff596dcac5308b8d837ce93a516d29663eec0554c1679e90b35fd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/rmidi_converter.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/rmidi_converter.ts",
+      "sha256": "28faa5b9636270cb2f82d63b8ac038aa5801f5ced1e44266554cab4d2c76c8b0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/sf2_to_dls.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/sf2_to_dls.ts",
+      "sha256": "8157879075edb80ba48108177b94b4cc458bc43474f6dd716598dd307d2151c0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/examples/tsconfig.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/examples/tsconfig.json",
+      "sha256": "0c119dc16c53c135f350ad7c4b5c1a4328254e27bfce0c6b2e0ffb1473926e05",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/package-lock.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/package-lock.json",
+      "sha256": "8b1f2635ff27c217f858ae6fdb7d651c17e1335d92d4822910d61f014a29efce",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/package.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/package.json",
+      "sha256": "a6a52257a9027f571b61b97f78914f1b9c814722c02f9dd25b53520012f99bd1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/externals/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/externals/README.md",
+      "sha256": "9a8cb1a367f3dbb4254681c244342f646ba2540507e1e7cb088785b74525b26e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/externals/fflate/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/externals/fflate/LICENSE",
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/externals/fflate/fflate.min.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/externals/fflate/fflate.min.js",
+      "sha256": "4ff4c4e64ac33e8d5486d28ab06afef86c6358f9b2bdba3a17a83eee53ac9c31",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/externals/fflate/fflate_wrapper.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/externals/fflate/fflate_wrapper.ts",
+      "sha256": "fa4c923c137e33d792eafadc48870646d1be164e455603d56c1a02ccf85daf4b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/index.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/index.ts",
+      "sha256": "ffaff13c337615f6641b126f6249e42236336e65aadd24304f818016fc30da0b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/README.md",
+      "sha256": "fdb69eeb63f3e5fded54f82f582272785bc2bfd8aaecfe5254cdbfdc184c4e4b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/basic_midi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/basic_midi.ts",
+      "sha256": "f6b2c138dcafe959735f6407bf316270375ed41c7878ee30a647b8c0908f50ff",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/enums.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/enums.ts",
+      "sha256": "f8e94cd5716e5632b680c8439ae6dd75ce8e84e543e5ab7b0837dcd01b511998",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/exports.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/exports.ts",
+      "sha256": "5fd6283a3c91472342099fdbd8506d5b1569e52de57bc5ecf89b23901aa168ed",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_message.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_message.ts",
+      "sha256": "add3d31ab5fd8d0a5b25ef23707a12903378e9a1b19132bf9be04d53e4f4447c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/apply_snapshot.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/apply_snapshot.ts",
+      "sha256": "a91c2caca5853669af55cc85a81c96aecba689a1c5e342c928ca8ed01367bb84",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/get_note_times.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/get_note_times.ts",
+      "sha256": "4f4eda85b357adaa6a6aa743b2ec2fd5e3917fcdaf515ed672dbf3f5527eb97f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/midi_builder.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/midi_builder.ts",
+      "sha256": "b1bc544b8b0e693f2329b81ecbac075b07f6d0718eeaa294d487b7ddb6f649be",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/midi_utils.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/midi_utils.ts",
+      "sha256": "4d5b357112a448461205e440a36945de81196b5333ae34633852407a1bbcdc9e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/modify_midi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/modify_midi.ts",
+      "sha256": "c0bf8d9eeaf3c301219b4e36b4c043bde25dbbe5d5ddcdc0d0df37dcfbeb066e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/parameter_tracker.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/parameter_tracker.ts",
+      "sha256": "038a82a2c39989036ce00d97ba358e61407fe6722b89888fab4ab4834f89ca6f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_tools/used_programs_and_keys.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_tools/used_programs_and_keys.ts",
+      "sha256": "cdd43c6d423a4af4fe5fd74b0d1ee5b6a508a00c1968c2f620595271108b4d37",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/midi_track.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/midi_track.ts",
+      "sha256": "69665b47b968c4a52abb65471a3c8919d918633c8039558f1521d4fea1d28bee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/read/midi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/read/midi.ts",
+      "sha256": "a2192bda3c198ca1625f8233e2eea03c1b316821061421339eeffcf58ed1ae86",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/read/rmidi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/read/rmidi.ts",
+      "sha256": "14d4e610d456f7643f0d47af5656119db112a2b046aa90b35a6745c76834a74d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/read/xmf.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/read/xmf.ts",
+      "sha256": "87b44810355582979b219888319ca0dc485a2b5306087f30c60c73d866074a8c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/types.ts",
+      "sha256": "6618f8c406c5d97fc4bfaef245663be6c751183c383cd19a25e0a692c2ee7420",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/write/midi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/write/midi.ts",
+      "sha256": "509fbfc9968b4bd8b11f61fbc476ff75a3e009a03350b7a523f3727ff8131918",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/midi/write/rmidi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/midi/write/rmidi.ts",
+      "sha256": "0580e986efb1ab624e3beb19696cd28dc4244fd956fc8139625489d01e198fd2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/README.md",
+      "sha256": "ec6fb2a36f9fea611242bdd80722c0935e252fcea51294a287096c15c4d12631",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/exports.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/exports.ts",
+      "sha256": "a181ad0fe32e87908d52418e45b87d4cdda595e72c17cc0c44e09b23085ac01c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/load_new_sequence.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/load_new_sequence.ts",
+      "sha256": "5d188671789d840572ac30349148a71d5e0b301e88389b3b6e848c2d92f18bb3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/process_event.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/process_event.ts",
+      "sha256": "9b9ba52404f54a0eb97b1c1ea5d25fbac5346e14784966a1f7695a0f013d4be3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/process_tick.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/process_tick.ts",
+      "sha256": "ea19e5cef274d8d95ff8d084f152fb92a25cb61ff9f7ebaf30f10a600400c717",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/sequencer.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/sequencer.ts",
+      "sha256": "837188fd4456b2944a6676a40d77f6a0b4f432b99d37907a904029d9a76103a7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/set_time_to.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/set_time_to.ts",
+      "sha256": "b1b3bd4634d4986efc2b8315ff7e9043025348fc8c17881e6b8ff984cc360440",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/sequencer/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/sequencer/types.ts",
+      "sha256": "8c21fd70b2482aea9b00aee3708425a02d4244585ec0e0dcd73ca68895440cad",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/README.md",
+      "sha256": "d94d229958998aab08e188e78f1d46095178544b19db7de85bf0eb5ca4ec5aee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/README.md",
+      "sha256": "a436a9b494b219ec255b3d713cbf7159e88941274442fc291f4ab5f47ca4f6cf",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_instrument.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_instrument.ts",
+      "sha256": "6def9980409bd472d410946f446bcc09d304963889301200b3b985484c11fb76",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_instrument_zone.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_instrument_zone.ts",
+      "sha256": "51e135f2a3a33a8ce4c67cfddaf43676f4f13017b82abfc623ec0aa18b38d533",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_preset.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_preset.ts",
+      "sha256": "f5bb29f0d9bf825b7cfe275955fada20bb2e5f6fc755e2ebe8b8ef1bbd6fcadb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_preset_zone.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_preset_zone.ts",
+      "sha256": "bf36eb9290c47f4e5bd2cbe4dbac6909ec3f30618875a663721017d30417774e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_sample.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_sample.ts",
+      "sha256": "2857d0d75d52f23c48b0b98f49123f5f8fe75c4a26ca83d96382b69df9a28270",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_soundbank.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_soundbank.ts",
+      "sha256": "dc244f30e0dc43ea71bb885f9f24c441d190524d612f1ecc7a75c9d688c4c5f2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_zone.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/basic_zone.ts",
+      "sha256": "040ef81b6d430fd40fe7624e82cbe51c2821b1aa8197775b54e67a296818f844",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/generator.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/generator.ts",
+      "sha256": "fa6d227d61cb3c257359941e972c1e36cf516eba4178907ce313e9874b548100",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/generator_types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/generator_types.ts",
+      "sha256": "e9ff566290c82161fd55cf77c31c36d040facb8878928f7ee3ab6d6ac9769f9b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/midi_patch.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/midi_patch.ts",
+      "sha256": "46791dea67dee21ace939c283b245dbe9892dd94c418f73d19eab74b53ba4d5c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/modulator.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/modulator.ts",
+      "sha256": "3a159067aa26a0d550fddc3e27383fdc275785ac5b8ea2263b6bc29bd9ca3b69",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/modulator_curves.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/modulator_curves.ts",
+      "sha256": "4aa2233b5cdc44e6845d464e1c86a93823775ffd1beff4f14c199f310e46f7bb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/modulator_source.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/basic_soundbank/modulator_source.ts",
+      "sha256": "b32951050ff915e912c5a14c8daf5c7713f3a0b193f6f741fcc53b8f1c2232f6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/README.md",
+      "sha256": "1503f00c31e6b5f9edd44abdec4c91152f68258d93a1ca83e225faeb80ddc4bb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/articulation.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/articulation.ts",
+      "sha256": "c7d5c1b7b955776b9e2007b517cd2330a060bffc73bfe6196f5423c7da18fce8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/connection_block.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/connection_block.ts",
+      "sha256": "d72b5564f253359f5013805db8858dece2e844dae3edb889686110eab719b2cb",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/connection_source.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/connection_source.ts",
+      "sha256": "d6e5bc2783e1f921f61ac86a3143802606cf41ea1065b312777d7192c3c2cf8c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/default_dls_modulators.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/default_dls_modulators.ts",
+      "sha256": "af6249b1f8e0610da109c8a326a517f395380db79dbf0219aeb5f9cacdae3596",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/dls_sample.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/dls_sample.ts",
+      "sha256": "a516618fe3f61128bc9777b17ddb7ca5f3d8a7e3baf2c6b9d985f3cb8cc4e5f4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/dls_verifier.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/dls_verifier.ts",
+      "sha256": "9dab5b01fb0b9f0fd4897f2c382c6b4242ca131acee51342c40460f2d023837b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/downloadable_sounds.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/downloadable_sounds.ts",
+      "sha256": "5dee67211311edfcc4e81bcff03e8f96098df8b02309f45fc99d2f66054fa4cd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/enums.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/enums.ts",
+      "sha256": "2d75862a6c74429741bd28ab0262edc9a9c4ca5dd8e25c381def63bc497c78df",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/instrument.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/instrument.ts",
+      "sha256": "5f1e405d0247fd3f41b4cd2822ceac684c31ca2544fdcdca9be9c6c3ab70edff",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/region.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/region.ts",
+      "sha256": "351e45ae7fe182e7998987596ca5d626973936022e0596f9814f07e4593be891",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/sample.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/sample.ts",
+      "sha256": "6fd6131c75b1f773e81c2a8f1b2da9beaa21172a7e4a8709ba01ea5a2ccbe019",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/wave_link.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/wave_link.ts",
+      "sha256": "6b476aaa1e1cb754db9e465e7bcbbc0e7b98e9ccd5ddf80b0f08eafa913b3bea",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/wave_sample.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/downloadable_sounds/wave_sample.ts",
+      "sha256": "e70ec1e5069d2f338bdce500f4633ba4ec01f6aaae73bbcde964d7ac66ecbd7b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/enums.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/enums.ts",
+      "sha256": "6b6a1aab3c1ccc1d1e2706d97fa3432c04fae3a7d05f25f86b7a5807209e561d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/exports.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/exports.ts",
+      "sha256": "c44a5950d2912132ed39670de52665fea348e4038262a1738c117cd5c6d333af",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/sound_bank_loader.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/sound_bank_loader.ts",
+      "sha256": "dac413c27ba0aa51e15133a62d71d8cf80c121ddcc182f9cf6bec93b7d02eb55",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/generators.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/generators.ts",
+      "sha256": "bdce0ba47de5813c15839073f23ac99ccff78f15b7d248d649cf149a3e864e01",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/instrument_zones.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/instrument_zones.ts",
+      "sha256": "e679f53e34a86d07ca48ced52fd162e99cc7d37766fd898a96b4de455f88ea93",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/instruments.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/instruments.ts",
+      "sha256": "d13b82af038d06dfb3cee817ee0c5cba430f3e73e15793886ceaf93367199995",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/modulators.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/modulators.ts",
+      "sha256": "6139fb8cff951eb75d8fae5ec56cace750a8dcf6f05a970e0a3b154391836ae4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/preset_zones.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/preset_zones.ts",
+      "sha256": "30861b3696547e4567d6293a2433cb8930e35c9d5afc0e5f1b93b0842ac9e106",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/presets.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/presets.ts",
+      "sha256": "3434e0b178662d98ed777a46c63b4779fee668a61afd7a932fe254b503801bee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/samples.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/samples.ts",
+      "sha256": "e9b09dca2e9e076917c97745a1adcf71f9551843d882c356f8c1bda9768035e6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/soundfont.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/soundfont.ts",
+      "sha256": "73ff7a9c9e99e8d8b71fd71c795ceaa8b1a2198b0dfb9a384b390b639821509a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/read/zones.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/read/zones.ts",
+      "sha256": "e9bfbe08282d0d2cdf59f7802255fa7b449efe46cd0bfc4501c52bb7973f426c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/write/sdta.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/write/sdta.ts",
+      "sha256": "e333241217d412af5835ac0364dee8c7c68b8fa42224c76e172453551e7d0648",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/write/shdr.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/write/shdr.ts",
+      "sha256": "519b62bb50b200fe10ead36118f834b951cb9b74bddf6e611f035f58c8618fa7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/write/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/write/types.ts",
+      "sha256": "65399c444af845497dbac072bfc94a5dceca37d50291752d9c4c5c733eec110e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/write/write.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/write/write.ts",
+      "sha256": "97840052fbe5e308080a2f1ea4e2d0f9e0b9e105039207fb19cd32530b2307bc",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/soundfont/write/write_sf2_elements.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/soundfont/write/write_sf2_elements.ts",
+      "sha256": "3b0b996b31234553faab55017736364f1e4673d2c2fcff0635da2a253010b085",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/soundbank/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/soundbank/types.ts",
+      "sha256": "cb5f2bb48c80c4126e69857a8d76e4ded1ba8bd78e75691dc17fe137b7985f85",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/README.md",
+      "sha256": "472ca30b9ee04e2925419c02136ef3a6defd833191a54d116a0119b8fab3b3a3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/README.md",
+      "sha256": "9fd97039c255e157a60934fd6ff5394671fc72d2947a212b07975d8e57333629",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/README.md",
+      "sha256": "5e83f8cda971889f275f83c3244928c47ae245d1f864ea993e3ed1040668b0f6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/awe32_nrpn.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/awe32_nrpn.ts",
+      "sha256": "7350320aca456417d946e2624fcae3c2356286108f7a8ede21b1c21ae1c9a5b2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/channel_snapshot.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/channel_snapshot.ts",
+      "sha256": "cceeefa8164cd7923a0de44d31656a04594dd172b1ab38e9226ade21511b9ae3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/controller_change.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/controller_change.ts",
+      "sha256": "3a7a4b3d544acff760f385adac733548ff47b4fab9948f63ec7645b811b9c4f3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/data_entry.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/data_entry.ts",
+      "sha256": "5bbb1f504fcf9d2be84133e9236793840ecc4cf1522b33d1f5d507da176e6aa9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/drum_parameters.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/drum_parameters.ts",
+      "sha256": "5835a007b7e7d9288bff2193e0dfe06dc8699d856e1084c3fd1a0e54d717c07c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/dynamic_modulator_system.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/dynamic_modulator_system.ts",
+      "sha256": "6a5763765d1d3b387dd48fb2a02fa3184b02224ec8c4ae35913b0c822643d791",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/midi_channel.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/midi_channel.ts",
+      "sha256": "7d05d6c029c02b37e44a4aef7771b49587a702cfcfc260ef0ee0418f31ea2528",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/note_off.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/note_off.ts",
+      "sha256": "7310796310c934ce7bb180f6ce1aa8e3d88b5978693a402a857bd0d8b22c7d69",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/note_on.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/note_on.ts",
+      "sha256": "086624cab437024c0c589a770ce77b65c93b00396e360d546ff36d0a2223ebe1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/parameters/midi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/parameters/midi.ts",
+      "sha256": "3cf454b1c864c6a5761f7593ea5e523c994a306ee91075b9a4af5bdc45a5da5a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/parameters/system.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/parameters/system.ts",
+      "sha256": "b86dbe41dc91bad9a97f0d6f939953fa7bc48db04a43a3b1d9b49a786b0082ba",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/portamento_time.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/portamento_time.ts",
+      "sha256": "93c487239b5e627d4e3c69fa8051e606b7ffe7ecbd32be1b7de4d3351900b2c3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/program_change.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/program_change.ts",
+      "sha256": "8cdd45acc6c7b0fd0a0f8ddcc1c2d26f96db8f27bb7412efbbcf073b709a2b42",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/render_voice.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/render_voice.ts",
+      "sha256": "563f4c9850e17eb7d454d95144c9210d636c162f103147dad5a5005541d45078",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/reset.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/reset.ts",
+      "sha256": "9959b144ca4ba958644e0a31e29bcaeb5d3124c9c63aed063ce2214477a3e669",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/channel/types.ts",
+      "sha256": "5e7033169a9595dfdce0e61840077aadf802efb9684b7ccbdf7d9fd66ba85962",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/chorus/chorus.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/chorus/chorus.ts",
+      "sha256": "fc0071bddbcd456da0552bcc0e72d9888f038df349776d7fe25151b2365d3b8d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/delay/delay.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/delay/delay.ts",
+      "sha256": "7ad0135172dad27c97121472e2a9abe50d2d333820a152282186f7d376494859",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/delay_line.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/delay_line.ts",
+      "sha256": "0c36da834774d0e085bac1f191967473c8dcbfaa314203bdd54fa100be8d66f2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/auto_pan.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/auto_pan.ts",
+      "sha256": "33a1b74a34424986f1bb65e697888f2df84138e94c7a8cd2979f0446fb41ee3c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/auto_wah.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/auto_wah.ts",
+      "sha256": "6cd82b4b255e6f328ce524fed26fb7903a80d9929d1c78e11931f686160520a0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/boilerplate.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/boilerplate.ts",
+      "sha256": "580770c9fe8cb47cdfddadce6017503de89fd1436750f1c67be3c37639943b78",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/convert.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/convert.ts",
+      "sha256": "3bdf81c1f9b84f972cfb34d902e9cea33a38c69f4726116dd16176c31899c176",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/ph_auto_wah.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/ph_auto_wah.ts",
+      "sha256": "1f27fa3c4095c3ba5fe4ce53bf3b4631cb5cbf8d1f2b3c7799de626cb4923ca6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/phaser.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/phaser.ts",
+      "sha256": "f58b2c5cc9eb6dd03643242e32cb3509433148519c3dda38d24a6b2779b974a1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/stereo_eq.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/stereo_eq.ts",
+      "sha256": "1a770e290e5924a7c383aa2f068817f9610dbef4f8ec2c29690cabd3d2e819ea",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/thru.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/thru.ts",
+      "sha256": "5134fa131a412c2a197e6bf9d07fa8c7af8d79ffd5e13b517945d0f410e3c124",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/tremolo.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/tremolo.ts",
+      "sha256": "b317835e879da691bfd57d4da653d673a156d9988143c5fb0b4c15062ac32180",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/utils.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion/utils.ts",
+      "sha256": "fb117aa16a22922d94c8541e79c1c9d3b27635e658c1a1f72d1b905f2b33f739",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion_list.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/insertion_list.ts",
+      "sha256": "d5f9f80c6c266e13a2f5a52b2e511468cd90d3714d5ae90eeda5b9a3852a32fa",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/reverb/dattorro.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/reverb/dattorro.ts",
+      "sha256": "589fbcb4234743edf5a2cf93d7c4b0a9ec2ccc6113d581ec9f8b74a6d7fb3ae1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/reverb/reverb.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/reverb/reverb.ts",
+      "sha256": "fc231854891c0c958b55f5a5ece3d5e97a2fbdc1c7650c2cc6dd3fdf2bfc08f3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/effects/types.ts",
+      "sha256": "d13ddab49cd77e4dd52eaf93b607b26cce8444cf5af759f6a3bac4de97ace427",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/key_modifier_manager.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/key_modifier_manager.ts",
+      "sha256": "a334de2652da3228b49f4a2d9ee9d6f71618c6c91cd5304ce2c5b1947391a8b5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/parameters/midi.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/parameters/midi.ts",
+      "sha256": "3940ee79ab69a18300cd89a7d6b588bdffe64eed53022d1036f5a56ee047d747",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/parameters/system.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/parameters/system.ts",
+      "sha256": "9864403ee677b4add7f7c9f72de379727f52494de6a4a8a86ffac0e14fb9773c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/sound_bank_manager.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/sound_bank_manager.ts",
+      "sha256": "71e17f37abb73352838aa20442e0e5b3f46cc9a2605de10821d74f26b67f1d06",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synth_constants.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synth_constants.ts",
+      "sha256": "ba624e54280d593fa19a206c043ed8cfbd1c9d4c2eb7078f305b9800ba3bc8c0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synth_processor_options.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synth_processor_options.ts",
+      "sha256": "48141eb9ecc6bf72a74b7e95e0e941a94f2c21c0c9044e91e8074e711c4ac189",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synthesizer_core.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synthesizer_core.ts",
+      "sha256": "89a650bbc4bec360e550fcaa61cc2f39451b7c4452685d84a1a73f12317f308d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synthesizer_snapshot.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/synthesizer_snapshot.ts",
+      "sha256": "24e75fe6cde7012bbcd352e0e443ca1f7df1ea783e65a3ce5215812f39e61c9c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/roland.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/roland.ts",
+      "sha256": "81d4ec47a11347a0fa4fc80506372c9dab55782b223cf07cb2b4c77e45c1a965",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/system_exclusive.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/system_exclusive.ts",
+      "sha256": "68a6b9365b6e7b7e096f58bf3c3b82fdf15a818069c558bd5e75b4e5c5115c3d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/universal.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/universal.ts",
+      "sha256": "d02a39589156bce8d296fd90f2d454389c3cb5ad4ffd082e12325278775a44e7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/yamaha.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/system_exclusive/yamaha.ts",
+      "sha256": "c129acae431c21216d24ba8ef58616c72eac38bab3bb51d9e3ee2279f645304d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/compute_modulator.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/compute_modulator.ts",
+      "sha256": "a0306626d10f974d0bf8b08b807c1e0d25c09712f040b711b7db140dff71fc1a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/lowpass_filter.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/lowpass_filter.ts",
+      "sha256": "1b8b00956233f22bf6504e38817d8b860378f42a9f79750f6bdfc585343cacbf",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/modulation_envelope.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/modulation_envelope.ts",
+      "sha256": "a89da63c1665fd74cc2da2805a3eb50ee6ea8f8cadad1458c0b1d91ea9c593b8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/unit_converter.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/unit_converter.ts",
+      "sha256": "7a6fd0cd1d30ffdc8bb378053ab918c8ea9752e4fe6d7246d5d519a83bac6cd4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/voice.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/voice.ts",
+      "sha256": "df0f864f648f3bd05771f04d6f0abf9ea7438d13b14c37d097a024ef48fb1426",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/voice_cache.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/voice_cache.ts",
+      "sha256": "45589dcfc2d32875b4216826bc427d730acbc884e5bcddddca37356cab70b40a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/voice_modulator.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/voice_modulator.ts",
+      "sha256": "7b0dc7fd1e3fbf8f75b800d6105de05d8d1d62d03ac74533d9003ec6610adb99",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/volume_envelope.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/volume_envelope.ts",
+      "sha256": "5c8e3aa858952f79c92a5f2883270f2b8aa8a53409345f91fd3c84ae73addf1d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/wavetable_oscillator.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/audio_engine/voice/wavetable_oscillator.ts",
+      "sha256": "1548a56b08c5b71bafe162d674f00e65eeb4dd5a245c6a31739a99c30968d3b4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/enums.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/enums.ts",
+      "sha256": "105ec955944a1175b8640f13579c80b6b999bfeef04b9d907525f1af62ec47ee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/exports.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/exports.ts",
+      "sha256": "3179b6b99a8ddff04a31aed225722c08e4b8a2ed389c052b866be85795e463ae",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/processor.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/processor.ts",
+      "sha256": "3bafd1186b920e28a678937de0680b3394ab1bab5ec932405d814ff64ad2dbda",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/synthesizer/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/synthesizer/types.ts",
+      "sha256": "4c2defc94e4c245bacdf15bc2ebfa6130c6230ac2af9723978f25be5ecfdb6ca",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/tsconfig.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/tsconfig.json",
+      "sha256": "7617c7debccec6b4b64a5db0cc5bca63be70df962506a430215a96de9127171f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/README.md",
+      "sha256": "9e35eccd0967cfed9a72632faa661a64261bbde949f8ad8f3f552b1871951e74",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/byte_functions/big_endian.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/byte_functions/big_endian.ts",
+      "sha256": "d06d3535d8537eae9af8858e16375cd4aecce5229cdced3b00c9fcf007efd9f6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/byte_functions/bit_mask.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/byte_functions/bit_mask.ts",
+      "sha256": "aa96adf0463bc33cbee88142ace03a3006a65f703928c57b2b965c40eeaf2531",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/byte_functions/little_endian.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/byte_functions/little_endian.ts",
+      "sha256": "8b3d4bcbb3adaf09dd26148a052e6badb5a38ca91d499ac4dd3caa5bf9d1b338",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/byte_functions/string.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/byte_functions/string.ts",
+      "sha256": "5d7154e3ff0bbf8354385d2b5e42981109c0db5bfbc8e7f8fa2a49bb0f0ba6c6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/byte_functions/variable_length_quantity.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/byte_functions/variable_length_quantity.ts",
+      "sha256": "fe082b0cbea94902c4a340af0e2350c555d087aacdf2c1734865cf8ce094381e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/date.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/date.ts",
+      "sha256": "cc02a55c2577dba524b36bb847389a9ba8efc71707a019c14b1511e41ca88103",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/exports.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/exports.ts",
+      "sha256": "2753fb796dd036b1bd68f3d03aa0b6c1fed551561457501dbe7788213443d0d8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/fill_with_defaults.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/fill_with_defaults.ts",
+      "sha256": "fecdc55fa86513cbf0d139f2b05379adbee89175dd0a3d9324cb83c66232bd69",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/indexed_array.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/indexed_array.ts",
+      "sha256": "4756da0fc3a4badc76ce4bf552af35736d0132321c73fb2a9453cd0980ef0e6b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/loggin.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/loggin.ts",
+      "sha256": "042015a5909688986c5bede07bb2755eae954e652ddca41c3a8bbd2ab3f7c6b5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/midi_hacks.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/midi_hacks.ts",
+      "sha256": "7fe0ac32b32644639bdb21f9b70ad4eaf7ef874098d018497d0d0fc3887a002c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/other.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/other.ts",
+      "sha256": "d162c5f70a9d9b098100af2ad3760b8e18dd87c2def5d8768ae21a5c68bce509",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/riff_chunk.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/riff_chunk.ts",
+      "sha256": "3043e37e95d79ba391e1220fddde99dc6523a07f85d3a1f5ed2c2adee5ca83bc",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/src/utils/write_wav.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/src/utils/write_wav.ts",
+      "sha256": "9be347785c12ff7a4075743b8e44c50d8bde3afa776329cd72497ab4a4e02176",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/README.md",
+      "sha256": "79311d529059e6f336a789c8773433d95adb72caad594032adca4139e59d4ca0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/analyze_midi_data.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/analyze_midi_data.ts",
+      "sha256": "eaf9482e7882971ed647cacb231f2058bfb17222741e365c553eba3a242d5a58",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/display_message_finder_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/display_message_finder_test.ts",
+      "sha256": "3e124fa5337c7b245609fe6e5c3892131f45948058e9d576d0d4ad87f9a451fd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/loop_detection_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/loop_detection_test.ts",
+      "sha256": "c86321e9f44042c8d1b54d8b517aae05383b5dcd5408bd1ddd38ac4b49aaf45b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_creation_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_creation_test.ts",
+      "sha256": "4f3f22dbc5d50de314b9a6bf79f20a48c8757acc953ca69857b9c91856e2b0de",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_cc_74_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_cc_74_test.ts",
+      "sha256": "a0baea049a294e8e2d7602ad1de4254778984664bde25e4d8559d1858f0401a2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_drums_on.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_drums_on.ts",
+      "sha256": "c53bdc98f54fad9184c81d23a57bded2c45ef48fce9383fa2ba4ec2b368c8c49",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_effects_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_effects_test.ts",
+      "sha256": "1e6b94164ecf565275c5a99eff6b1cc990be0fb86c3940de0720aae1736031ff",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_midi_params.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_midi_params.ts",
+      "sha256": "eab9c4cd52f16077afecb14dc728a712b4b9c4411b541aac7b83ceae2b3ebdb0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_transpose_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_editor/midi_editor_transpose_test.ts",
+      "sha256": "db4b649eb62ef8b237f7b2632983643796c586c74261cba1bf8c1146a3e5ff9d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/midi_loading_benchmark.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/midi_loading_benchmark.ts",
+      "sha256": "fe9dff827783cae0d34a274bbfc2f514ca7f0efcfd73e5e9e4fd1a6520edb1be",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/rmidi_date_detection_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/rmidi_date_detection_test.ts",
+      "sha256": "9b70e0e94fc410436f044f28387a41581e7f36d885ff3e69456e6099dd859360",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi/seconds_ticks_conversion_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi/seconds_ticks_conversion_test.ts",
+      "sha256": "5ad0bff3e7022d6500352f23a122cb2a3d00714c0b2a88580e5c4a3d7c132490",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/README.md",
+      "sha256": "10af87d9d2d172d604beb2a6da402a9a68171438cf0149a75fc72122c61b7cd3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/cc/realtime_rpn_tuning.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/cc/realtime_rpn_tuning.ts",
+      "sha256": "5f6101e8917fb38a93fd4ed7a151d34829bd1ebcf3652f4cd726232b7973b06f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/cc/rpn_fine_tuning.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/cc/rpn_fine_tuning.ts",
+      "sha256": "f84ef1534c47b301c45a8869edb048fd9711bf0e03f5ed7be42b7e4a85da0fc6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/cc/soft_pedal.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/cc/soft_pedal.ts",
+      "sha256": "1ed859b95c26ed9a038a0a8c728b45e8184f654139717583df86302bf3c04b8a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/efx/auto_pan.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/efx/auto_pan.ts",
+      "sha256": "9e4354a2639fa7bbef6076dfff2d0531e8114e71dba3274df5e5aaa349b2049a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/efx/auto_wah.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/efx/auto_wah.ts",
+      "sha256": "9f18cb30a9bf1d771df40230e1ec390867d6eca743424d37f6a44b9d260e4053",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/efx/phaser.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/efx/phaser.ts",
+      "sha256": "fa3d8dddfb7bfdd63123c6b9a011f1f2f624b426c623b4b3ef29394b2a0321d7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/efx/phaser_manual.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/efx/phaser_manual.ts",
+      "sha256": "4d5841e955ce5479ba8afd0c6cfad95df12b1f0175dbf1081c67cba132482cf6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/efx/stereo_eq.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/efx/stereo_eq.ts",
+      "sha256": "b2f0e0681e4f6bd2cb00cf8c502c75907909fe436a6f46311772a0b1e1dd45a1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/efx/tremolo.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/efx/tremolo.ts",
+      "sha256": "b11e91fd2b66fb6ea50cd7e7c07ae6ec275bd667be8a66aee4c2990fa6c495c4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs/controller_matrix.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs/controller_matrix.ts",
+      "sha256": "08972bd2203ede26a7f1cd1c65ba9e3105ac878defbfe14ef15486eb65fcb17c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs/filter.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs/filter.ts",
+      "sha256": "f25281a9ecd01bcfbc20b0f470aa27864819b49a19bb606cccd0fb9cc1de4bf7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs/patch_common_parameters.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs/patch_common_parameters.ts",
+      "sha256": "1d169ac6088590307da67b619097f0093828906edf6d01747968559e3a0f87e7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_chorus_level.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_chorus_level.ts",
+      "sha256": "48d51031c15fe39a925f81969e0c1cab631ae739cd8876f8ed789ecb7be55afa",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_chorus_rate_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_chorus_rate_test.ts",
+      "sha256": "e0909a5ee042d8c44aa52a6a5ebe7a450173a2f5188967726f9025747d484924",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_delay_feedback_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_delay_feedback_test.ts",
+      "sha256": "27079dd15002255f1f1eb77ad4c0ad5f66530e79cb5022c96a0aa8e9fe87848a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_delay_level.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_delay_level.ts",
+      "sha256": "f351a7970b3bc566ba2d86f25d54736c893970231425840f30ed37c704456ed8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_drum_pitch_nrpn_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_drum_pitch_nrpn_test.ts",
+      "sha256": "00d136323a1890e29c65af08a5799260409ff631d583dca599c79c376aac0c24",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_efx_effect_send.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_efx_effect_send.ts",
+      "sha256": "9d7fb639c792f686ae0e4ffc6c972fb7141658d7ca41f2bf982d7618028af378",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_character_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_character_test.ts",
+      "sha256": "25be47f0c9cca01f6d7393a6d4b1ecb1bb21a301e3c17b7399eedfc5da508bf1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_delay_feedback_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_delay_feedback_test.ts",
+      "sha256": "03c466ebfba14397fc6340b922d40f189d13eb3b26826366970edeb44e9715c0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_delay_level_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_delay_level_test.ts",
+      "sha256": "243a2d38429a6424613c603437fe1de9f085eaf0a8088ca747de3e6dc0d0812d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_delay_time_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_delay_time_test.ts",
+      "sha256": "ba036719326f77712f45b9b7a2441021352ef92f48460df9ddf53b2f35055895",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_hall_level_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_hall_level_test.ts",
+      "sha256": "ba8874b68355e27e8acff8b83262bb2c6c646d51712c3e776ac7bf63f0e4a6c7",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_pan_delay_feedback_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_pan_delay_feedback_test.ts",
+      "sha256": "edfd6acf7f000eccb3de82c1609cd276debdb3259a78fe81c42ecbed9766c072",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_pan_delay_time_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/gs_effects/gs_reverb_pan_delay_time_test.ts",
+      "sha256": "e894499fe44406d6d6e040e27e3b7448dfc7d8a3ee0bee746340a78cdd820c70",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/make_tests.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/make_tests.ts",
+      "sha256": "1f051b954a5a068c86c418629186539e5a9f443297e6acfc5051eea98f91a2ee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/midi_test_maker.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/midi_test_maker.ts",
+      "sha256": "ed7c72b828e5049aa386f7f6286de1d07ccd284befa6af78fa97d6f1b13f2460",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/other/assign_mode.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/other/assign_mode.ts",
+      "sha256": "8a103b759c8248459ee9758c71b35c0f5ed251b2e8a58e948429e27ad850235b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/other/drum_spam.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/other/drum_spam.ts",
+      "sha256": "a72d4a0448b22af0c164e4bb59d19854cfc7d13fdd55601b023076c06220b8b9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/other/mono_mode.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/other/mono_mode.ts",
+      "sha256": "eff7476826262fda48674fd4fd9825a941d01253f73bde9cda6fc29669953894",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/other/overlapping_notes_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/other/overlapping_notes_test.ts",
+      "sha256": "4248901e12651f007a176fe8fe0e462df95f999aac0364746f02a8b4544674ec",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/other/velocity_sense.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/other/velocity_sense.ts",
+      "sha256": "e98736a66714e05769c7fd6af6cfc45d4714c9ea5c1f0bdb40e650569f0d8dc6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/other/velocity_sense_bug.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/other/velocity_sense_bug.ts",
+      "sha256": "95503acb4cb97522bd85197159ab2f9084227ccdd398840793b973f6c329c2f1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/midi_file/render_tests.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/midi_file/render_tests.ts",
+      "sha256": "84c1cc0ef657997cb7b7e94a937881e67738cd235d273e8eac9d2c0411e79b22",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/soundbank/instrument_flattener_tester.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/soundbank/instrument_flattener_tester.ts",
+      "sha256": "291e389757d5e66bcfe36c1c73cce151fc57ef3442bc7d6672d406af3de9f30a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/soundbank/rf64_32_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/soundbank/rf64_32_test.ts",
+      "sha256": "912dfbfc2724633e24907399261e37535bff3687156bdc1c7b5b820f2be34e72",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/soundbank/rf64_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/soundbank/rf64_test.ts",
+      "sha256": "7bdb4aaf3b1fce187594688f004c248a4ed55853340c31904afa185643829105",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/soundbank/sf_date_detection_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/soundbank/sf_date_detection_test.ts",
+      "sha256": "c56ef270f4fc83cd966f21d58d75e6ac54db8924fe65bf2f1e76004a16d110d2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/soundbank/sf_stats.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/soundbank/sf_stats.ts",
+      "sha256": "1b65c77ba473566d676b466f8ee6e6b3db651e73cab01cb9c60c5604ba887dc2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/synth/auto_allocate_voices_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/synth/auto_allocate_voices_test.ts",
+      "sha256": "304f33f9e25ac6e3a2aea3264fa4c23e284fb6fede1bf8a925aef10696deac5a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/synth/new_channel_empty_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/synth/new_channel_empty_test.ts",
+      "sha256": "096a42f79a1f75e3d7da99d50769a3875f5031a14da6034b15bcb3e5fc5a1c1a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/synth/performance_test.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/synth/performance_test.ts",
+      "sha256": "a0a67a9772786e76615eda49c99ec03692d0c8b0690abbacb910ce7a857d92ba",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/synth/performance_test_profile.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/synth/performance_test_profile.ts",
+      "sha256": "dfbc7da91da356280db7a6f83573eb0a2b52d17cc6baf2521ace1eac48fa3028",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/synth/play_crash_note.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/synth/play_crash_note.ts",
+      "sha256": "6d8504ddab71e140460bf3e832b4643f8c65f937d2f4ed0aaee9c01bca248979",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tests/tsconfig.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tests/tsconfig.json",
+      "sha256": "e4a4f1da0996170c613b6d7c7bf9673566f44666f1b349223fa922d0c9ad4d02",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/tsconfig.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/tsconfig.json",
+      "sha256": "63e748a3f61fbc698fb0720bce6e85fce83b29c7f5b19e71191f15d08ad0ea86",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_core/zensical.toml",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_core/zensical.toml",
+      "sha256": "515ca38f044b9f134a3b48e0a01dc701eebd4b3af9b35bb89f308a02c18f61e1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/README.md",
+      "sha256": "9d7562548e3c6638ac67c87410d7f9ca85aa40f4bd52016c2ddd64d3af02c4db",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/build.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/build.ts",
+      "sha256": "c86fbad21642fb174d420b933ee5fdceb19f8e6dbf78e2d566e7bb150ff6d082",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/build_docs.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/build_docs.ts",
+      "sha256": "f0501171ae3d13189f3e15cac46633ba130a5f00c29e0ec02c13e06addf07497",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/build_npm.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/build_npm.ts",
+      "sha256": "9b379e592bb1c4fcec02191a4d1bf6ee4413b0b82fada52cb9df72446e0e8956",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/build_pages.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/build_pages.ts",
+      "sha256": "00b2ca1cbc17e51bb11e25cb0b5d3855d71f23c37f5c12025f30dffcc826b230",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/debug_disable.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/debug_disable.ts",
+      "sha256": "b178a7ce726a99bdc3c43afa49d271f362169d4f0be4b88f287c90adfab38c84",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/debug_enable.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/debug_enable.ts",
+      "sha256": "4935c5de6dd0c9a55580f2953ae6285b62a7ccd2fd9b1bec2532a47ba01f2aee",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/run_command.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/run_command.ts",
+      "sha256": "378f73b018f2ff4e588e1cf97f218cf295266e5741668d31ef5ff8801b362df4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/build_scripts/util.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/build_scripts/util.ts",
+      "sha256": "56578b631b753a19d7d7bd3bf9afc6bcbe9135cb0b38fac5e8ac4a0a5088950f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/assets/favicon.png",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/assets/favicon.png",
+      "sha256": "9901c30615eaa358f67a0b67ee314a9ff1591394cee334b1639ab8dd058f1bc4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/extra/4-0-migration-guide.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/extra/4-0-migration-guide.md",
+      "sha256": "0565b7831079f3a1bafbccf8f8d6a2d9b1ed488548bd1fa0f69c9bb0d7d522c8",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/extra/all-npm-exports.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/extra/all-npm-exports.md",
+      "sha256": "03d5c19356947b2ce458a69e9f9b531b27e8918e687e888d73dbc703e3a45232",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/extra/working-with-browsers.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/extra/working-with-browsers.md",
+      "sha256": "937a5d4da5e3e4a44b86f75c1ec250cffa53f99d0bcdfbd1574895879cd3368a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/advanced-example.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/advanced-example.md",
+      "sha256": "9f3255328bfc5f6e0e88c5038a693bdd7e8108a179741e7facf4ffb11883c2db",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/index.md",
+      "sha256": "0fcc3e9043e03c6c0c94b77e769300a34457e8001375a17792e6f719cc3897d4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/main-thread-rendering.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/main-thread-rendering.md",
+      "sha256": "3712c7b504187e9f0ae7ed6b52b26c967bacda7354b3f693d4d5df029710cf4d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/piano-example.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/piano-example.md",
+      "sha256": "5eb014f3d9112aa213f83343421f6a24dec178419f44133d96b4a0f4c663a33c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/render-audio-example.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/render-audio-example.md",
+      "sha256": "5d9804b1baa00db63a7e27a7dc6852d9960ed1924d0433de4906cc440a0051d3",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/simple-example.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/simple-example.md",
+      "sha256": "7d9aae70df63d00a5b775734e1d4087ff6a892bd0ecd1d1e481b8b20e6e3e886",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/visualizer-example.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/visualizer-example.md",
+      "sha256": "c6769b01636183aa24479ca3a6d2a054c26056deb498799ddbdf78d799e68d69",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/getting-started/worker-synth-example.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/getting-started/worker-synth-example.md",
+      "sha256": "6b934694604c53cb3bcd1f50d0d0e740221236c4e5095d33e7f02b7f49f919d0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/index.md",
+      "sha256": "7cf6e25df797ac4f090756c4317930035224bca0c79c756bc80963f703129614",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/midi/web-midi-api.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/midi/web-midi-api.md",
+      "sha256": "e37cba0f16489b5deece133b6a8c6e694a553880c237d70fa7c8a2e231bf6b2e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/midi/web-midi-link.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/midi/web-midi-link.md",
+      "sha256": "0036f0040d49664264cbb09fe5a9f67434e2c142ce9ca4e367c9ccceb2b3dfd1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/requirements.txt",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/requirements.txt",
+      "sha256": "df09f90b3ee2ec968d04482aa338ddc114aae4923b647145775b0e9358c57264",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/sequencer/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/sequencer/index.md",
+      "sha256": "05842a8de061cbe745a1ea73fbe64863a0ae9de630cbc8d217c991929e3f0886",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/stylesheets/extra.css",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/stylesheets/extra.css",
+      "sha256": "b6c12f53da2ed80315622c6d81a985a730d31e4960ca0d680cc34eac4da8d580",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/basic-synthesizer.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/basic-synthesizer.md",
+      "sha256": "3d72f5eb12a45f2d3dd4d49845c1bd4cffb97b9c8458404e766bfd6e3e576d11",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/importing-the-worklet.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/importing-the-worklet.md",
+      "sha256": "82fc2acb67998e400ee7d146b1be243e7c1d10876b6e849e821dacfff3e9a67d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/index.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/index.md",
+      "sha256": "c9b2452f425f91d811bf50ae336af21b9c704ef4b23d1742a070bef4088fdb58",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/key-modifier-manager.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/key-modifier-manager.md",
+      "sha256": "aba06cbe3fe08d3d0355ef5cfed1dd7bb90b5e99544a9e2fb32394e6f5c7f3d1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/midi-channel.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/midi-channel.md",
+      "sha256": "ef6ab476086f2beac6b1a85f071dd6d92e0759b940f33a0b9f0a1fc6e1952681",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/sound-bank-manager.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/sound-bank-manager.md",
+      "sha256": "e588f7de58673abc3e2f209020ffba9effe18298555fc34ba4d77daf147c18f0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/synth-event-handler.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/synth-event-handler.md",
+      "sha256": "30584bcab90a303dccd599f8e256ccdfd112d52ef91b1497d18574894a0193f1",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/worker-synthesizer.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/worker-synthesizer.md",
+      "sha256": "c74f9145e11907d67427fc14153d5627992351b933766bbf9888ae21e6362e92",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/synthesizer/worklet-synthesizer.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/synthesizer/worklet-synthesizer.md",
+      "sha256": "9f27872f0d8034e18d504387b3beded083b882f330303b557e111b351a6b1588",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/docs/writing-files/writing-wav-files.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/docs/writing-files/writing-wav-files.md",
+      "sha256": "f623e5943a4f0d65c21ae6cd7436883cb15b55bec1345208f69a677327157fc6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/eslint.config.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/eslint.config.js",
+      "sha256": "0d0250597a43aa9822774fd2564c6a698259ea9f5341f5d9c5168ede2cbc128d",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/README.md",
+      "sha256": "7b1b81b239c244c8cdd3edd02884c641e07001fb4e4b60ed1d7a6524eae2368f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/build_examples.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/build_examples.ts",
+      "sha256": "dfafcfc78166ef4a95604cb86154a4c3574a9ed5c6820f88a411d47c06bfe3a6",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples.css",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples.css",
+      "sha256": "56db238ec1c7f322404aa589f94198550bcab9458b2df2f420f853d1c24d7562",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/advanced_demo.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/advanced_demo.html",
+      "sha256": "5b45a16c4e153dc065f62c9303947721f45aac561db884b00bba26b9eb767263",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/advanced_demo.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/advanced_demo.js",
+      "sha256": "6f32a63756b7b2ceebb38c5877e940d6b2dbf52fb2c0175b3180ccc8698db02b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/main_thread_rendering.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/main_thread_rendering.html",
+      "sha256": "52913d439edf0276df96b745495f7055812916d7a9a63b00377109f62be99408",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/main_thread_rendering.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/main_thread_rendering.js",
+      "sha256": "8dda0ecd93a0c11e9d2e4f5e8101090bf47e46be50f59f557cc0f592bc18b283",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/offline_audio.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/offline_audio.html",
+      "sha256": "cb5ae9fc19ed10688b42e027ae5496ae4f63e85a4eb22264a4a3c289be6a4a85",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/offline_audio.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/offline_audio.js",
+      "sha256": "0f450dc21931e3caff99c28efa49cfee51401b6033658fe926219d1e47b7772c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/piano.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/piano.html",
+      "sha256": "810ff649bf7d925052c4236ef99d443b3b7600bb72bd36907f69aadf64df0bbd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/piano.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/piano.js",
+      "sha256": "9f83f6af0dbd318dc2c78a13d8b1ff3976b1460752e32c11ae3c5d56d2d767f5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/simple_demo.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/simple_demo.html",
+      "sha256": "c24ba7437b30e4bba5d6ce02e6553f62db7ef024f5fc858d9d1839ed85062438",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/simple_demo.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/simple_demo.js",
+      "sha256": "a79870e6a45aceeeded143124ca2ad3a270817ae4a937ada0ddd1c75a6e6cc89",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/visualizer.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/visualizer.html",
+      "sha256": "0d49d58ca416ccf6102463224482bdf5578d8b6828d7c157c8e866f08e852a36",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/visualizer.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/visualizer.js",
+      "sha256": "844a4ce43fcdbf032f8e0319b276571cf8a2a9f7745b28effbb9b94881264ab2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/worker_synth.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/worker_synth.html",
+      "sha256": "857b6ce14877fc81637f05a4fd5bfab56b377be32088a03ecbf1d85908d6953f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/worker_synth.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/worker_synth.js",
+      "sha256": "e9b1cb5a11e102170c7264e262952d0f5f4ab4ed157c0d242695cac532f8b033",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_code/worker_synth_worker.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_code/worker_synth_worker.js",
+      "sha256": "51bedee75782a3b2c9638d4024e8608863d1d9334fc41144dc3e6c7644cf3c42",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/examples_common.js",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/examples_common.js",
+      "sha256": "ed88608761f246641b5130261d0d357c1c5dfab3b695a3ca51dd0db732b8d53b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/examples/template.html",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/examples/template.html",
+      "sha256": "28f05f8f2d947046515ffc184c9ab9df895cec43b1f949943de49e7d1d91e88f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/package-lock.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/package-lock.json",
+      "sha256": "1da4f8d8e15567d42733c8c85cb242254a7954c43bf6626127175e635cc3af0e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/package.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/package.json",
+      "sha256": "98ae85dd6b4ac29bb11da078ec421f104e7ceda09e0f0c8c5907e81ec9137577",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/external_midi/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/external_midi/README.md",
+      "sha256": "9fbf1f2e04ed52a8596c5706f49b8be2c455b6f805d0e14f720bd2c11d2b3c79",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/external_midi/midi_handler.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/external_midi/midi_handler.ts",
+      "sha256": "a176ce0226d4ca74329bb172a9b2d860c2c090d42906d92e1c5a0f0d87654431",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/external_midi/web_midi_link.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/external_midi/web_midi_link.ts",
+      "sha256": "7b1ad90948f4fe016d71f4eed16803f88250fcf8951cedee5f8097b9518cdb70",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/index.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/index.ts",
+      "sha256": "94303342fee5aae263c203ddf47fc1b88628f0e4eb0a839c462c9e7724067a01",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/README.md",
+      "sha256": "95305272a0a76ebbaab0bc980f2d8a63952cbed50404ec345f2f56279517fef5",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/default_sequencer_options.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/default_sequencer_options.ts",
+      "sha256": "653fe4910247feafafd990505b99241489cb095bbb726b4cfd0eb38cfdee06a2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/enums.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/enums.ts",
+      "sha256": "0e60d7329ae4a99d5bcc8d9e80a65b0a2425eb683913d88a879aaed9dd1b0683",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/midi_data.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/midi_data.ts",
+      "sha256": "47b09470d4182d1e063e7d496736f44b10bc561942c1315e0985f23021094eda",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/seq_event_handler.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/seq_event_handler.ts",
+      "sha256": "fd82a19739af1194fd1ad78fde53a1180f40ba2a94b71c3658dc51d06cd33d19",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/sequencer.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/sequencer.ts",
+      "sha256": "7363f2029ad9c51b2fac10f062a62eedd74959565c494b1473187db6c33592e2",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/sequencer/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/sequencer/types.ts",
+      "sha256": "76064ecac72af5dc6c254c25289062d6f3d0f9db2a23c2605eac8cb3a24896df",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/README.md",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/README.md",
+      "sha256": "b5d3dd63eeca2213a9dbbf4cc28dd03dc8a77bd699c6478ea4cb418e4bdfe4e0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/basic_synthesizer.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/basic_synthesizer.ts",
+      "sha256": "9f81d5214cfa65b2a88e461319760753b418de464f33bbc0129542b528fb36dd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/basic_synthesizer_core.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/basic_synthesizer_core.ts",
+      "sha256": "e25ae55b4e72acf4d36f8f4457c6eb77704e146a5ea6490d55dd967865666aac",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/key_modifier_manager.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/key_modifier_manager.ts",
+      "sha256": "e48ebd465b1d20702aa609a785ed86f1f1c49c53680294d638a705750c24b593",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/lib_midi_channel.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/lib_midi_channel.ts",
+      "sha256": "3e14eb56cb7016b573acbd0b26e949dcd640d96dee9124c737e6d2c53f58b4fd",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/sound_bank_manager.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/sound_bank_manager.ts",
+      "sha256": "170d0754ca24ebc52ae41fba18eef51c9bf061c2907b801337ec81d38433486b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/synth_config.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/synth_config.ts",
+      "sha256": "ff73cae8b2d32d568bc5085f975a80ff0c8ebdf76f1427dc7c584fdbbf369c01",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/synth_event_handler.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/synth_event_handler.ts",
+      "sha256": "d23e410da64685b94ea281b3fd0ab4764774083d71591c510fdd341a9950497b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/basic/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/basic/types.ts",
+      "sha256": "e4573b9dc30e8605c0f0a95cecc142550ae151a979a42d185e2fe865b9a65117",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/types.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/types.ts",
+      "sha256": "23df2aa92b6cf3ff8736ba992871bbad4a8b1bee3f126eff845433f682981ff4",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worker/playback_worklet.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worker/playback_worklet.ts",
+      "sha256": "6966490882bf8aa8bfb8c880c04232e86352c4ca54295fe654dfac7550354a8f",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worker/render_audio_worker.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worker/render_audio_worker.ts",
+      "sha256": "016b5c7120f3a4adc8f63dc40ad38f378ebf300ac2f1bdb1362e60ed6f3e9a8a",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worker/worker_synthesizer.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worker/worker_synthesizer.ts",
+      "sha256": "183fc28d981ee9e31fcde8b267939dee6a8f37294c3218e018a8cbb6bdf7bf28",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worker/worker_synthesizer_core.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worker/worker_synthesizer_core.ts",
+      "sha256": "28981ebd304879601ce5ada96b1298a4c006f773dbe78689a440baa7b9c13461",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worker/write_rmi_worker.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worker/write_rmi_worker.ts",
+      "sha256": "ce537efd49fcc6ccab3970e71e214e0f9ad029604cb57db838d7821b625b1c17",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worker/write_sf_worker.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worker/write_sf_worker.ts",
+      "sha256": "85a788387605d647ce99f39ee4bcffdb9607c93c2559d2a6fdd01176e8d1fed0",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worklet/worklet_processor_name.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worklet/worklet_processor_name.ts",
+      "sha256": "64487a942e77eda5118ae2a2245d75fba4a0456354d8f4ec3cd0bc4a1b0f8a09",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worklet/worklet_synthesizer.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worklet/worklet_synthesizer.ts",
+      "sha256": "8671d2941b69b603236a801c81beb445c927916ca56b78989fa7bf570336f815",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/synthesizer/worklet/worklet_synthesizer_core.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/synthesizer/worklet/worklet_synthesizer_core.ts",
+      "sha256": "4a9b97b896b5734ac1391224c0eb7216f4d277fe20e38ed2d48301411a8c16a9",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/utils/buffer_to_wav.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/utils/buffer_to_wav.ts",
+      "sha256": "c224830825f27f8651ba851ff14eb682c44d735b21763b1a696abea7e777c118",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/utils/fill_with_defaults.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/utils/fill_with_defaults.ts",
+      "sha256": "fecdc55fa86513cbf0d139f2b05379adbee89175dd0a3d9324cb83c66232bd69",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/utils/other.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/utils/other.ts",
+      "sha256": "679f39e51886fe5930299a8c7f267ebbd74c981f2c56ed652a2826acab4e5f6c",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/src/worklet_processor.ts",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/src/worklet_processor.ts",
+      "sha256": "40892071df7f36da88492fc74dae3269b83365a6fe2c36f121d4db209d61f73b",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/tsconfig.json",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/tsconfig.json",
+      "sha256": "74397f8162936de67d95132ae62e457545991f5d42bb13eba55ce2a42d571628",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/spessasynth_lib/zensical.toml",
+      "destino": "aurora-codigo-original/vendor-source/spessasynth_lib/zensical.toml",
+      "sha256": "5dd89ef73e16518da433d870d4bc180c789c82382718c487f9b3e065354b217e",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/stb-vorbis/LICENSE",
+      "destino": "aurora-codigo-original/vendor-source/stb-vorbis/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/stb-vorbis/README.md",
+      "destino": "aurora-codigo-original/vendor-source/stb-vorbis/README.md",
+      "sha256": "8b20f1709b1a43c6d58ddd3451d84d342c5ea7fbbd750c00f63ae595c57f0350",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/stb-vorbis/dist/index.d.ts",
+      "destino": "aurora-codigo-original/vendor-source/stb-vorbis/dist/index.d.ts",
+      "sha256": "0dcd18a3d926cd036a697d7f3d498c4cf737194864a540135cdbe4a2b8932b29",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/stb-vorbis/dist/index.js",
+      "destino": "aurora-codigo-original/vendor-source/stb-vorbis/dist/index.js",
+      "sha256": "d0d5bd198c92dce732db68b749d995f9418a49974079be2ef880d1c3da8ecf10",
+      "adaptado": false
+    },
+    {
+      "origem": "codigo-fonte/vendor-source/stb-vorbis/package.json",
+      "destino": "aurora-codigo-original/vendor-source/stb-vorbis/package.json",
+      "sha256": "d122f61afabaeacbfcda5b639f30a370dce694cb5fdf0932e3dd3d435796ea5c",
+      "adaptado": false
+    }
+  ],
+  "adaptacoes_index": [
+    "Compatibilidade de UUID em HTTP local",
+    "Adaptador de exportação/importação MidiShareAurora",
+    "Referências CSS e JS da integração",
+    "Contexto de sessão e controle de acesso no navegador",
+    "Armazenamento local do Aurora separado por UUID da conta"
+  ]
+}

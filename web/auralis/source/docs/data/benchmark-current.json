@@ -1,0 +1,41 @@
+{
+  "version": "current",
+  "status": {
+    "loaded": true,
+    "backend": "WASM · SIMD",
+    "tensors": 245,
+    "cacheHit": true
+  },
+  "results": [
+    {
+      "pass": 0,
+      "ms": 990.966692,
+      "pitches": [
+        60,
+        64,
+        67
+      ],
+      "tensors": 245
+    },
+    {
+      "pass": 1,
+      "ms": 565.757877,
+      "pitches": [
+        60,
+        64,
+        67
+      ],
+      "tensors": 245
+    },
+    {
+      "pass": 2,
+      "ms": 1.2824980000000323,
+      "pitches": [
+        60,
+        64,
+        67
+      ],
+      "tensors": 245
+    }
+  ]
+}
